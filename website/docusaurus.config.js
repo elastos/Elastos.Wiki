@@ -36,7 +36,7 @@ module.exports = {
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
           breadcrumbs: true,
-          editUrl: "https://github.com/near/docs/edit/master/website",
+          editUrl: "https://github.com/racollette/Elastos.Docs/edit/master/website",
           path: "../docs",
           sidebarPath: "./sidebars.json",
           routeBasePath: "/",

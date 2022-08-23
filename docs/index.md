@@ -1,11 +1,12 @@
 ---
 id: welcome
-title: Welcome to NEAR
+title: Welcome to Elastos
 hide_table_of_contents: true
 ---
+
 import {FeatureList, Column, Feature} from "@site/components/featurelist"
 
-Welcome! This is the starting point for all the documentation in NEAR.
+Welcome! This is the starting point for all Elastos documentation.
 
 <div class="container">
   <div class="row">
@@ -16,8 +17,8 @@ Welcome! This is the starting point for all the documentation in NEAR.
             <img src={require("@site/static/docs/assets/welcome-pages/protocol.png").default} alt="Learn" />
           </div>
           <div class="card__body">
-            <h3>Understanding NEAR</h3>
-            Learn what NEAR is, how it works, and why you should build on it.
+            <h3>Understanding Elastos</h3>
+            Learn what Elastos is, how it works, and why you should build on it.
           </div>
         </div>
       </a>
@@ -43,12 +44,12 @@ Welcome! This is the starting point for all the documentation in NEAR.
 <h1 class="text-center big-title" > Browse the Docs By Topic </h1>
 
 <FeatureList>
-  <Column title="Understanding NEAR" size="3">
-    <Feature url="/concepts/basics/protocol" title="What is NEAR?" subtitle="Learn the Basics about NEAR" image="near-logo.png" />
-    <Feature url="/concepts/basics/accounts/account-id" title="Named Accounts" subtitle="NEAR uses human-readable accounts" image="user.png" />
+  <Column title="Understanding Elastos" size="3">
+    <Feature url="/concepts/basics/protocol" title="What is Elastos?" subtitle="Learn the Basics about Elastos" image="near-logo.png" />
+    <Feature url="/concepts/basics/accounts/account-id" title="Named Accounts" subtitle="Elastos uses human-readable accounts" image="user.png" />
     <Feature url="/concepts/basics/accounts/access-keys" title="Multiple Access Keys" subtitle="More keys means more security" image="key.png" />
     <Feature url="/concepts/basics/smartcontracts/smartcontracts" title="Smart Contracts" subtitle="Learn about our contract technology" image="contract.png" />
-    <Feature url="/concepts/basics/tokens" title="Token" subtitle="Learn about the NEAR token" image="ft.png" />
+    <Feature url="/concepts/basics/tokens" title="Token" subtitle="Learn about the ELA token" image="ft.png" />
     <Feature url="/concepts/basics/transactions/overview" title="Transactions" subtitle="Fast and Inexpensive" image="transaction.png" />
     <Feature url="/concepts/basics/validators" title="Validators" subtitle="Learn how the network stays safe" image="validation.png" />
   </Column>

@@ -265,6 +265,7 @@ http post https://rpc.testnet.near.org jsonrpc=2.0 id=txstatus method=EXPERIMENT
   }
 }
 ```
+
 </details>
 
 As we can see, there are four receipts generated in this function call. If we apply the criteria mentioned above, we can
@@ -471,6 +472,7 @@ but does not perform the actual transfer. The transaction result is as follows:
   }
 }
 ```
+
 </details>
 
 - Second step: `confirm`. A second transaction is sent to confirm the transfer. This transaction takes the request id
@@ -673,6 +675,7 @@ but does not perform the actual transfer. The transaction result is as follows:
   }
 }
 ```
+
 </details>
 
 Notice that similar to the transfer from lockup contract, there is also one receipt in the `receipts` field that meet

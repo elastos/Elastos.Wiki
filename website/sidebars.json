@@ -1,4 +1,63 @@
 {
+  "learn": [
+    "learn/welcome",
+    {
+      "type": "html",
+      "value": "<hr/>"
+    },
+    {
+      "type": "html",
+      "value": "<span class='menu__link'><b><small> The Elastos SmartWeb </small></b></span>"
+    },
+    "learn/protocol",
+    {
+      "About": [
+        "learn/about/vision",
+        "learn/about/features",
+        "learn/about/history"
+      ]
+    },
+    {
+      "Ecosystem": [
+        "learn/ecosystem/architecture",
+        "learn/ecosystem/foundation",
+        "learn/ecosystem/governance"
+      ]
+    },
+    {
+      "Essentials Wallet": [
+        "learn/wallets/essentials",
+        "learn/wallets/other"
+      ]
+    },
+    "learn/staking/staking",
+    {
+      "Economics": [
+        "learn/economics/inflation",
+        "learn/economics/overview"
+      ]
+    },
+    "learn/dids",
+    "learn/faq",
+    {
+      "type": "html",
+      "value": "<hr/>"
+    },
+    {
+      "type": "html",
+      "value": "<span class='menu__link'><b><small> General Concepts </small></b></span>"
+    },
+    {
+      "Blockchain Basics": [
+        "learn/basics/blockchain",
+        "learn/basics/types",
+        "learn/basics/consensus",
+        "learn/basics/accounts",
+        "learn/basics/transactions",
+        "learn/basics/smart-contracts"
+      ]
+    }
+  ],
   "concepts": [
     "concepts/welcome",
     {
@@ -7,7 +66,7 @@
     },
     {
       "type": "html",
-      "value": "<span class='menu__link'><b><small> The NEAR Protocol </small></b></span>"
+      "value": "<span class='menu__link'><b><small> The Elastos SmartWeb </small></b></span>"
     },
     "concepts/basics/protocol",
     {

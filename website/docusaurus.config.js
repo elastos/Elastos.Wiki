@@ -74,40 +74,42 @@ module.exports = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: "DOCS",
+      title: "Wiki",
       logo: {
-        alt: 'NEAR Logo',
-        src: "img/near_logo.svg",
-        srcDark: 'img/near_logo_white.svg',
+        alt: 'Elastos Logo',
+        src: "img/elastos_logo_black.svg",
+        srcDark: 'img/elastos_logo_white.svg',
+        // src: "img/near_logo.svg",
+        // srcDark: 'img/near_logo_white.svg',
       },
       items: [
         {
-          to: "/concepts/welcome",
-          label: "📖 Concepts",
+          to: "/learn/welcome",
+          label: "Learn",
           position: "left",
         },
         {
           to: "/develop/welcome",
-          label: "💻 Develop",
+          label: "Build",
           position: "left",
         },
         {
           to: "/tutorials/welcome",
-          label: "📚 Tutorials",
+          label: "Tutorials",
           position: "left",
         },
         {
           to: "/api/rpc/introduction",
-          label: "🔌 RPC API",
+          label: "APIs",
           position: "left",
         },
         {
           href: "/integrator/exchange-integration",
-          label: "Exchanges",
+          label: "Integrate",
           position: "right",
         },
         {
-          href: "https://near-nodes.io",
+          href: "/nodes/welcome",
           label: "Nodes",
           position: "right",
         },

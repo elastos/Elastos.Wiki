@@ -48,10 +48,10 @@ module.exports = {
           changefreq: "weekly",
           priority: 0.5,
         },
-        googleAnalytics: {
-          trackingID: "UA-100373569-7",
-          anonymizeIP: true,
-        },
+        // googleAnalytics: {
+        //   trackingID: "UA-100373569-7",
+        //   anonymizeIP: true,
+        // },
         blog: {},
         theme: {
           customCss: "/src/css/customTheme.css",
@@ -74,7 +74,6 @@ module.exports = {
     },
     colorMode: {
       defaultMode: "dark",
-      disableSwitch: false,
       respectPrefersColorScheme: true,
     },
     navbar: {
@@ -120,11 +119,7 @@ module.exports = {
         {
           type: "localeDropdown",
           position: "right",
-        },
-        {
-          type: "search",
-          position: "right",
-        },
+        }
       ],
     },
     image: "img/near_logo.svg",
@@ -134,17 +129,6 @@ module.exports = {
       logo: {
         src: "img/near_logo.svg",
       },
-    },
-    algolia: {
-      // The application ID provided by Algolia
-      appId: "YKOT6G4YP0",
-      // This API key is "search-only" and safe to be published
-      apiKey: "753a063f1c543c6ad6efd803da3378e0",
-      indexName: "netlify_1681f912-c154-4bba-90a9-adc192dc8250_master_all",
-      contextualSearch: true,
-      siteId: '1681f912-c154-4bba-90a9-adc192dc8250',
-      branch: 'master',
-      selector: 'div#search',
     },
   },
   i18n: {

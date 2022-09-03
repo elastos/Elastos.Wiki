@@ -4,7 +4,7 @@ module.exports = {
   url: "https://elastos-wiki.netlify.app",
   baseUrl: "/",
   organizationName: "elastos",
-  projectName: "docs",
+  projectName: "wiki",
   scripts: [
     "https://buttons.github.io/buttons.js",
     "https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js",
@@ -19,6 +19,7 @@ module.exports = {
     "/css/near.min.css",
   ],
   favicon: "img/favicon.ico",
+  trailingSlash: true,
   customFields: {
     disableHeaderTitle: true,
     fonts: {

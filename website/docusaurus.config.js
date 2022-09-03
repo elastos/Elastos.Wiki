@@ -1,7 +1,7 @@
 module.exports = {
   title: "Elastos Wiki",
   tagline: "Elastos Ecosystem Wiki",
-  url: "https://docs.elastos.org",
+  url: "https://elastos-wiki.netlify.app/",
   baseUrl: "/",
   organizationName: "elastos",
   projectName: "docs",

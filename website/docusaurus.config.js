@@ -11,12 +11,14 @@ module.exports = {
     "https://use.fontawesome.com/221fd444f5.js",
     "/js/copy-code-button.js",
     "/js/mixpanel.js",
+    "https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js",
   ],
   stylesheets: [
     "https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&family=Source+Code+Pro:ital,wght@0,400;0,600;1,400;1,600&display=swap",
     "/css/copy-code-button.css",
     "/css/landing-page.css",
     "/css/near.min.css",
+    "https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css",
   ],
   favicon: "img/favicon.ico",
   trailingSlash: true,
@@ -71,7 +73,8 @@ module.exports = {
       ],
     },
     colorMode: {
-      defaultMode: "light",
+      defaultMode: "dark",
+      disableSwitch: false,
       respectPrefersColorScheme: true,
     },
     navbar: {
@@ -135,17 +138,13 @@ module.exports = {
     algolia: {
       // The application ID provided by Algolia
       appId: "YKOT6G4YP0",
-      // Public API key: it is safe to commit it
+      // This API key is "search-only" and safe to be published
       apiKey: "753a063f1c543c6ad6efd803da3378e0",
       indexName: "netlify_1681f912-c154-4bba-90a9-adc192dc8250_master_all",
-      // Optional: see doc section below
       contextualSearch: true,
-      // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
-      // externalUrlRegex: "elastos-sdk\\.io",
-      // Optional: Algolia search parameters
-      searchParameters: {},
-      //... other Algolia params
-      placeholder: "Search the Docs...",
+      siteId: '1681f912-c154-4bba-90a9-adc192dc8250',
+      branch: 'master',
+      selector: 'div#search',
     },
   },
   i18n: {

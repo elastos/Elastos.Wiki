@@ -136,7 +136,7 @@ module.exports = {
       appId: "YKOT6G4YP0",
       // Public API key: it is safe to commit it
       apiKey: "753a063f1c543c6ad6efd803da3378e0",
-      indexName: "elastos",
+      indexName: "netlify_1681f912-c154-4bba-90a9-adc192dc8250_master_all",
       // Optional: see doc section below
       contextualSearch: true,
       // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.

@@ -14,7 +14,7 @@ Welcome! This is the starting point for all Elastos documentation.
       <a href="/concepts/welcome">
         <div class="card">
           <div class="card__image">
-            <img src={require("@site/static/docs/assets/welcome-pages/protocol.png").default} alt="Learn" />
+            <img src={require("@site/static/docs/assets/welcome-pages/understanding.png").default} alt="Learn" />
           </div>
           <div class="card__body">
             <h3>Understanding Elastos</h3>
@@ -27,11 +27,11 @@ Welcome! This is the starting point for all Elastos documentation.
       <a href="/develop/welcome">
         <div class="card">
           <div class="card__image">
-            <img src={require("@site/static/docs/assets/welcome-pages/examples.png").default} alt="Develop" />
+            <img src={require("@site/static/docs/assets/welcome-pages/develop.png").default} alt="Develop" />
           </div>
           <div class="card__body">
             <h3>Developer Documentation</h3>
-              Learn how to build contracts and unleash the power of web 3.
+              Learn how to build applications that unleash the power of a smarter web.
           </div>
         </div>
       </a>
@@ -77,64 +77,65 @@ Welcome! This is the starting point for all Elastos documentation.
 
 ---
 
-## Other Documentation Sites
+## Other Resources
 
-Here are more sources from our ecosystem that can help you to learn more about NEAR.
+Here are more sites from our ecosystem that can help you to learn more about Elastos.
 
 <div class="container">
   <div class="row">
-    <div class="col col--6">
-      <a href="https://awesomenear.com">
+   <div class="col col--6">
+      <a href="https://www.elastos.org/">
         <div class="card">
           <div class="card__image">
-            <img src={require("@site/static/docs/assets/welcome-pages/awesomenear.jpg").default} alt="Discover" />
+            <img src={require("@site/static/docs/assets/welcome-pages/elastos-org.png").default} alt="Nomicon" />
+          </div>
+          <div class="card__body">
+            <h3>Explore</h3>
+              See the official Elastos Foundation website.
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="col col--6">
+      <a href="https://elastos.info/ecosystem/">
+        <div class="card">
+          <div class="card__image">
+            <img src={require("@site/static/docs/assets/welcome-pages/elastos-info.png").default} alt="Discover" />
           </div>
           <div class="card__body">
             <h3>Discover</h3>
-            Discover awesome apps in the Near ecosystem.
+            Discover apps in the Elastos ecosystem.
+          </div>
+        </div>
+      </a>
+    </div>
+     <div class="col col--6">
+      <a href="https://www.cyberrepublic.org/">
+        <div class="card">
+          <div class="card__image">
+            <img src={require("@site/static/docs/assets/welcome-pages/cyber-republic.png").default} alt="Discover" />
+          </div>
+          <div class="card__body">
+            <h3>Govern</h3>
+            Participate in the policy arm of the Elastos smart web.
           </div>
         </div>
       </a>
     </div>
     <div class="col col--6">
-      <a href="https://nomicon.io">
+      <a href="https://github.com/elastos/">
         <div class="card">
           <div class="card__image">
-            <img src={require("@site/static/docs/assets/welcome-pages/nomicon.png").default} alt="Nomicon" />
+            <img src={require("@site/static/docs/assets/welcome-pages/github.png").default} alt="Validate" />
           </div>
           <div class="card__body">
-            <h3>Nomicon</h3>
-              See how NEAR is implemented in the official protocol specification.
+            <h3>Verify</h3>
+            View the official code repositories for all Elastos core technologies.
           </div>
         </div>
       </a>
     </div>
-    <div class="col col--6">
-      <a href="https://near-nodes.io">
-        <div class="card">
-          <div class="card__image">
-            <img src={require("@site/static/docs/assets/welcome-pages/validate.png").default} alt="Validate" />
-          </div>
-          <div class="card__body">
-            <h3>Running a Node</h3>
-            Documentation on becoming a validator to help keeping the blockchain safe
-          </div>
-        </div>
-      </a>
-    </div>
-    <div class="col col--6">
-      <a href="https://near-indexers.io">
-        <div class="card">
-          <div class="card__image">
-            <img src={require("@site/static/docs/assets/welcome-pages/indexers.png").default} alt="Indexers" />
-          </div>
-          <div class="card__body">
-            <h3>NEAR Indexers</h3>
-              Indexers help you mine information from the blockchain
-          </div>
-        </div>
-      </a>
-    </div>
+   
   </div>
 </div>
 
@@ -142,7 +143,7 @@ Here are more sources from our ecosystem that can help you to learn more about N
 
 ## Contact us
 
-If you have any questions, or simply would want to chat with us, please do through one of our official channels. Also, jump into our Discord server and join our office hours every week-day!.
+If you have any questions, or simply would want to chat with us, please do through one of our official channels.
 
 <br/>
 
@@ -155,7 +156,7 @@ If you have any questions, or simply would want to chat with us, please do throu
           src={require("@site/static/docs/assets/home/twitter.png").default} />
         <div class="avatar__intro">
           <div class="avatar__name">Twitter</div>
-          <small class="avatar__subtitle"><a href="https://twitter.com/@nearprotocol">@nearprotocol</a></small>
+          <small class="avatar__subtitle"><a href="https://twitter.com/@elastosinfo">elastosinfo</a></small>
         </div>
       </div>
     </div>
@@ -166,18 +167,7 @@ If you have any questions, or simply would want to chat with us, please do throu
           src={require("@site/static/docs/assets/home/discord.png").default} />
         <div class="avatar__intro">
           <div class="avatar__name">Discord</div>
-          <small class="avatar__subtitle"><a href="https://discord.gg/kwYjDn4yka">NEAR Protocol</a></small>
-        </div>
-      </div>
-    </div>
-    <div class="col col--2">
-      <div class="avatar">
-        <img
-          class="avatar__photo"
-          src={require("@site/static/docs/assets/home/zulip.png").default} />
-        <div class="avatar__intro">
-          <div class="avatar__name">Zulip</div>
-          <small class="avatar__subtitle"><a href="https://near.zulipchat.com/">Near Chat</a></small>
+          <small class="avatar__subtitle"><a href="https://discord.gg/elastos">Elastos Official</a></small>
         </div>
       </div>
     </div>

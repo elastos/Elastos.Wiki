@@ -1,9 +1,9 @@
 module.exports = {
-  title: "NEAR Documentation",
-  tagline: "NEAR Protocol Developer Documentation",
-  url: "https://docs.near.org",
+  title: "Elastos Wiki",
+  tagline: "Elastos Ecosystem Wiki",
+  url: "https://docs.elastos.org",
   baseUrl: "/",
-  organizationName: "near",
+  organizationName: "elastos",
   projectName: "docs",
   scripts: [
     "https://buttons.github.io/buttons.js",

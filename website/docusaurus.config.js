@@ -114,11 +114,11 @@ module.exports = {
           position: "right",
         },
         {
-          type: "search",
+          type: "localeDropdown",
           position: "right",
         },
         {
-          type: "localeDropdown",
+          type: "search",
           position: "right",
         },
       ],
@@ -133,14 +133,17 @@ module.exports = {
     },
     algolia: {
       // The application ID provided by Algolia
-      appId: "0LUM67N2P2",
+      appId: "YKOT6G4YP0",
       // Public API key: it is safe to commit it
-      apiKey: "129d0f429e1bb0510f0261dda1e88ed4",
-      indexName: "near",
+      apiKey: "753a063f1c543c6ad6efd803da3378e0",
+      indexName: "elastos",
+      siteId: '1681f912-c154-4bba-90a9-adc192dc8250',
+      branch: 'master',
+      selector: 'div#search',
       // Optional: see doc section below
       contextualSearch: true,
       // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
-      externalUrlRegex: "near-sdk\\.io",
+      // externalUrlRegex: "elastos-sdk\\.io",
       // Optional: Algolia search parameters
       searchParameters: {},
       //... other Algolia params
@@ -149,7 +152,7 @@ module.exports = {
   },
   i18n: {
     defaultLocale: "en",
-    locales: ["en", "vi", "zh-CN"],
+    locales: ["en", "zh-CN"],
     localeConfigs: {
       "zh-CN": {
         label: "简体中文",

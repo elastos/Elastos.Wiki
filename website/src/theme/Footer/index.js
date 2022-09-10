@@ -60,27 +60,27 @@ function Footer() {
 
   return (
     <footer className="relative pt-100 pb-40 md:pb-100 bg-black text-white mt-150">
-      <div className="absolute pin-t pin-r" style={{ maxWidth: "50vw" }}>
+      {/* <div className="absolute pin-t pin-r" style={{ maxWidth: "50vw" }}>
         <img
           src="https://near.org/wp-content/themes/near-19/assets/img/neue/distortion-footer.svg?t=1600963469"
           className="locked"
           style={{ transform: "translateY(-60%)" }}
           alt=""
         ></img>
-      </div>
+      </div> */}
       <div className="container">
         <div className="row">
           <div className="col md:w-1/4">
             <img
-              src="https://near.org/wp-content/themes/near-19/assets/img/neue/logomark-white.svg?t=1600963474"
+              src="img/logo.svg"
               className="locked"
-              width="91"
+              width="120"
               alt=""
             ></img>
             <ul className="list-reset text-24 font-black text-yellow mt-50">
               <li>
                 <a
-                  href="https://mynearwallet.com/"
+                  href="https://elastos.info/essentials-the-super-wallet/"
                   className="hover:text-white"
                 >
                   Wallet
@@ -88,20 +88,20 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="https://explorer.near.org/"
+                  href="https://blockchain.elastos.org/"
                   className="hover:text-white"
                 >
-                  Explorer
+                  ELA Explorer
                 </a>
               </li>
               <li>
-                <a href="https://near.dev/" className="hover:text-white">
-                  Examples
+                <a href="https://esc.elastos.io/" className="hover:text-white">
+                  ESC Explorer
                 </a>
               </li>
               <li>
-                <a href="https://wiki.near.org/" className="hover:text-white">
-                  Wiki
+                <a href="https://eid.elastos.io/" className="hover:text-white">
+                  EID Explorer
                 </a>
               </li>
             </ul>
@@ -110,7 +110,41 @@ function Footer() {
             <ul className="list-reset flex flex-wrap -mx-20">
               <li className="mx-20">
                 <a
-                  href="https://gov.near.org"
+                  href="https://twitter.com/elastosinfo"
+                  className="block hover:text-twitter"
+                  target="_blank"
+                >
+                  <span className="icon icon-36 ">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"
+                    >
+                      <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+                    </svg>
+                  </span>
+                  <span className="screen-reader-text">Twitter</span>
+                </a>
+              </li>
+              <li className="mx-20">
+                <a
+                  href="https://discord.gg/elastos"
+                  className="block hover:text-discord"
+                  target="_blank"
+                >
+                  <span className="icon icon-36 ">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 448 512"
+                    >
+                      <path d="M297.216 243.2c0 15.616-11.52 28.416-26.112 28.416-14.336 0-26.112-12.8-26.112-28.416s11.52-28.416 26.112-28.416c14.592 0 26.112 12.8 26.112 28.416zm-119.552-28.416c-14.592 0-26.112 12.8-26.112 28.416s11.776 28.416 26.112 28.416c14.592 0 26.112-12.8 26.112-28.416.256-15.616-11.52-28.416-26.112-28.416zM448 52.736V512c-64.494-56.994-43.868-38.128-118.784-107.776l13.568 47.36H52.48C23.552 451.584 0 428.032 0 398.848V52.736C0 23.552 23.552 0 52.48 0h343.04C424.448 0 448 23.552 448 52.736zm-72.96 242.688c0-82.432-36.864-149.248-36.864-149.248-36.864-27.648-71.936-26.88-71.936-26.88l-3.584 4.096c43.52 13.312 63.744 32.512 63.744 32.512-60.811-33.329-132.244-33.335-191.232-7.424-9.472 4.352-15.104 7.424-15.104 7.424s21.248-20.224 67.328-33.536l-2.56-3.072s-35.072-.768-71.936 26.88c0 0-36.864 66.816-36.864 149.248 0 0 21.504 37.12 78.08 38.912 0 0 9.472-11.52 17.152-21.248-32.512-9.728-44.8-30.208-44.8-30.208 3.766 2.636 9.976 6.053 10.496 6.4 43.21 24.198 104.588 32.126 159.744 8.96 8.96-3.328 18.944-8.192 29.44-15.104 0 0-12.8 20.992-46.336 30.464 7.68 9.728 16.896 20.736 16.896 20.736 56.576-1.792 78.336-38.912 78.336-38.912z"></path>
+                    </svg>
+                  </span>
+                  <span className="screen-reader-text">Discord</span>
+                </a>
+              </li>
+              <li className="mx-20">
+                <a
+                  href="https://cyberrepublic.org"
                   className="block hover:text-discourse"
                   target="_blank"
                   id="discourse-1"
@@ -129,24 +163,7 @@ function Footer() {
               </li>
               <li className="mx-20">
                 <a
-                  href="https://twitter.com/nearprotocol"
-                  className="block hover:text-twitter"
-                  target="_blank"
-                >
-                  <span className="icon icon-36 ">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 512 512"
-                    >
-                      <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
-                    </svg>
-                  </span>
-                  <span className="screen-reader-text">Twitter</span>
-                </a>
-              </li>
-              <li className="mx-20">
-                <a
-                  href="https://github.com/near"
+                  href="https://github.com/elastos"
                   className="block hover:text-github"
                   target="_blank"
                 >
@@ -165,58 +182,19 @@ function Footer() {
               </li>
               <li className="mx-20">
                 <a
-                  href="http://near.chat"
-                  className="block hover:text-discord"
+                  href="https://www.reddit.com/r/Elastos/"
+                  className="block hover:text-youtube"
                   target="_blank"
                 >
                   <span className="icon icon-36 ">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 448 512"
-                    >
-                      <path d="M297.216 243.2c0 15.616-11.52 28.416-26.112 28.416-14.336 0-26.112-12.8-26.112-28.416s11.52-28.416 26.112-28.416c14.592 0 26.112 12.8 26.112 28.416zm-119.552-28.416c-14.592 0-26.112 12.8-26.112 28.416s11.776 28.416 26.112 28.416c14.592 0 26.112-12.8 26.112-28.416.256-15.616-11.52-28.416-26.112-28.416zM448 52.736V512c-64.494-56.994-43.868-38.128-118.784-107.776l13.568 47.36H52.48C23.552 451.584 0 428.032 0 398.848V52.736C0 23.552 23.552 0 52.48 0h343.04C424.448 0 448 23.552 448 52.736zm-72.96 242.688c0-82.432-36.864-149.248-36.864-149.248-36.864-27.648-71.936-26.88-71.936-26.88l-3.584 4.096c43.52 13.312 63.744 32.512 63.744 32.512-60.811-33.329-132.244-33.335-191.232-7.424-9.472 4.352-15.104 7.424-15.104 7.424s21.248-20.224 67.328-33.536l-2.56-3.072s-35.072-.768-71.936 26.88c0 0-36.864 66.816-36.864 149.248 0 0 21.504 37.12 78.08 38.912 0 0 9.472-11.52 17.152-21.248-32.512-9.728-44.8-30.208-44.8-30.208 3.766 2.636 9.976 6.053 10.496 6.4 43.21 24.198 104.588 32.126 159.744 8.96 8.96-3.328 18.944-8.192 29.44-15.104 0 0-12.8 20.992-46.336 30.464 7.68 9.728 16.896 20.736 16.896 20.736 56.576-1.792 78.336-38.912 78.336-38.912z"></path>
-                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M14.238 15.348c.085.084.085.221 0 .306-.465.462-1.194.687-2.231.687l-.008-.002-.008.002c-1.036 0-1.766-.225-2.231-.688-.085-.084-.085-.221 0-.305.084-.084.222-.084.307 0 .379.377 1.008.561 1.924.561l.008.002.008-.002c.915 0 1.544-.184 1.924-.561.085-.084.223-.084.307 0zm-3.44-2.418c0-.507-.414-.919-.922-.919-.509 0-.923.412-.923.919 0 .506.414.918.923.918.508.001.922-.411.922-.918zm13.202-.93c0 6.627-5.373 12-12 12s-12-5.373-12-12 5.373-12 12-12 12 5.373 12 12zm-5-.129c0-.851-.695-1.543-1.55-1.543-.417 0-.795.167-1.074.435-1.056-.695-2.485-1.137-4.066-1.194l.865-2.724 2.343.549-.003.034c0 .696.569 1.262 1.268 1.262.699 0 1.267-.566 1.267-1.262s-.568-1.262-1.267-1.262c-.537 0-.994.335-1.179.804l-2.525-.592c-.11-.027-.223.037-.257.145l-.965 3.038c-1.656.02-3.155.466-4.258 1.181-.277-.255-.644-.415-1.05-.415-.854.001-1.549.693-1.549 1.544 0 .566.311 1.056.768 1.325-.03.164-.05.331-.05.5 0 2.281 2.805 4.137 6.253 4.137s6.253-1.856 6.253-4.137c0-.16-.017-.317-.044-.472.486-.261.82-.766.82-1.353zm-4.872.141c-.509 0-.922.412-.922.919 0 .506.414.918.922.918s.922-.412.922-.918c0-.507-.413-.919-.922-.919z"/></svg>
                   </span>
-                  <span className="screen-reader-text">Discord</span>
+                  <span className="screen-reader-text">Reddit</span>
                 </a>
               </li>
               <li className="mx-20">
                 <a
-                  href="https://t.me/cryptonear"
-                  className="block hover:text-telegram"
-                  target="_blank"
-                >
-                  <span className="icon icon-36 ">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 496 512"
-                    >
-                      <path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z"></path>
-                    </svg>
-                  </span>
-                  <span className="screen-reader-text">Telegram</span>
-                </a>
-              </li>
-              <li className="mx-20">
-                <a
-                  href="https://near.org/wechat"
-                  className="block hover:text-wechat"
-                  target="_blank"
-                >
-                  <span className="icon icon-36 ">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 576 512"
-                    >
-                      <path d="M385.2 167.6c6.4 0 12.6.3 18.8 1.1C387.4 90.3 303.3 32 207.7 32 100.5 32 13 104.8 13 197.4c0 53.4 29.3 97.5 77.9 131.6l-19.3 58.6 68-34.1c24.4 4.8 43.8 9.7 68.2 9.7 6.2 0 12.1-.3 18.3-.8-4-12.9-6.2-26.6-6.2-40.8-.1-84.9 72.9-154 165.3-154zm-104.5-52.9c14.5 0 24.2 9.7 24.2 24.4 0 14.5-9.7 24.2-24.2 24.2-14.8 0-29.3-9.7-29.3-24.2.1-14.7 14.6-24.4 29.3-24.4zm-136.4 48.6c-14.5 0-29.3-9.7-29.3-24.2 0-14.8 14.8-24.4 29.3-24.4 14.8 0 24.4 9.7 24.4 24.4 0 14.6-9.6 24.2-24.4 24.2zM563 319.4c0-77.9-77.9-141.3-165.4-141.3-92.7 0-165.4 63.4-165.4 141.3S305 460.7 397.6 460.7c19.3 0 38.9-5.1 58.6-9.9l53.4 29.3-14.8-48.6C534 402.1 563 363.2 563 319.4zm-219.1-24.5c-9.7 0-19.3-9.7-19.3-19.6 0-9.7 9.7-19.3 19.3-19.3 14.8 0 24.4 9.7 24.4 19.3 0 10-9.7 19.6-24.4 19.6zm107.1 0c-9.7 0-19.3-9.7-19.3-19.6 0-9.7 9.7-19.3 19.3-19.3 14.5 0 24.4 9.7 24.4 19.3.1 10-9.9 19.6-24.4 19.6z"></path>
-                    </svg>
-                  </span>
-                  <span className="screen-reader-text">WeChat</span>
-                </a>
-              </li>
-              <li className="mx-20">
-                <a
-                  href="https://www.youtube.com/channel/UCuKdIYVN8iE3fv8alyk1aMw"
+                  href="https://www.youtube.com/channel/UCy5AjgpQIQq3bv8oy_L5WTQ"
                   className="block hover:text-youtube"
                   target="_blank"
                 >
@@ -231,6 +209,18 @@ function Footer() {
                   <span className="screen-reader-text">YouTube</span>
                 </a>
               </li>
+              <li className="mx-20">
+                <a
+                  href="https://www.facebook.com/elastosorg/"
+                  className="block hover:text-facebook"
+                  target="_blank"
+                >
+                  <span className="icon icon-36 ">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"/></svg>
+                  </span>
+                  <span className="screen-reader-text">Facebook</span>
+                </a>
+              </li>
             </ul>
             <div className="row">
               <div className="col sm:w-1/3 mt-50">
@@ -242,28 +232,23 @@ function Footer() {
                   className="footer-menu list-reset mt-5 text-16 md:text-18"
                 >
                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-550">
-                    <a href="https://near.org/developers/">Overview</a>
+                    <a href="https://elastos.info/elastos-development/">Overview</a>
                   </li>
                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2801">
-                    <a href="https://near.org/technology/">Technology</a>
+                    <a href="https://elastos.info/academy/">Technology</a>
                   </li>
                   <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-116">
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
-                      href="https://github.com/near"
+                      href="https://github.com/elastos"
                       id="github"
                     >
                       GitHub
                     </a>
                   </li>
                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-4720">
-                    <a href="https://near.org/bounties/">Bounties</a>
-                  </li>
-                  <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-580">
-                    <a href="https://near.org/grants/">
-                      Grants
-                    </a>
+                    <a href="https://www.cyberrepublic.org/funding">Funding</a>
                   </li>
                 </ul>
               </div>
@@ -276,33 +261,13 @@ function Footer() {
                   className="footer-menu list-reset mt-5 text-16 md:text-18"
                 >
                   <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-6804">
-                    <a href="https://gov.near.org/">Forum</a>
+                    <a href="https://cyberrepublic.org">Forum</a>
                   </li>
-                  <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-4650">
-                    <a href="https://near.events">Events</a>
+                  <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-6804">
+                    <a href="https://elastos.info/blog-and-news/">News</a>
                   </li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2045">
-                    <a href="https://near.org/community">
-                      Contributor Program
-                    </a>
-                  </li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-4157">
-                    <a href="https://near.org/guilds/">Guild Program</a>
-                  </li>
-                  <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-2945">
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://openwebcollective.com"
-                    >
-                      Startup Accelerator
-                    </a>
-                  </li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-4719">
-                    <a href="https://near.org/bounties/">Bounties</a>
-                  </li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-7161">
-                    <a href="https://near.org/tokens/">Tokens</a>
+                  <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-6804">
+                    <a href="https://elastos.info/ecosystem/">dApps</a>
                   </li>
                 </ul>
               </div>
@@ -313,24 +278,16 @@ function Footer() {
                   className="footer-menu list-reset mt-5 text-16 md:text-18"
                 >
                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-441">
-                    <a href="https://near.org/about/">About Us</a>
+                    <a href="https://elastos.info/about/">About Us</a>
                   </li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-124">
-                    <a href="https://near.org/careers/">Careers</a>
+                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-441">
+                    <a href="https://www.elastos.org/en/#basic">Mission</a>
                   </li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-400">
-                    <a href="https://near.org/backers/">Backers</a>
+                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-441">
+                    <a href="https://www.elastos.org/en/#platforms">Components</a>
                   </li>
-                  <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-3490">
-                    <a href="https://near.org/downloads/NEAR_PressKit.zip">
-                      Press Kit
-                    </a>
-                  </li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2419">
-                    <a href="https://near.org/brand/">Brand Guidelines</a>
-                  </li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-3267">
-                    <a href="https://near.org/privacy/">Privacy Policy</a>
+                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-441">
+                    <a href="https://www.elastos.org/en/roadmap/">Roadmap</a>
                   </li>
                 </ul>
               </div>
@@ -339,17 +296,23 @@ function Footer() {
         </div>
 
         <p className="text-14 mt-50 md:mt-100">Copyright &copy;
-          {new Date().getFullYear()} <a href="https://near.org" className="hover:text-yellow">NEAR Protocol</a><span className="mx-10">|</span>All rights
+          {new Date().getFullYear()} <a href="https://elastos.org" className="hover:text-yellow">Elastos</a><span className="mx-10">|</span>All rights
           reserved<span className="mx-10">|</span>
-          <a href="mailto:hello@near.org" className="hover:text-yellow">
-            hello@near.org
+          <a href="https://elastos.info/contact/" className="hover:text-yellow">
+            Contact
           </a>
           <span className="mx-10">|</span>
-          <a href="https://near.org/privacy/" className="hover:text-yellow">
+          <a href="https://app.termly.io/document/privacy-policy/40778942-fea5-44ed-9270-4e9f77b2abc8" className="hover:text-yellow">
             Privacy Policy
           </a>
           <span className="mx-10">|</span>
-          Some icons created by <a href="https://www.flaticon.com/free-icons/coin" title="coin icons">Good Ware, Flaticon, and Freepick</a>
+          <a href="https://app.termly.io/document/cookie-policy/52769eed-243b-48e2-a1c3-77240b33e203" className="hover:text-yellow">
+            Cookie Policy
+          </a>
+          <span className="mx-10">|</span>
+          <a href="https://app.termly.io/document/disclaimer/9bd11082-b5b4-4430-8f85-cd66a3d99211" className="hover:text-yellow">
+            Disclaimer
+          </a>
         </p>
       </div>
     </footer>

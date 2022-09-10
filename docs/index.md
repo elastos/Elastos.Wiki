@@ -41,37 +41,38 @@ Welcome! This is the starting point for all Elastos documentation.
 
 <hr class="subsection" />
 
-<h1 class="text-center big-title" > Browse the Docs By Topic </h1>
+<h1 class="text-center big-title" > Browse the Wiki by Topic </h1>
 
 <FeatureList>
   <Column title="Understanding Elastos" size="3">
-    <Feature url="/concepts/basics/protocol" title="What is Elastos?" subtitle="Learn the Basics about Elastos" image="near-logo.png" />
-    <Feature url="/concepts/basics/accounts/account-id" title="Named Accounts" subtitle="Elastos uses human-readable accounts" image="user.png" />
-    <Feature url="/concepts/basics/accounts/access-keys" title="Multiple Access Keys" subtitle="More keys means more security" image="key.png" />
-    <Feature url="/concepts/basics/smartcontracts/smartcontracts" title="Smart Contracts" subtitle="Learn about our contract technology" image="contract.png" />
-    <Feature url="/concepts/basics/tokens" title="Token" subtitle="Learn about the ELA token" image="ft.png" />
-    <Feature url="/concepts/basics/transactions/overview" title="Transactions" subtitle="Fast and Inexpensive" image="transaction.png" />
-    <Feature url="/concepts/basics/validators" title="Validators" subtitle="Learn how the network stays safe" image="validation.png" />
+    <Feature url="/learn/basics/protocol" title="What is Elastos?" subtitle="Learn the basics about Elastos" image="elastos-logo.png" />
+     <Feature url="/learn/basics/accounts/access-keys" title="Multichain Architecture" subtitle="Learn about our blockchain stack" image="architecture.png" />
+    <Feature url="/learn/basics/accounts/account-id" title="Sovereign Identities" subtitle="Learn about decentralized identifiers (DIDs)" image="identity.png" />
+    <Feature url="/learn/basics/accounts/access-keys" title="Data Vaults" subtitle="Own your data with off-chain storage vault solutions" image="hive.png" />
+    <Feature url="/learn/basics/smartcontracts/smartcontracts" title="P2P Network" subtitle="Safe network for transmitting data" image="carrier.png" />
+    <Feature url="/learn/basics/tokens" title="Token" subtitle="Learn about the ELA token" image="ela.png" />
+    <Feature url="/learn/basics/validators" title="Validators" subtitle="Learn how the network is secured" image="validation.png" />
   </Column>
   <Column title="Developer Documentation" size="3">
-    <Feature url="/develop/quickstart-guide" title="Quickstart" subtitle="Spin-up your first dApp" image="quickstart.png" />
-    <Feature url="/tutorials/welcome" title="Tutorials & Examples" subtitle="Check-out a bast library of examples" image="tutorials.png" />
-    <Feature url="/develop/contracts/introduction" title="Build a Contract" subtitle="Learn how to write smart contracts" image="smartcontract.png" />
-    <Feature url="/develop/testing/introduction" title="Test the Contract" subtitle="Write unit & integration tests" image="test.png" />
-    <Feature url="/develop/integrate/frontend" title="Build a Web Frontend" subtitle="Learn how to make a web dApp" image="frontend.png" />
-    <Feature url="/tools/realtime" title="Monitor your App" subtitle="Learn how to track the Blockchain" image="monitor.png" />
+    <Feature url="/develop/quickstart-guide" title="Quickstart" subtitle="Spin-up a simple dApp" image="hello.png" />
+    <Feature url="/develop/quickstart-guide" title="Create a DID" subtitle="Issue DIDs for your dApps" image="did-document.png" />
+    <Feature url="/develop/contracts/introduction" title="Build a Contract" subtitle="Learn how to write and deploy contracts to the Elastos Smart Chain" image="smartcontract.png" />
+    <Feature url="/develop/integrate/frontend" title="Connect a Web Frontend" subtitle="Learn how to build a web dApp" image="frontend.png" />
+    <Feature url="/develop/integrate/frontend" title="Store User Data" subtitle="Learn how to access Hive data vaults using DIDs" image="hive-key.png" />
+    <Feature url="/tools/realtime" title="Track your dApp" subtitle="Learn how to monitor the blockchain" image="monitor.png" />
   </Column>
   <Column title="Developer Tools" size="3">
-    <Feature url="/tools/near-sdk-js" title="Javascript SDK" subtitle="Write Contracts in Javascript" image="smartcontract-js.png" />
-    <Feature url="/tools/near-sdk-rs" title="Rust SDK" subtitle="Write Contracts in Rust" image="smartcontract-rust.png" />
-    <Feature url="/tools/near-cli" title="NEAR CLI" subtitle="Use NEAR from the Terminal" image="near-cli.png" />
-    <Feature url="/tools/near-api-js/quick-reference" title="NEAR API JS" subtitle="Interact with NEAR from JS" image="near-api-js.png" />
-    <Feature url="/api/rpc/introduction" title="RPC API" subtitle="Interact with the NEAR RPC API" image="rpc.png" />
+    <Feature url="/tools/near-api-js/quick-reference" title="Connectivity SDK" subtitle="Interact with Elastos using Typescript" image="elastos-api-ts.png" />
+    <Feature url="/tools/near-cli" title="Mainchain APIs" subtitle="Use the Mainchain CLI or RPC API" image="elastos-cli.png" />
+    <Feature url="/api/rpc/introduction" title="Smart Chain APIs" subtitle="Use the ESC CLI or RPC API" image="elastos-rpc.png" />
+    <Feature url="/tools/near-sdk-rs" title="Identity SDKs" subtitle="Work with DIDs using JS, C/C++, Java, or Swift" image="did-sdk.png" />
+    <Feature url="/tools/near-sdk-rs" title="Hive SDKs" subtitle="Interact with Hive using JS, Java, or Swift" image="hive-sdk.png" />
+    <Feature url="/tools/near-sdk-rs" title="Carrier SDKs" subtitle="Interact with Carrier" image="carrier-sdk.png" />
   </Column>
   <Column title="Examples & Tutorials" size="3">
-    <Feature url="/develop/relevant-contracts/ft" title="Fungible Tokens" subtitle="Learn how to use and make FT" image="ft.png" />
-    <Feature url="/develop/relevant-contracts/nft" title="Non-Fungible Tokens" subtitle="Enter the NFT space" image="nft.png" />
-    <Feature url="/develop/relevant-contracts/dao" title="Autonomous Organizations" subtitle="Understand DAOs" image="dao.png" />
+    <Feature url="/develop/relevant-contracts/ft" title="Elastos SmartWeb dApp" subtitle="Combine the power of blockchain, DIDs, Hive, and Carrier to build an unstoppable application" image="web3.png" />
+    <Feature url="/develop/relevant-contracts/ft" title="Fungible Tokens" subtitle="Learn how to use and make FT" image="token.png" />
+    <Feature url="/develop/relevant-contracts/nft" title="Non-Fungible Tokens" subtitle="Enter the NFT space" image="ticket.png" />
   </Column>
 </FeatureList>
 
@@ -149,6 +150,17 @@ If you have any questions, or simply would want to chat with us, please do throu
 
 <div class="container">
   <div class="row">
+   <div class="col col--2">
+      <div class="avatar">
+        <img
+          class="avatar__photo"
+          src={require("@site/static/docs/assets/home/discord.png").default} />
+        <div class="avatar__intro">
+          <div class="avatar__name">Discord</div>
+          <small class="avatar__subtitle"><a href="https://discord.gg/elastos">Elastos Official</a></small>
+        </div>
+      </div>
+    </div>
     <div class="col col--2">
       <div class="avatar">
         <img
@@ -157,17 +169,6 @@ If you have any questions, or simply would want to chat with us, please do throu
         <div class="avatar__intro">
           <div class="avatar__name">Twitter</div>
           <small class="avatar__subtitle"><a href="https://twitter.com/@elastosinfo">elastosinfo</a></small>
-        </div>
-      </div>
-    </div>
-    <div class="col col--2">
-      <div class="avatar">
-        <img
-          class="avatar__photo"
-          src={require("@site/static/docs/assets/home/discord.png").default} />
-        <div class="avatar__intro">
-          <div class="avatar__name">Discord</div>
-          <small class="avatar__subtitle"><a href="https://discord.gg/elastos">Elastos Official</a></small>
         </div>
       </div>
     </div>

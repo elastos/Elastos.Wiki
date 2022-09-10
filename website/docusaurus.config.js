@@ -11,14 +11,12 @@ module.exports = {
     "https://use.fontawesome.com/221fd444f5.js",
     "/js/copy-code-button.js",
     "/js/mixpanel.js",
-    "https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js",
   ],
   stylesheets: [
     "https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&family=Source+Code+Pro:ital,wght@0,400;0,600;1,400;1,600&display=swap",
     "/css/copy-code-button.css",
     "/css/landing-page.css",
     "/css/near.min.css",
-    "https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css",
   ],
   favicon: "img/favicon.ico",
   trailingSlash: true,
@@ -76,8 +74,15 @@ module.exports = {
       defaultMode: "dark",
       respectPrefersColorScheme: true,
     },
+    algolia: {
+      indexName: "matic_developer",
+      appId: '16JCDEHCCN',
+      apiKey: "757c19b23127e9c6959da7f13b71cfab",
+      contextualSearch: true,
+      algoliaOptions: {},
+    },
     navbar: {
-      title: "Wiki",
+      title: "WIKI",
       logo: {
         alt: 'Elastos Logo',
         src: "img/elastos_logo_black.svg",

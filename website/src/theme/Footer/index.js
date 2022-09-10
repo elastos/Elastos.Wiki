@@ -77,7 +77,7 @@ function Footer() {
               width="120"
               alt=""
             ></img>
-            <ul className="list-reset text-24 font-black text-yellow mt-50">
+            <ul className="list-reset text-20 font-black text-yellow mt-50">
               <li>
                 <a
                   href="https://elastos.info/essentials-the-super-wallet/"
@@ -108,7 +108,7 @@ function Footer() {
           </div>
           <div className="col md:w-3/4 mt-50 md:mt-0" style={{ zIndex: "1" }}>
             <ul className="list-reset flex flex-wrap -mx-20">
-              <li className="mx-20">
+              <li className="mx-20 mb-10">
                 <a
                   href="https://twitter.com/elastosinfo"
                   className="block hover:text-twitter"
@@ -125,7 +125,7 @@ function Footer() {
                   <span className="screen-reader-text">Twitter</span>
                 </a>
               </li>
-              <li className="mx-20">
+              <li className="mx-20 mb-10">
                 <a
                   href="https://discord.gg/elastos"
                   className="block hover:text-discord"
@@ -142,7 +142,7 @@ function Footer() {
                   <span className="screen-reader-text">Discord</span>
                 </a>
               </li>
-              <li className="mx-20">
+              <li className="mx-20 mb-10">
                 <a
                   href="https://cyberrepublic.org"
                   className="block hover:text-discourse"
@@ -161,7 +161,7 @@ function Footer() {
                   <span className="screen-reader-text">Forum</span>
                 </a>
               </li>
-              <li className="mx-20">
+              <li className="mx-20 mb-10">
                 <a
                   href="https://github.com/elastos"
                   className="block hover:text-github"
@@ -180,7 +180,7 @@ function Footer() {
                   <span className="screen-reader-text">GitHub</span>
                 </a>
               </li>
-              <li className="mx-20">
+              <li className="mx-20 mb-10">
                 <a
                   href="https://www.reddit.com/r/Elastos/"
                   className="block hover:text-youtube"
@@ -192,7 +192,7 @@ function Footer() {
                   <span className="screen-reader-text">Reddit</span>
                 </a>
               </li>
-              <li className="mx-20">
+              <li className="mx-20 mb-10">
                 <a
                   href="https://www.youtube.com/channel/UCy5AjgpQIQq3bv8oy_L5WTQ"
                   className="block hover:text-youtube"
@@ -209,7 +209,7 @@ function Footer() {
                   <span className="screen-reader-text">YouTube</span>
                 </a>
               </li>
-              <li className="mx-20">
+              <li className="mx-20 mb-10">
                 <a
                   href="https://www.facebook.com/elastosorg/"
                   className="block hover:text-facebook"
@@ -224,7 +224,7 @@ function Footer() {
             </ul>
             <div className="row">
               <div className="col sm:w-1/3 mt-50">
-                <h2 className="text-24 font-black text-blue-light">
+                <h2 className="text-24 font-black" style={{ color: "#7f2bee" }}>
                   Developers
                 </h2>
                 <ul
@@ -253,7 +253,7 @@ function Footer() {
                 </ul>
               </div>
               <div className="col sm:w-1/3 mt-50">
-                <h2 className="text-24 font-black text-blue-light">
+                <h2 className="text-24 font-black" style={{ color: "#7f2bee" }}>
                   Community
                 </h2>
                 <ul
@@ -272,7 +272,7 @@ function Footer() {
                 </ul>
               </div>
               <div className="col sm:w-1/3 mt-50">
-                <h2 className="text-24 font-black text-blue-light">About</h2>
+                <h2 className="text-24 font-black" style={{ color: "#7f2bee" }}>About</h2>
                 <ul
                   id="menu-about-1"
                   className="footer-menu list-reset mt-5 text-16 md:text-18"

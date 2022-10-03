@@ -1,6 +1,6 @@
 {
-  "learn": [
-    "learn/welcome",
+  "start": [
+    "start/welcome",
     {
       "type": "html",
       "value": "<hr/>"
@@ -9,36 +9,20 @@
       "type": "html",
       "value": "<span class='menu__link'><b><small> The Elastos SmartWeb </small></b></span>"
     },
-    "learn/protocol",
-    {
-      "About": [
-        "learn/about/vision",
-        "learn/about/features",
-        "learn/about/history"
-      ]
-    },
-    {
-      "Ecosystem": [
-        "learn/ecosystem/architecture",
-        "learn/ecosystem/foundation",
-        "learn/ecosystem/governance"
-      ]
-    },
-    {
-      "Essentials Wallet": [
-        "learn/wallets/essentials",
-        "learn/wallets/other"
-      ]
-    },
-    "learn/staking/staking",
-    {
-      "Economics": [
-        "learn/economics/inflation",
-        "learn/economics/overview"
-      ]
-    },
-    "learn/dids",
-    "learn/faq",
+    "start/protocol",
+    "start/ecosystem/architecture",
+    "start/dids",
+    "start/wallet",
+    "start/ela",
+    "start/staking/staking",
+    "start/ecosystem/governance",
+    "start/faq",
+    "start/contributing",
+    "start/ledger",
+    "start/wallets/other",
+    "start/about/history",
+    "start/ecosystem/foundation",
+    "start/contact",
     {
       "type": "html",
       "value": "<hr/>"
@@ -49,12 +33,12 @@
     },
     {
       "Blockchain Basics": [
-        "learn/basics/blockchain",
-        "learn/basics/types",
-        "learn/basics/consensus",
-        "learn/basics/accounts",
-        "learn/basics/transactions",
-        "learn/basics/smart-contracts"
+        "start/basics/blockchain",
+        "start/basics/types",
+        "start/basics/consensus",
+        "start/basics/accounts",
+        "start/basics/transactions",
+        "start/basics/smart-contracts"
       ]
     }
   ],
@@ -67,6 +51,12 @@
     {
       "type": "html",
       "value": "<span class='menu__link'><b><small> The Elastos SmartWeb </small></b></span>"
+    },
+    {
+      "Economics": [
+        "start/economics/inflation",
+        "start/economics/overview"
+      ]
     },
     "concepts/basics/protocol",
     {
@@ -134,8 +124,8 @@
       "concepts/web3/nfts"
     ]
   ],
-  "develop": [
-    "develop/welcome",
+  "build": [
+    "build/welcome",
     {
       "type": "html",
       "value": "<hr/>"
@@ -144,50 +134,50 @@
       "type": "html",
       "value": "<span class='menu__link'><b><small> Building Decentralized Apps </small></b></span>"
     },
-    "develop/quickstart-guide",
+    "build/quickstart-guide",
     {
       "type": "doc",
       "id": "tutorials/welcome",
       "label": "Examples & Tutorials ↗"
     },
     {
-      "Develop a Contract": [
-        "develop/contracts/whatisacontract",
+      "build a Contract": [
+        "build/contracts/whatisacontract",
         {
           "Build": [
-            "develop/contracts/introduction",
-            "develop/contracts/anatomy",
-            "develop/contracts/environment/environment",
-            "develop/contracts/storage",
-            "develop/contracts/actions",
-            "develop/contracts/crosscontract",
-            "develop/contracts/security/checklist"
+            "build/contracts/introduction",
+            "build/contracts/anatomy",
+            "build/contracts/environment/environment",
+            "build/contracts/storage",
+            "build/contracts/actions",
+            "build/contracts/crosscontract",
+            "build/contracts/security/checklist"
           ]
         },
         {
           "Test": [
-            "develop/testing/introduction",
-            "develop/testing/unit-test",
-            "develop/testing/integration-test",
+            "build/testing/introduction",
+            "build/testing/unit-test",
+            "build/testing/integration-test",
             {
               "type": "html",
               "value": "<hr/>"
             },
-            "develop/testing/kurtosis-localnet",
-            "develop/testing/workspaces-migration"
+            "build/testing/kurtosis-localnet",
+            "build/testing/workspaces-migration"
           ]
         },
         {
           "Deploy & Maintain": [
-            "develop/deploy",
-            "develop/upgrade-and-lock",
-            "develop/upgrade/migration",
+            "build/deploy",
+            "build/upgrade-and-lock",
+            "build/upgrade/migration",
             {
               "type": "html",
               "value": "<hr/>"
             },
-            "develop/contracts/prototyping",
-            "develop/upgrade/dao-updates"
+            "build/contracts/prototyping",
+            "build/upgrade/dao-updates"
           ]
         },
         {
@@ -196,17 +186,17 @@
         },
         {
           "Notes on Security": [
-            "develop/contracts/security/storage",
-            "develop/contracts/security/callbacks",
-            "develop/contracts/security/one-yocto",
-            "develop/contracts/security/sybil",
-            "develop/contracts/security/frontrunning"
+            "build/contracts/security/storage",
+            "build/contracts/security/callbacks",
+            "build/contracts/security/one-yocto",
+            "build/contracts/security/sybil",
+            "build/contracts/security/frontrunning"
           ]
         },
-        "develop/best-practices"
+        "build/best-practices"
       ]
     },
-    "develop/integrate/frontend",
+    "build/integrate/frontend",
     {
       "Monitor User Activity": [
         "tools/realtime",
@@ -219,7 +209,7 @@
     },
     {
       "type": "html",
-      "value": "<span class='menu__link'><b><small> Developer Tools </small></b></span>"
+      "value": "<span class='menu__link'><b><small> builder Tools </small></b></span>"
     },
     {
       "NEAR SDK": [
@@ -282,7 +272,7 @@
           "label": "💱 Fiat On-Ramp",
           "href": "https://awesomenear.com/categories/payments"
         },
-        "develop/relevant-contracts/oracles"
+        "build/relevant-contracts/oracles"
       ]
     },
     {
@@ -383,13 +373,13 @@
     },
     {
       "Fungible Tokens": [
-        "develop/relevant-contracts/ft",
+        "build/relevant-contracts/ft",
         "tutorials/fts/simple-fts"
       ]
     },
     {
       "Non Fungible Tokens": [
-        "develop/relevant-contracts/nft",
+        "build/relevant-contracts/nft",
         "tutorials/nfts/minting-nfts",
         "tutorials/nfts/minting-nft-frontend",
         "tutorials/nfts/minecraft-nfts",
@@ -400,7 +390,7 @@
         }
       ]
     },
-    "develop/relevant-contracts/dao",
+    "build/relevant-contracts/dao",
     {
       "type": "html",
       "value": "<hr/>"

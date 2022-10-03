@@ -16,7 +16,7 @@ module.exports = {
     "https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&family=Source+Code+Pro:ital,wght@0,400;0,600;1,400;1,600&display=swap",
     "/css/copy-code-button.css",
     "/css/landing-page.css",
-    "/css/near.min.css",
+    "/css/elastos.min.css",
   ],
   favicon: "img/favicon.ico",
   trailingSlash: true,
@@ -87,17 +87,20 @@ module.exports = {
         alt: 'Elastos Logo',
         src: "img/elastos_logo_black.svg",
         srcDark: 'img/elastos_logo_white.svg',
-        // src: "img/near_logo.svg",
-        // srcDark: 'img/near_logo_white.svg',
       },
       items: [
+        {
+          to: "/start/welcome",
+          label: "Get Started",
+          position: "left",
+        },
         {
           to: "/learn/welcome",
           label: "Learn",
           position: "left",
         },
         {
-          to: "/develop/welcome",
+          to: "/build/welcome",
           label: "Build",
           position: "left",
         },
@@ -107,32 +110,28 @@ module.exports = {
           position: "left",
         },
         {
-          to: "/api/rpc/introduction",
-          label: "APIs",
-          position: "left",
+          href: "/nodes/welcome",
+          label: "Nodes",
+          position: "right",
         },
         {
           href: "/integrator/exchange-integration",
           label: "Integrate",
           position: "right",
         },
-        {
-          href: "/nodes/welcome",
-          label: "Nodes",
-          position: "right",
-        },
+       
         {
           type: "localeDropdown",
           position: "right",
         }
       ],
     },
-    image: "img/near_logo.svg",
+    image: "img/elastos_logo_black.svg",
     footer: {
       links: [],
-      copyright: "Copyright © 2021 NEAR Protocol",
+      copyright: "Copyright © 2022 Elastos",
       logo: {
-        src: "img/near_logo.svg",
+        src: "img/elastos_logo_black.svg",
       },
     },
   },

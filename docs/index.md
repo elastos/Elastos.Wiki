@@ -8,13 +8,17 @@ import {FeatureList, Column, Feature} from "@site/components/featurelist"
 
 Welcome! This is the starting point for all Elastos documentation.
 
+<!-- This portal will serve as a guide to everything you need to know about our platform, ranging from the basics of our ecosystem and product line to key developer resources to help you build and deploy on our blockchain.
+
+Whether you're a non-technical user looking for a general overview or a tech-savvy individual or developer aiming to dive deeper into the code, all of the information can be found here at your fingertips. -->
+
 <div class="container">
   <div class="row">
     <div class="col col--6">
       <a href="/concepts/welcome">
         <div class="card">
           <div class="card__image">
-            <img src={require("@site/static/docs/assets/welcome-pages/understanding.png").default} alt="Learn" />
+            <img src={require("@site/static/docs/assets/welcome-pages/understanding2.png").default} alt="Learn" />
           </div>
           <div class="card__body">
             <h3>Understanding Elastos</h3>
@@ -27,7 +31,7 @@ Welcome! This is the starting point for all Elastos documentation.
       <a href="/develop/welcome">
         <div class="card">
           <div class="card__image">
-            <img src={require("@site/static/docs/assets/welcome-pages/develop.png").default} alt="Develop" />
+            <img src={require("@site/static/docs/assets/welcome-pages/develop1.png").default} alt="Develop" />
           </div>
           <div class="card__body">
             <h3>Developer Documentation</h3>

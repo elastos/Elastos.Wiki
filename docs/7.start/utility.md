@@ -11,7 +11,7 @@ ELA is the native token used in the Elastos SmartWeb. It has multiple use cases:
 
 ### Securing the Network
 
-Elastos is a hybrid proof-of-work (PoW) and delegated proof-of-stake (DPoS) network, which means that resistance from various attacks partially comes from staking NEAR. Staked ELA represents the decentralized infrastructure of servers that maintain the network and process transactions for applications and users on ELA. Rewards for providing this service are received in ELA.
+Elastos is a hybrid proof-of-work (PoW) and delegated proof-of-stake (DPoS) network, which means that resistance from various attacks partially comes from staking ELA. Staked ELA represents the decentralized infrastructure of servers that maintain the network and process transactions for applications and users on ELA. Rewards for providing this service are received in ELA.
 
 ### Providing a Unit of Account
 
@@ -26,5 +26,5 @@ To become a validator on the Elastos blockchain(s) or a member of the Cyber Repu
 ELA is readily available on the protocol level, so it can be used to transfer value between various Elastos blockchains, bridges, applications and accounts. This means that applications can use ELA to charge for various functions, like access to data or other complex transactions. Entities can also easily exchange ELA between each other, without the need for trusted third parties to clear and settle transactions.
 
 :::tip
-For a deeper dive on ELA economics [check here](/start/economics/inflation).
+For a deeper dive on ELA economics [check here](/start/economics).
 :::

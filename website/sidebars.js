@@ -3,7 +3,7 @@ module.exports = {
       {
         type: "doc",
         id: "start/welcome",
-        label: "Home",
+        label: "🏠 Home",
       },
       {
         type: "html",
@@ -61,6 +61,11 @@ module.exports = {
           },
           {
             type: "doc",
+            id: "start/types",
+            label: "Types",
+          },
+          {
+            type: "doc",
             id: "start/wallets",
             label: "Custody",
           },
@@ -105,6 +110,19 @@ module.exports = {
         type: "doc",
         id: "start/faq",
         label: "FAQs"
+      },
+      {
+        type: "html",
+        value: "<hr/>"
+      },
+      {
+        type: "html",
+        value: "<span class='menu__link'><b><small> Networks </small></b></span>"
+      },
+      {
+        type: "doc",
+        id: "start/providers",
+        label: "🌐 Public Endpoints"
       },
     ]
   };

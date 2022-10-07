@@ -39,7 +39,7 @@ module.exports = {
           breadcrumbs: true,
           editUrl: "https://github.com/racollette/Elastos.Docs/edit/master/website",
           path: "../docs",
-          sidebarPath: "./sidebars.json",
+          sidebarPath: "./sidebars.js",
           routeBasePath: "/",
         },
         sitemap: {

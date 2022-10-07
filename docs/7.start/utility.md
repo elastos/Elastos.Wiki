@@ -1,7 +1,5 @@
 ---
-id: ela
-title: ELA Token
-sidebar_label: ELA Token
+title: Utility
 ---
 
 ELA is the native token used in the Elastos SmartWeb. It has multiple use cases:
@@ -27,4 +25,6 @@ To become a validator on the Elastos blockchain(s) or a member of the Cyber Repu
 
 ELA is readily available on the protocol level, so it can be used to transfer value between various Elastos blockchains, bridges, applications and accounts. This means that applications can use ELA to charge for various functions, like access to data or other complex transactions. Entities can also easily exchange ELA between each other, without the need for trusted third parties to clear and settle transactions.
 
-For a deeper dive on ELA Economics: [`check here`](/start/economics/inflation)
+:::tip
+For a deeper dive on ELA economics [check here](/start/economics/inflation).
+:::

@@ -1,17 +1,17 @@
 ---
-id: dids
 title: What are DIDs in Web3?
-sidebar_label: What are DIDs in Web3?
 ---
+
 Decentralized Identifiers (DIDs) let users have control over their own information by managing and storing identities and data. They’re verifiable identifiers stored on the blockchain operating in a completely decentralized manner, primarily used for authentication and storage purposes to not only maintain data but also protect a user’s privacy.
 
-DIDs are known for being extremely versatile and can be used for a variety of different purposes (i.e. personal or professional ways). They’re an important stepping stone in the development of Web3, bringing privacy and ease of access to users on a global scale. 
+DIDs are known for being extremely versatile and can be used for a variety of different purposes (i.e. personal or professional ways). They’re an important stepping stone in the development of Web3, bringing privacy and ease of access to users on a global scale.
 
 This technology also has the following features:
--Interoperability across Web3 dApps and websites
--Ability to connect to multiple verified credentials
--Maintains privacy of personal and wallet information
--Offers secure communication between two or more parties
+
+- Interoperability across Web3 dApps and websites
+- Ability to connect to multiple verified credentials
+- Maintains privacy of personal and wallet information
+- Offers secure communication between two or more parties
 
 ## Benefits of DIDs
 
@@ -19,7 +19,11 @@ Elastos is keen on revolutionizing the digital identity space through our open-s
 
 DID runs on the Elastos Identity Chain (EID), allowing any device or person to create their own digital identity on the web - it’s fully compatible with a variety of applications and products within the Elastos ecosystem.
 
-### DID Concepts
+:::tip
+Proceed to the [next section](../essentials) to set up your very own DID!
+:::
+
+<!-- ### DID Concepts
 
 To better understand DIDs, below is a list of key concepts that make up their architecture:
 
@@ -67,4 +71,4 @@ Customized DID a short DID string is provided by the user, which is also unique.
 
 The Customized DID Document can not contain any form of a key - authorization and entrustment can be completed by the holder’s key. It also supports adding and deleting holders (it must contain one holder), as well as changing multi-signature rules. When the Customized DID Document changes the holder or the multi-signature rules, it's necessary to complete the document chain operation through the ownership transfer transaction.
 
-Changing the holder is a cautious and rigorous operation. In view of this, the transaction must be completed by using the main key of the DID's original holder based on the modified document and transfer ticket at the same time. Among them, the contents of the transfer ticket are DID topic, the recipient of the transfer ticket, and the transaction ID of the previous DID Document operation. The transfer ticket needs to be signed by the original holder according to the multi-signature rule to show the original holder’s approval of the replacement holder.
+Changing the holder is a cautious and rigorous operation. In view of this, the transaction must be completed by using the main key of the DID's original holder based on the modified document and transfer ticket at the same time. Among them, the contents of the transfer ticket are DID topic, the recipient of the transfer ticket, and the transaction ID of the previous DID Document operation. The transfer ticket needs to be signed by the original holder according to the multi-signature rule to show the original holder’s approval of the replacement holder. -->

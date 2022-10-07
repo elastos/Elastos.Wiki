@@ -1,13 +1,12 @@
 ---
-id: other
-title: Other Wallets
-sidebar_label: Other Wallets
+title: Custody
 ---
+
 Outside of the Elastos Essentials Wallet, you can trade, send, and store your ELA tokens on a variety of other wallets built to support the ecosystem.
 
 ## ELA Wallet
 
-SPV light node client wallet that supports digital assets throughout the Elastos ecosystem. This wallet gives you control of your encrypted private keys in a decentralized and secure way while also allowing for Supernode registration and participating in  DPoS elections.
+SPV light node client wallet that supports digital assets throughout the Elastos ecosystem. This wallet gives you control of your encrypted private keys in a decentralized and secure way while also allowing for Supernode registration and participating in DPoS elections.
 
 Download: https://apps.apple.com/us/app/ela-wallet/id1453348077
 

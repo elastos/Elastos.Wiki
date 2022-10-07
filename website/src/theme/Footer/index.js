@@ -298,20 +298,24 @@ function Footer() {
         <p className="text-14 mt-50 md:mt-100">Copyright &copy;
           {new Date().getFullYear()} <a href="https://elastos.org" className="hover:text-yellow">Elastos</a><span className="mx-10">|</span>All rights
           reserved<span className="mx-10">|</span>
+          <a href="https://app.termly.io/document/privacy-policy/40778942-fea5-44ed-9270-4e9f77b2abc8" className="hover:text-yellow">
+            Privacy Policy
+          </a>
+          {/* <span className="mx-10">|</span>
+          <a href="https://app.termly.io/document/cookie-policy/52769eed-243b-48e2-a1c3-77240b33e203" className="hover:text-yellow">
+            Cookie Policy
+          </a> */}
+          <span className="mx-10">|</span>
+          <a href="https://app.termly.io/document/disclaimer/9bd11082-b5b4-4430-8f85-cd66a3d99211" className="hover:text-yellow">
+            Disclaimer
+          </a>
+          <span className="mx-10">|</span>
           <a href="https://elastos.info/contact/" className="hover:text-yellow">
             Contact
           </a>
           <span className="mx-10">|</span>
-          <a href="https://app.termly.io/document/privacy-policy/40778942-fea5-44ed-9270-4e9f77b2abc8" className="hover:text-yellow">
-            Privacy Policy
-          </a>
-          <span className="mx-10">|</span>
-          <a href="https://app.termly.io/document/cookie-policy/52769eed-243b-48e2-a1c3-77240b33e203" className="hover:text-yellow">
-            Cookie Policy
-          </a>
-          <span className="mx-10">|</span>
-          <a href="https://app.termly.io/document/disclaimer/9bd11082-b5b4-4430-8f85-cd66a3d99211" className="hover:text-yellow">
-            Disclaimer
+          <a href="mailto:contact@elastos.org" className="hover:text-yellow">
+            contact@elastos.org
           </a>
         </p>
       </div>

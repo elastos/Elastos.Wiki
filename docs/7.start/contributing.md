@@ -1,7 +1,5 @@
 ---
-id: contributing
 title: Contributing
-sidebar_label: Contributing
 ---
 
 The wiki was started and is maintained by Web3 Foundation. It is an open source project and aims

@@ -1,7 +1,5 @@
 ---
-id: ledger
 title: Using the Elastos Ledger Application
-sidebar_label: Ledger Application
 ---
 
 :::info

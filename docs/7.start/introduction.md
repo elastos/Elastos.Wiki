@@ -1,16 +1,12 @@
 ---
-id: protocol
 title: What is Elastos?
-sidebar_label: ⭐ What is Elastos?
 ---
 
-Elastos is a decentralized community aiming to create the most comprehensive and open Web3 ecosystem for dApps and users. Our project was founded in 2017 by Rong Chen and has built the necessary architecture to help power the future of Web3.
+Elastos is the first open source Internet Operating System with a decentralized peer-to-peer economic infrastructure powered by blockchain. It can be used to authenticate digital rights, transfer contracts, turn digital information into assets and will serve as a new smarter and safer World Wide Web. It was founded in 2017 by Rong Chen and has built the necessary architecture to help power the future of Web3.
 
-The underlying technology behind our platform utilizes a hybrid consensus mechanism that leverages Bitcoin’s hashpower and DPoS (Delegated Proof of Stake) to help secure the network. Our platform's development code is completely open-source and made available to the entire community in our commitment to transparency.
+As a community we aim to create the most comprehensive and open Web3 ecosystem for decentralized applications and users. The Elastos design philosophy is modular in nature and includes components (blockchain, identity, storage, and communication) that when combined enable developers to build truly unstoppable peer-to-peer applications.
 
-Elastos empowers users to create wealth through the transfer and ownership of their data and digital assets, where they can benefit from features such as digital rights authentication, transferring contracts, and creating digital assets via the information on its blockchain. Digital assets such as movies, books, music, and games can be fully owned by their respective users across its new internet, removing the middleman and solidifying authenticity.
-
-Our platform also strives to enhance the scalability and flexbility that other networks often lack, optimized for the performance of dApps and other applications deployed on our chain.
+Our platform strives to enhance the scalability and flexbility that other networks often lack, optimized for the performance of dApps and other applications deployed on our multichain architecture that leverages Bitcoin’s hashpower and DPoS (Delegated Proof of Stake) consensus to secure the network.
 
 <iframe
   width="560"
@@ -23,11 +19,9 @@ Our platform also strives to enhance the scalability and flexbility that other n
 
 <hr class="subsection" />
 
-## Mission & Vision
+## Why Elastos?
 
 We created Elastos to build accessible and open-source services on a global scale, allowing developers to create Web3 applications where users can truly own their own personal data and information. The foundation of our project is to enhance the user experience in Web3 in order to transcend the next wave of the internet.
-
-Our teams believe that by harnessing the full capabilities of what blockchain has to offer, we can truly transcend Web3 into a space that facilitates change and brings power and control back to the individual, reshaping Web2 as we know it today.
 
 <iframe
   width="560"
@@ -38,7 +32,7 @@ Our teams believe that by harnessing the full capabilities of what blockchain ha
   allowfullscreen>
 </iframe>
 
-## Key Features
+### Key Features
 
 To understand how we're making a difference in Web3, it's critical to learn about the key features that set Elastos apart from the rest.
 

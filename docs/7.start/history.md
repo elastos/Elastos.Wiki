@@ -1,7 +1,5 @@
 ---
-id: history
 title: A Brief History of Elastos
-sidebar_label: History
 ---
 
 Since its inception, the internet was a place where individuals could interact and share data in a decentralized way, promoting newfound borderless freedom and connectivity. However, as the internet continued to evolve, corporations and **organizations began to develop applications to store and collect private user data**, taking advantage of the economic opportunities associated with such activities.
@@ -22,7 +20,7 @@ In 2016, Rong sought out more opportunities. He eventually discovered the emergi
 
 Rong’s vision to build an operating system from scratch in the 2000s has evolved into a blockchain technological marvel. From the Motorola Razr flip phone to the Apple iPhone 6S+ with GPS, 4k video, and millions of apps at your disposal. While the features and other technology has taken strides in the last 20 years, **the underlying vulnerabilities of the internet have still not been addressed**. These millions of apps are all built on a flawed infrastructure, and while the road has been tough for Elastos, the principles of security and individual rights to data remain. **The monetization of a true digital economy has not been completed.**
 
-**Elastos and [`Cyber Republic`](/start/ecosystem/governance) is the solution to problems the digital world faces**. As digital blackmail and data theft “jobs” become more and more profitable year after year, competing to be one of the most profitable “careers” in the world, Rong’s warnings are becoming more and more potent as the digital economy is being fully centralized by multi-billion dollar corporations.
+**Elastos and the [`Cyber Republic`](/start/ecosystem/governance) is the solution to problems the digital world faces**. As digital blackmail and data theft “jobs” become more and more profitable year after year, competing to be one of the most profitable “careers” in the world, Rong’s warnings are becoming more and more potent as the digital economy is being fully centralized by multi-billion dollar corporations.
 
 There’s never been a better time for Elastos to deliver a new internet aimed at providing full decentralization, security, and ownership of digital assets, restoring balance to what it was originally meant to be - a truly free and private ecosystem. Our vision was to enable access to digital property rights on a global scale and allow for seamless communication across networks, which remains true to this day.
 

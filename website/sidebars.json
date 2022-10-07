@@ -5,42 +5,32 @@
       "type": "html",
       "value": "<hr/>"
     },
-    {
-      "type": "html",
-      "value": "<span class='menu__link'><b><small> The Elastos SmartWeb </small></b></span>"
-    },
-    "start/protocol",
-    "start/ecosystem/architecture",
-    "start/dids",
-    "start/wallet",
-    "start/ela",
-    "start/staking/staking",
-    "start/ecosystem/governance",
-    "start/faq",
-    "start/contributing",
-    "start/ledger",
-    "start/wallets/other",
-    "start/about/history",
-    "start/ecosystem/foundation",
-    "start/contact",
-    {
-      "type": "html",
-      "value": "<hr/>"
-    },
-    {
-      "type": "html",
-      "value": "<span class='menu__link'><b><small> General Concepts </small></b></span>"
-    },
-    {
-      "Blockchain Basics": [
-        "start/basics/blockchain",
-        "start/basics/types",
-        "start/basics/consensus",
-        "start/basics/accounts",
-        "start/basics/transactions",
-        "start/basics/smart-contracts"
+    { 
+      "Introduction to Elastos": [
+      "start/protocol",
+      "start/history"
       ]
-    }
+    },
+    {
+      "Getting Started with Elastos": [
+        "start/dids",
+        "start/essentials"      
+      ]
+    },
+    { 
+      "ELA Token": [
+        "start/utility",
+        "start/wallets",
+        "start/staking-guide",
+        "start/economics"
+      ]
+    },
+    "start/building",
+    "start/governance",
+    "start/funding",
+    "start/community",
+    "start/contributing",
+    "start/faq"
   ],
   "concepts": [
     "concepts/welcome",
@@ -51,12 +41,6 @@
     {
       "type": "html",
       "value": "<span class='menu__link'><b><small> The Elastos SmartWeb </small></b></span>"
-    },
-    {
-      "Economics": [
-        "start/economics/inflation",
-        "start/economics/overview"
-      ]
     },
     "concepts/basics/protocol",
     {

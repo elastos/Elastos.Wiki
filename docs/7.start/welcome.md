@@ -1,31 +1,28 @@
 ---
-id: welcome
 title: Getting Started
-sidebar_label: Home
-hide_table_of_contents: true
 ---
 
 import {FeatureList, Column, Feature} from "@site/components/featurelist"
 
-You’ve landed on the Elastos Wiki, thanks for coming!
+You’ve arrived at the Elastos Wiki, thanks for coming!
 
-This open-source, collaborative wiki connects you to information about everything from the protocol, usage, infrastructure, and opportunities.
+This section introduces you to basic information about the Elastos infrastructure, ecosystem, usage, and opportunities.
 
 <FeatureList>
   <Column title="Introduction to Elastos">
-    <Feature url="/start/protocol" title="What is Elastos?" subtitle="Learn the Basics about Elastos" image="elastos-logo.png" />
-    <Feature url="/concepts/basics/accounts/account-id" title="Named Accounts" subtitle="Elastos uses human-readable accounts" image="user.png" />
-    <Feature url="/concepts/basics/accounts/access-keys" title="Multiple Access Keys" subtitle="More keys means more security" image="key.png" />
-    <Feature url="/concepts/basics/smartcontracts/smartcontracts" title="Smart Contracts" subtitle="Learn about our contract technology" image="contract.png" />
+    <Feature url="/start/introduction" title="What is Elastos?" subtitle="Learn the Basics about Elastos" image="elastos-logo.png" />
+    <Feature url="/start/dids" title="Decentralized Identifiers" subtitle="DIDs role in Web3" image="user.png" />
+    <Feature url="/start/essentials" title="Create an Account" subtitle="Start your Elastos journey" image="user.png" />
   </Column>
-  <Column title="The Network">
-    <Feature url="/concepts/basics/tokens" title="Token" subtitle="Learn about the ELA token" image="ela.png" />
-    <Feature url="/concepts/basics/transactions/overview" title="Transactions" subtitle="Fast and Inexpensive" image="transaction.png" />
-    <Feature url="/concepts/basics/validators" title="Validators" subtitle="Learn how the network stays safe" image="validation.png" />
+  <Column title="The Ecosystem">
+    <Feature url="/start/utility" title="Token Utility" subtitle="Learn about the ELA token" image="ela.png" />
+    <Feature url="/start/wallets" title="Wallets" subtitle="Manage your assets" image="transaction.png" />
+    <Feature url="/start/staking-guide" title="Staking" subtitle="Help secure the network" image="validation.png" />
+    <Feature url="/start/building" title="Tools" subtitle="Explore the components that make up the Elastos SmartWeb" image="experiment.png" />
   </Column>
   <Column title="More Resources">
-    <Feature url="/concepts/advanced/papers" title="Papers" subtitle="Read the research that defined Elastos" image="experiment.png" />
-    <Feature url="/concepts/web3/intro" title="From Web2 to Web3" subtitle="Migrate your applications" image="blocks.png" />
+    <Feature url="/start/governance" title="Governance" subtitle="Participate in community decision making" image="validation.png" />
+    <Feature url="/start/funding" title="Funding" subtitle="Learn how to receive support to build on Elastos" image="blocks.png" />
   </Column>
 </FeatureList>
 
@@ -33,7 +30,7 @@ This open-source, collaborative wiki connects you to information about everythin
 
 ## Contact us
 
-If you have any questions, or simply would want to chat with us, please do through one of our official channels.
+If you have any questions, or simply would want to chat with us, please do so through one of our official channels.
 <br/>
 
 <div class="container">

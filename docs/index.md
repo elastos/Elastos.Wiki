@@ -11,7 +11,7 @@ Welcome! You've landed on the Elastos Wiki.
 <div class="container">
   <div class="row">
     <div class="col col--6">
-      <a href="/concepts/welcome">
+      <a href="/start/introduction">
         <div class="card">
           <div class="card__image">
             <img src={require("@site/static/docs/assets/welcome-pages/understanding2.png").default} alt="Learn" />

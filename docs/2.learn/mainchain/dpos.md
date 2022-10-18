@@ -39,7 +39,8 @@ Elastos DPoS is at this stage currently!
 
 ### Stage 5: Change to Staking Mining. All 36 nodes Participating in Consensus are Randomly Selected from 12 CR and Nodes Meeting the Staking Mining Threshold
 
-:::info The fifth stage is still under development, and the detailed design can be seen in the CRC DPoS 2.0 [detailed proposal](https://www.cyberrepublic.org/proposals/61cdad4cb5d3b6007833e15e).
+:::info
+The fifth stage is still under development, and the detailed design can be seen in the CRC DPoS 2.0 [detailed proposal](https://www.cyberrepublic.org/proposals/61cdad4cb5d3b6007833e15e).
 :::
 
 ## Main Consensus Actors

@@ -983,11 +983,6 @@ blockquote.info {
 
 }
 
-h8:after {
-    content: url(/docs/assets/SOLogoSm.svg);
-    margin-left: 5px;
-}
-
 table.custom-stripe tr {
     background-color: transparent !important;
     border-top: 1px solid #dfe2e5;

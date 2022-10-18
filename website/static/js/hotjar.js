@@ -1,4 +1,4 @@
-// Hotjar Tracking Code for docs.near.org
+// Hotjar Tracking Code for docs.elastos.org
 (function(h,o,t,j,a,r){
     h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
     h._hjSettings={hjid:2540352,hjsv:6};

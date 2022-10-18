@@ -8,7 +8,4 @@ website/secrets.env
 website/build/*
 website/i18n/*
 website/.docusaurus/*
-neardev
-.idea
-.docz
 package-lock.json

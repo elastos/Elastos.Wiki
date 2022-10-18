@@ -75,9 +75,9 @@ module.exports = {
       respectPrefersColorScheme: true,
     },
     algolia: {
-      indexName: "matic_developer",
-      appId: '16JCDEHCCN',
-      apiKey: "757c19b23127e9c6959da7f13b71cfab",
+      indexName: "elastos",
+      appId: "00",
+      apiKey: "00",
       contextualSearch: true,
       algoliaOptions: {},
     },
@@ -100,8 +100,8 @@ module.exports = {
           position: "left",
         },
         {
-          to: "/build/welcome",
-          label: "Build",
+          to: "/develop/welcome",
+          label: "Develop",
           position: "left",
         },
         {
@@ -110,16 +110,25 @@ module.exports = {
           position: "left",
         },
         {
-          href: "/nodes/welcome",
+          to: "/nodes/overview",
           label: "Nodes",
+          position: "left",
+        },
+        {
+          to: "/api/welcome",
+          label: "APIs",
           position: "right",
         },
         {
-          href: "/integrator/exchange-integration",
-          label: "Integrate",
+          to: "/sdk/welcome",
+          label: "SDKs",
           position: "right",
         },
-       
+        {
+          to: "/integrator/primer",
+          label: "Exchanges",
+          position: "right",
+        },
         {
           type: "localeDropdown",
           position: "right",

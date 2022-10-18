@@ -1,0 +1,35 @@
+---
+title: Developer Documentation
+---
+
+import {FeatureList, Column, Feature} from "@site/components/featurelist"
+
+Welcome! Here you will find documentation on how to develop decentralized apps using Elastos.
+
+Do not worry if you are new to smart contract technology, we will get you up to speed in no time.
+
+<!-- <FeatureList>
+  <Column title="Build dApps">
+    <Feature url="/develop/quickstart-guide" title="Quickstart" subtitle="Spin-up your first dApp" image="quickstart.png" />
+    <Feature url="/tutorials/welcome" title="Tutorials & Examples" subtitle="Check-out a bast library of examples" image="tutorials.png" />
+    <Feature url="/develop/contracts/introduction" title="Build a Contract" subtitle="Learn how to write smart contracts" image="smartcontract.png" />
+    <Feature url="/develop/testing/introduction" title="Test the Contract" subtitle="Write unit & integration tests" image="test.png" />
+    <Feature url="/develop/integrate/frontend" title="Build a Web Frontend" subtitle="Learn how to make a web dApp" image="frontend.png" />
+    <Feature url="/tools/realtime" title="Track Your Users Activity" subtitle="Learn how to use Indexers" image="monitor.png" />
+  </Column>
+  <Column title="Developer Tools">
+    <Feature url="/tools/sdk-js" title="Javascript SDK" subtitle="Write Contracts in Javascript" image="smartcontract-js.png" />
+    <Feature url="/tools/sdk-rs" title="Rust SDK" subtitle="Write Contracts in Rust" image="smartcontract-rust.png" />
+    <Feature url="/tools/cli" title="ELA CLI" subtitle="Use ELA from the Terminal" image="ela-cli.png" />
+    <Feature url="/tools/api-js/quick-reference" title="ELA API JS" subtitle="Interact with ELA from JS" image="elastos-api-js.png" />
+    <Feature url="/api/rpc/introduction" title="RPC API" subtitle="Interact with the ELA RPC API" image="rpc.png" />
+  </Column>
+  <Column title="Unleash the Web3">
+    <Feature url="/develop/relevant-contracts/ft" title="Fungible Tokens" subtitle="Learn how to use and make FT" image="ft.png" />
+    <Feature url="/develop/relevant-contracts/nft" title="Non-Fungible Tokens" subtitle="Enter the NFT space" image="nft.png" />
+    <Feature url="/develop/relevant-contracts/dao" title="Autonomous Organizations" subtitle="Understand DAOs" image="dao.png" />
+    <Feature url="/develop/relevant-contracts/oracles" title="Oracles" subtitle="Supercharge your app with on-chain oracles" image="oracle.png" />
+    <Feature url="https://rainbowbridge.app/transfer" title="Rainbow Bridge" subtitle="Bridge assets with other chains" image="rainbow.png" />
+    <Feature url="https://aurora.dev" title="Aurora EVM" subtitle="Run Ethereum apps natively" image="aurora.png" />
+  </Column>
+</FeatureList> -->

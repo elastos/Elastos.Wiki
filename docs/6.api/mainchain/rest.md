@@ -1,3 +1,3 @@
 ---
-title: Mainchain Restful API
+title: Mainchain REST API
 ---

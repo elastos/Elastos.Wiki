@@ -1,5 +1,5 @@
 ---
-title: Read DID
+title: Issue a Credential
 ---
 
 :::info Under Construction

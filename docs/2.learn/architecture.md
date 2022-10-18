@@ -6,6 +6,10 @@ Elastos is a complete ecosystem of decentralized services, consisting of every c
 
 ![image](/docs/assets/start/architecture.png)
 
+The Elastos blockchain structure is based on the existing cryptocurrency systems design first introduced by Bitcoin. This includes requirements for block authentication such as the previous block hash, the Merkle tree root hash, a nonce for the consensus algorithm, timestamps, difficulty goals, and more.
+
+Elastos improves on the current digital currency experience and adopts a sidechain design philosophy. The sidechain is the foundation for running Dapps on Elastos, while the Elastos main chain structure provides infrastructure and support for the sidechains and enables convenient asset transfer.
+
 ## Elastos Components
 
 Interwoven within our ecosystem are five key platform components, which are unique decentralized service offerings that projects can choose to integrate within their dApps.

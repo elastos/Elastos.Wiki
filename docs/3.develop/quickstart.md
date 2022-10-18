@@ -6,6 +6,9 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import {CodeTabs, Language, Github} from "@site/components/codetabs"
 
+:::caution Under Construction
+:::
+
 Hi! Let us guide you in starting and interacting with your first decentralized app (dApp) in : Hello Elastos.
 
 **Hello Elastos** is an introductory dApp intended to demonstrate
@@ -13,19 +16,17 @@ Hi! Let us guide you in starting and interacting with your first decentralized a
 1. A smart contract that stores and retrieves a greeting message
 2. A simple web-based frontend that displays the greeting and enables to change it.
 
----
-
-## Try Hello elastos in Your Browser
+## Try 'Hello Elastos' in Your Browser
 
 A new browser window will open automatically with the code, give it a minute and the frontend will pop-up (make sure the pop-up window is not blocked).
 
-| 🌐 JavaScript                                                                                                                                                            | 🦀 Rust                                                                                                                                                                  | 🚀 AssemblyScript                                                                                                                                                        |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <a href="https://gitpod.io/#https://github.com/elastos-examples/hello-elastos-js.git"><img src="https://gitpod.io/button/open-in-gitpod.svg" alt="Open in Gitpod" /></a> | <a href="https://gitpod.io/#https://github.com/elastos-examples/hello-elastos-rs.git"><img src="https://gitpod.io/button/open-in-gitpod.svg" alt="Open in Gitpod" /></a> | <a href="https://gitpod.io/#https://github.com/elastos-examples/hello-elastos-as.git"><img src="https://gitpod.io/button/open-in-gitpod.svg" alt="Open in Gitpod" /></a> |
+| 🌐 JavaScript                                                                                                                                                            |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <a href="https://gitpod.io/#https://github.com/elastos-examples/hello-elastos-js.git"><img src="https://gitpod.io/button/open-in-gitpod.svg" alt="Open in Gitpod" /></a> |
 
 ---
 
-## Try Hello elastos Locally
+## Try 'Hello Elastos' Locally
 
 If you already have node installed, simply run:
 
@@ -33,21 +34,21 @@ If you already have node installed, simply run:
   npx create-elastos-app@latest
 ```
 
-Use the interactive menu to set up your first project folder.
+<!-- Use the interactive menu to set up your first project folder.
 
 Once the folder is ready, check the README! It will show you how to **build** your contract, **deploy** it, and **start** the frontend.
 
----
+--- -->
 
-## Interacting With Hello elastos
+<!-- ## Interacting With Hello elastos
 
 Once the app starts you will see the screen bellow. Now go ahead and sign in with your elastos account. If you don't have one, you will be able to create one in the moment.
 
 Once logged in, change the greeting and see how our Hello elastos app greets you!
 
----
+--- -->
 
-## Structure of a dApp
+<!-- ## Structure of a dApp
 
 Now that you understand what the dApp does, let us take a closer look to its structure:
 
@@ -58,7 +59,7 @@ Now that you understand what the dApp does, let us take a closer look to its str
 
 ### Contract
 
-The contract presents 2 methods: `set_greeting` and `get_greeting`. The first one stores a `String` in the contract's parameter `message`, while the second one retrieves it. By default, the contract returns the message `"Hello"`.
+The contract presents 2 methods: `set_greeting` and `get_greeting`. The first one stores a `String` in the contract's parameter `message`, while the second one retrieves it. By default, the contract returns the message `"Hello"`. -->
 
 <!--
 <CodeTabs>
@@ -79,11 +80,11 @@ The contract presents 2 methods: `set_greeting` and `get_greeting`. The first on
   </Language>
 </CodeTabs> -->
 
-### Frontend
+<!-- ### Frontend
 
 The frontend is composed by a single HTML file (`/index.html`). This file defines the components displayed in the screen.
 
-The website's logic lives in `/frontend/index.js`, which communicates with the contract through `/frontend/elastos-api.js`. You will notice in `/frontend/index.js` the following code:
+The website's logic lives in `/frontend/index.js`, which communicates with the contract through `/frontend/elastos-api.js`. You will notice in `/frontend/index.js` the following code: -->
 
 <!-- <CodeTabs>
   <Language value="🌐 JavaScript" language="js">
@@ -96,11 +97,11 @@ The website's logic lives in `/frontend/index.js`, which communicates with the c
   </Language>
 </CodeTabs> -->
 
-It indicates our app, when it starts, to check if the user is already logged in and execute either `signedInFlow()` or `signedOutFlow()`.
+<!-- It indicates our app, when it starts, to check if the user is already logged in and execute either `signedInFlow()` or `signedOutFlow()`. -->
 
----
+<!-- --- -->
 
-## Testing
+<!-- ## Testing
 
 When writing smart contracts it is very important to test all methods exhaustively. This
 project has both **unit** and **integration** tests. Before digging in their code,
@@ -111,7 +112,7 @@ go ahead and execute them using the command `npm run test`.
 Unit tests check individual functions in the smart contract. They are written in the
 same language than the smart contract. For AssemblyScript, you will find the test in the
 `__tests__` folder. If your contract is in Rust you will find the tests at the bottom of
-each `.rs` file.
+each `.rs` file. -->
 
 <!-- <CodeTabs>
   <Language value="🦀 Rust" language="rust">
@@ -125,11 +126,11 @@ each `.rs` file.
   </Language>
 </CodeTabs> -->
 
-### Integration test
+<!-- ### Integration test
 
 Integration tests can be written in both Javascript and Rust. They work by deploying the contract in a **sandbox** and executing methods on it.
 In this way, integration tests simulate interactions from users in a realistic scenario.
-You will find the integration tests for `hello-elastos` in `integration-tests/`.
+You will find the integration tests for `hello-elastos` in `integration-tests/`. -->
 
 <!-- <CodeTabs>
   <Language value="🌐 JavaScript" language="js">
@@ -146,7 +147,7 @@ You will find the integration tests for `hello-elastos` in `integration-tests/`.
 
 ---
 
-## Moving Forward
+<!-- ## Moving Forward -->
 
 <!-- That's it for our first quickstart tutorial. You have now seen a fully functional contract with
 a minimal user interface and testing. Go ahead and check our [examples](/tutorials/welcome) or proceed straight to the [Develop section](./contracts/anatomy.md) to learn how to write your own contract.

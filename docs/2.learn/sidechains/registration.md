@@ -1,5 +1,5 @@
 ---
-title: Registering a sidechain
+title: Registering a Sidechain
 ---
 
 Registration of the sidechain proposal refers to registering new information through a proposal transaction, then completing the construction of a new sidechain without restarting the mainchain and the cross-chain arbiter node. When adding a new sidechain, the user needs to initiate a proposal to register it in the mainchain, which includes basic sidechain information.

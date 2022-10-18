@@ -1,29 +1,22 @@
 ---
-id: welcome
 title: Examples & Tutorials
-hide_table_of_contents: true
 ---
 
 import {FeatureList, Column, Feature} from "@site/components/featurelist"
 
 Explore our collection of Examples and Tutorials
 
-<!-- <FeatureList>
-  <Column title="Examples">
-    <Feature url="/tutorials/examples/hello-elastos" title="Hello elastos" subtitle="A friendly app that stores a greeting" image="hello-elastos.png" />
-    <Feature url="/tutorials/examples/count-elastos" title="Count on elastos" subtitle="A counter in the blockchain" image="count-elastos.png" />
-    <Feature url="/tutorials/examples/guest-book" title="Guest Book" subtitle="Create a simple guest book" image="guest-book.png" />
-    <Feature url="/tutorials/examples/donation" title="Donation" subtitle="How to receive and send tokens" image="donation.png" />
-    <Feature url="/tutorials/examples/xcc" title="Cross-Contract Call" subtitle="Learn how to call other contracts" image="cross-call.png" />
+<FeatureList>
+  <Column title="Smart Contract Basics">
+    <Feature url="/tutorials/fts/simple-fts" title="Fungible Tokens" subtitle="Learn how to use and make FT" image="token.png" />
+    <Feature url="/tutorials/nfts/simple-nft-minting-example" title="Non-Fungible Tokens" subtitle="Enter the NFT space" image="ticket.png" />
   </Column>
-  <Column title="How to: DeFi & Governance">
-    <Feature url="/develop/relevant-contracts/ft" title="Fungible Tokens" subtitle="Learn how to use and make FT" image="ft.png" />
-    <Feature url="/develop/relevant-contracts/nft" title="Non-Fungible Tokens" subtitle="Enter the NFT space" image="nft.png" />
-    <Feature url="/develop/relevant-contracts/dao" title="Autonomous Organizations" subtitle="Understand autonomous organizations" image="dao.png" />
+  <Column title="SmartWeb Tooling">
+    <Feature url="/tutorials/dids/login" title="Login with DIDs" subtitle="Use DIDs in your dApp" image="user.png" />
+    <Feature url="/tutorials/dids/issue-credential" title="Issue Credentials" subtitle="Explore the utlity of veriable credentials" image="did-document.png" />
+    <Feature url="/tutorials/hive/store-data" title="Store User Data" subtitle="Learn how to save user data to Hive with DIDs" image="hive-key.png" />
   </Column>
   <Column title="From Zero to Hero">
-    <Feature url="/tutorials/nfts/js/introduction" title="Master NFT in elastos (JS)" subtitle="Learn everything about NFT in JS" image="nft-marketplace-js.png" />
-    <Feature url="/tutorials/nfts/introduction" title="Master NFT in elastos (RS)" subtitle="Learn everything about NFT in Rust" image="nft-marketplace-rs.png" />
-    <Feature url="/tutorials/crosswords/basics/overview" title="Crossword Game" subtitle="Build a Crossword Game from zero" image="crossword.png" />
+    <Feature url="/tutorials/twitter" title="Elastos SmartWeb dApp" subtitle="Combine the power of blockchain, DIDs, Hive, and Carrier to build an unstoppable application" image="web3.png" />
   </Column>
-</FeatureList> -->
+</FeatureList>

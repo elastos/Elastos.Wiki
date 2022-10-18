@@ -7,13 +7,13 @@ import {FeatureList, Column, Feature} from "@site/components/featurelist"
 Welcome! Here we will explain you what Elastos is, its components, and how it works.
 
 <FeatureList>
-  <Column title="Introduction to Elastos">
-    <Feature url="/concepts/basics/protocol" title="What is ELA?" subtitle="Learn the Basics about ELA" image="elastos-logo.png" />
-    <Feature url="/concepts/basics/accounts/account-id" title="Named Accounts" subtitle="ELA uses human-readable accounts" image="user.png" />
-    <Feature url="/concepts/basics/accounts/access-keys" title="Multiple Access Keys" subtitle="More keys means more security" image="key.png" />
-    <Feature url="/concepts/basics/smartcontracts/smartcontracts" title="Smart Contracts" subtitle="Learn about our contract technology" image="contract.png" />
+  <Column title="Elastos Basics">
+    <Feature url="/learn/architecture" title="Platform Overview" subtitle="Learn how the protocol is structured" image="elastos-logo.png" />
+    <Feature url="/learn/mainchain/consensus" title="Hybrid Consensus" subtitle="Learn how the protocol is secured" image="user.png" />
+    <Feature url="/learn/sidechains/intro" title="Sidechains" subtitle="Adaptable scaling solutions" image="key.png" />
   </Column>
-  <Column title="The Network">
+  <Column title="Advanced Topics">
+    <Feature url="/concepts/basics/smartcontracts/smartcontracts" title="Smart Contracts" subtitle="Learn about our contract technology" image="contract.png" />
     <Feature url="/concepts/basics/tokens" title="Token" subtitle="Learn about the ELA token" image="ft.png" />
     <Feature url="/concepts/basics/transactions/overview" title="Transactions" subtitle="Fast and Inexpensive" image="transaction.png" />
     <Feature url="/concepts/basics/validators" title="Validators" subtitle="Learn how the network stays safe" image="validation.png" />

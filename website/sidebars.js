@@ -137,7 +137,7 @@ module.exports = {
           },
           {
             type: "doc",
-            id: "learn/mainchain/consensus",
+            id: "learn/mainchain/dpos",
             label: "Consensus",
           },
         ],
@@ -174,6 +174,11 @@ module.exports = {
             id: "learn/dids/intro",
             label: "Introduction",
           },
+          {
+            type: "doc",
+            id: "learn/dids/definitions",
+            label: "Definitions",
+          },
         ],
       }, 
       {
@@ -186,6 +191,80 @@ module.exports = {
             id: "learn/hive/intro",
             label: "Introduction",
           },
+          {
+            type: "category",
+            collapsed: true,
+            label: "Features",
+            items: [
+              {
+                type: "doc",
+                id: "learn/hive/features/auth",
+                label: "DID Authentication",
+              },
+              {
+                type: "doc",
+                id: "learn/hive/features/vault-selection",
+                label: "Vault Selection",
+              },
+              {
+                type: "doc",
+                id: "learn/hive/features/scripting",
+                label: "Scripting Mechanism",
+              },
+              {
+                type: "doc",
+                id: "learn/hive/features/ipfs",
+                label: "Integrated IPFS",
+              },
+              {
+                type: "doc",
+                id: "learn/hive/features/backup",
+                label: "Backup & Restore",
+              },
+              {
+                type: "doc",
+                id: "learn/hive/features/migration",
+                label: "Vault Migration",
+              },
+            ]
+          },
+          {
+            type: "category",
+            collapsed: true,
+            label: "Concepts",
+            items: [
+              {
+                type: "doc",
+                id: "learn/hive/concepts/hive-node",
+                label: "Hive Node",
+              },
+              {
+                type: "doc",
+                id: "learn/hive/concepts/vault-service",
+                label: "Vault",
+              },
+              {
+                type: "doc",
+                id: "learn/hive/concepts/did-backup",
+                label: "DID Backup",
+              },
+              {
+                type: "doc",
+                id: "learn/hive/concepts/scripting",
+                label: "Scripting",
+              },
+              {
+                type: "doc",
+                id: "learn/hive/concepts/vault-backup",
+                label: "Vault Backup",
+              },
+              {
+                type: "doc",
+                id: "learn/hive/concepts/migration",
+                label: "Migration",
+              },
+            ]
+          }
         ],
       }, 
       {
@@ -207,12 +286,7 @@ module.exports = {
       {
         type: "html",
         value: "<span class='menu__link'><b><small> Advanced Topics </small></b></span>"
-      },
-      {
-        type: "doc",
-        id: "learn/advanced/merge-mining",
-        label: "Merge Mining"
-      },
+      }
     ],
     developSidebar: [
       {
@@ -230,7 +304,7 @@ module.exports = {
       },
       {
         type: "doc",
-        id: "develop/quickstart",
+        id: "develop/quick-start",
         label: "⭐ Quick Start"
       },
       {
@@ -241,22 +315,27 @@ module.exports = {
       {
         type: "category",
         collapsed: true,
-        label: "Develop a Smart Contract",
+        label: "Smart Contracts",
         items: [
           {
             type: "doc",
-            id: "develop/contracts/introduction",
+            id: "develop/contracts/whatisacontract",
             label: "What is a Smart Contract",
           },
           {
             type: "doc",
-            id: "start/essentials",
-            label: "Resources",
+            id: "develop/contracts/remix",
+            label: "Deploy using Remix",
           },
           {
             type: "doc",
-            id: "start/essentials",
-            label: "Polygon/Avalance examples",
+            id: "develop/contracts/hardhat",
+            label: "Deploy using Hardhat",
+          },
+          {
+            type: "doc",
+            id: "develop/contracts/truffle",
+            label: "Deploy using Truffle",
           },
         ],
       },
@@ -272,6 +351,11 @@ module.exports = {
         items: [
           {
             type: "doc",
+            id: "develop/dids/create",
+            label: "Create",
+          },
+          {
+            type: "doc",
             id: "develop/dids/fetch",
             label: "Fetch",
           },
@@ -280,12 +364,17 @@ module.exports = {
             id: "develop/dids/read",
             label: "Read",
           },
+          {
+            type: "doc",
+            id: "develop/dids/issue",
+            label: "Issue Credential",
+          },
         ],
       },
       {
         type: "category",
         collapsed: true,
-        label: "Connect to User Data Vaults",
+        label: "Add User Data to Vault",
         items: [
           {
             type: "doc",
@@ -294,8 +383,8 @@ module.exports = {
           },
           {
             type: "doc",
-            id: "start/essentials",
-            label: "Resources",
+            id: "develop/hive/write",
+            label: "Write",
           },
         ],
       },
@@ -307,7 +396,7 @@ module.exports = {
       {
         type: "doc",
         id: "develop/crosschain",
-        label: "Transfer ELA Between Chains"
+        label: "Mainchain-Sidechain Transfer"
       },
       {
         type: "html",
@@ -390,18 +479,31 @@ module.exports = {
       },
       {
         type: "doc",
-        id: "tutorials/did/login",
+        id: "tutorials/dids/login",
         label: "Login with DID",
       },
       {
         type: "doc",
-        id: "tutorials/did/issue-credential",
+        id: "tutorials/dids/issue",
         label: "Issue DID Credential",
       },
       {
         type: "doc",
         id: "tutorials/hive/store-data",
         label: "Save Data to Hive",
+      },
+      {
+        type: "html",
+        value: "<hr/>"
+      },
+      {
+        type: "html",
+        value: "<span class='menu__link'><b><small> From Zero to Hero </small></b></span>"
+      },
+      {
+        type: "doc",
+        id: "tutorials/twitter",
+        label: "Build a Twitter dApp",
       },
     ],
     nodesSidebar: [
@@ -500,7 +602,7 @@ module.exports = {
       {
         type: "doc",
         id: "api/providers",
-        label: "Public Endpoints",
+        label: "🌐 Public Endpoints",
       },
       {
         type: "html",

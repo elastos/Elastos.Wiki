@@ -15,7 +15,7 @@ There are multiple RPC providers from which you can choose from. These providers
 |                              | Trinity Tech  | 20       | [https://api.trinity-tech.cn/esc](https://esc.elastos.io/api-docs)                                               |                                |
 |                              | Glide Finance | 20       | [https://rpc.glidefinance.io](https://esc.elastos.io/api-docs)                                                   |                                |
 |                              | Elaphant      | 20       | [https://escrpc.elaphant.app](https://esc.elastos.io/api-docs)                                                   |                                |
-| Elastos Identity Chain (EID) | Elastos       | 22       | [https://eid.elastos.io/api](https://eid.elastos.io/api-docs)                                                    | https://eid.elastos.io/        |
+| Elastos Identity Chain (EID) | Elastos       | 22       | [https://api.elastos.io/eid](https://eid.elastos.io/api-docs)                                                    | https://eid.elastos.io/        |
 |                              | Trinity Tech  | 22       | [https://api.trinity-tech.io/eid](https://eid.elastos.io/api-docs)                                               |                                |
 
 ## Testnets
@@ -25,7 +25,7 @@ There are multiple RPC providers from which you can choose from. These providers
 | Mainchain Testnet | Elastos      | N/A      | [https://blockchain-testnet.elastos.org/api/v1/](https://github.com/elastos/Elastos.ELA/blob/master/docs/Restful_API.md) | https://blockchain-testnet.elastos.org |
 | ESC Testnet       | Elastos      | 21       | [https://api-testnet.elastos.io/esc](https://esc-testnet.elastos.io/api-docs)                                            | https://esc-testnet.elastos.io/        |
 |                   | Trinity Tech | 21       | [https://api-testnet.trinity-tech.io/esc](https://esc-testnet.elastos.io/api-docs)                                       |                                        |
-| EID Testnet       | Elastos      | 23       | [https://eid-testnet.elastos.io/api](https://eid-testnet.elastos.io/api-docs)                                            | https://eid-testnet.elastos.io/        |
+| EID Testnet       | Elastos      | 23       | [https://api-testnet.elastos.io/eid](https://eid-testnet.elastos.io/api-docs)                                            | https://eid-testnet.elastos.io/        |
 |                   | Trinity Tech | 23       | [https://api-testnet.trinity-tech.io/eid](https://eid-testnet.elastos.io/api-docs)                                       |
 
 ## Miscellaneous

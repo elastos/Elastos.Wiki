@@ -32,6 +32,8 @@ There are multiple RPC providers from which you can choose from. These providers
 
 - [ESC Testnet Faucet](https://esc-faucet.elastos.io/)
 
+- [EID Testnet Faucet](https://eid-faucet.elastos.io/)
+
 - WC3 DID Implementation
 
   | Network     | Smart Contract Address                                                                                                          |

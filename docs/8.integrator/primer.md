@@ -2,6 +2,7 @@
 title: Primer
 ---
 
+This section is primarily inte
 The ELA token exists in three formats and may be listed on centralized exchanges as each. This reference provides some tips for exchange docking.
 
 | Blockchain                                   | Type         | Description                                                                                                                                                                                |

@@ -10,10 +10,11 @@ You can navigate through the sections via the links below to learn about the com
 
 ## Elastos Components - Quick Links
 
-| Component                                                     | Description                                                    |
-| ------------------------------------------------------------- | -------------------------------------------------------------- |
-| [Elastos Mainchain](/learn/mainchain/intro)                   | The main security zone and transfer hub                        |
-| [Elastos Smart Contract Chain (ESC)](/learn/sidechains/intro) | Specialized EVM-based sidechain for more advanced applications |
-| [Decentralized Identity (DID)](/learn/dids/intro)             | Sovereign identities and verifiable credentials                |
-| [Decentralized Storage (Hive)](/learn/hive/intro)             | The personal storage solutions for Elastos DIDs                |
-| [Peer-to-Peer Network (Carrier)](/learn/carrier/intro)        | A P2P messaging protocol for DIDs based on Tor protocol        |
+| Component                                                   | Description                                                                  |
+| ----------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| [Elastos Mainchain](/learn/mainchain/intro)                 | The main security zone and transfer hub                                      |
+| [Elastos Smart Contract Chain (ESC)](/learn/sidechains/esc) | Specialized EVM-based sidechain for more advanced applications               |
+| [Elastos Identity Chain (EID)](/learn/sidechains/eid)       | EVM-based sidechain custom built for issuing and managing digital identities |
+| [Decentralized Identity (DID)](/learn/dids/intro)           | Sovereign identities and verifiable credentials                              |
+| [Decentralized Storage (Hive)](/learn/hive/intro)           | The personal storage solutions for Elastos DIDs                              |
+| [Peer-to-Peer Network (Carrier)](/learn/carrier/intro)      | A P2P messaging protocol for DIDs based on Tor protocol                      |

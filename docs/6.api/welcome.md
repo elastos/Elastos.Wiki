@@ -25,7 +25,7 @@ Requires node to be running locally
 
 ## HTTP APIs
 
-| Name                                | Service                   |
-| ----------------------------------- | ------------------------- |
-| [ELA REST API](/api/mainchain/rest) | Elastos Mainchain         |
-| [Hive HTTP API](/api/hive/http)     | Elastos Hive Node Service |
+| Name                                                                   | Service                   |
+| ---------------------------------------------------------------------- | ------------------------- |
+| [ELA REST API](/api/mainchain/rest)                                    | Elastos Mainchain         |
+| [Hive HTTP API](https://apidocs.trinity-tech.io/hive-node-https-apis/) | Elastos Hive Node Service |

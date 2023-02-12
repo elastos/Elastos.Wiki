@@ -8,8 +8,8 @@ The Cyber Republic treasury was funded at genesis and receives 30% of ELA's annu
 
 These funds can be publicly view at the following addresses:
 
-- [CRASSETSXXXXXXXXXXXXXXXXXXXX2qDX5J](https://blockchain.elastos.org/address/CRASSETSXXXXXXXXXXXXXXXXXXXX2qDX5J) (Teasury)
-- [CREXPENSESXXXXXXXXXXXXXXXXXX4UdT6b](https://blockchain.elastos.org/address/CREXPENSESXXXXXXXXXXXXXXXXXX4UdT6b) (Annual Spend Account)
+- [CRASSETSXXXXXXXXXXXXXXXXXXXX2qDX5J](https://blockchain.elastos.io/address/CRASSETSXXXXXXXXXXXXXXXXXXXX2qDX5J) (Teasury)
+- [CREXPENSESXXXXXXXXXXXXXXXXXX4UdT6b](https://blockchain.elastos.io/address/CREXPENSESXXXXXXXXXXXXXXXXXX4UdT6b) (Annual Spend Account)
 
 ## Submitting a Proposal
 

@@ -2,8 +2,6 @@
 title: Decentralized Identifiers (DIDs)
 ---
 
-(Note: Add reference links to any existing SDKs, CLIs or APIs for this particular component)
-
 This page introduces the concept of Self-Sovereign identity (SSI), the components of Decentralized Identifiers (DIDs) and verifiable credentials (VCs), and how they provide the mechanisms for identity access and management for the Elastos protocol.
 
 ## Self-Sovereign Identity (SSI)
@@ -44,8 +42,6 @@ Your public key serves as your address on the blockchain, and your private key s
 ### DID Format
 
 DIDs are made up of a [scheme](https://www.w3.org/TR/did-use-cases/#dfn-did-schemes), a [method](https://www.w3.org/TR/did-use-cases/#dfn-did-methods) and a unique method identifier. There are many DID methods that are supported by different blockchain networks. You can see a full list [here](https://w3c.github.io/did-spec-registries/#did-methods). DID methods define operations to create, resolve, update and deactivate DIDs and their associated DID Documents, which are discussed below. DID Methods are often associated with a verifiable data registry, which are registries with store DIDs and their data. If the registry is implemented on a blockchain, smart contracts usually serve as the data registry. An example of this is the [did:ethr registry](https://github.com/uport-project/ethr-did).
-
-Elastos implemented its own DID method specification identified by the "elastos" string (e.g. did:elastos:in2Zy5UqvdgGY41149cE5UTJEzgSdcf558). The method identifier is always the user’s public key (also known as an address).
 
 ![image](/docs/assets/learn/did-format.png)
 
@@ -127,9 +123,15 @@ To see a more exhaustive list of possible interactions and use cases for issuers
 
 ## Elastos DID Framework
 
-The Elastos DID framework is a set of APIs that's compatible with W3C DIDs specs. Elastos DID runs on the Elastos Identity Chain (EID) and is based on Ethereum chain. It issues DIDs to any device or individual that needs a trust-based system, which is exactly what the SmartWeb is designed for.
+The Elastos [DID method](learn/dids/method) is a set of APIs that's compatible with [W3C DIDs specs](https://www.w3.org/TR/did-core/). Elastos DID runs on the Elastos Identity Chain (EID) and is based on the [Ethereum Virtual Machine (EVM)](https://ethereum.org/en/developers/docs/evm/). It issues DIDs to any device or individual that needs a trust-based system, which is exactly what the SmartWeb is designed for.
 
-A JSON-RPC interface is utilized by Elastos to provide parsing methods of DID and verifiable credentials. Elastos defines the interface specification for parsing or querying DID and credential on EID side chain. Multiple programming languages are supported, including Javscript, Java, Swift C, and C/C+.
+The Elastos [DID method specification](learn/dids/method) is identified by the "elastos" string, for example:
+
+`did:elastos:in2Zy5UqvdgGY41149cE5UTJEzgSdcf558`
+
+The method identifier is always the user’s public key (also known as an address).
+
+A [JSON-RPC interface](/api/sidechains/eid/rpc) is utilized to provide parsing methods of DID and [verifiable credentials](/learn/dids/credentials). Elastos defines the interface specification for parsing or querying DID and credential on EID side chain. Multiple programming languages are supported, including [Javscript](/sdk/did/js/getting-started/), [Java](/sdk/did/java/getting-started/), [Swift C](/sdk/did/swift/getting-started/), and [C/C+](/sdk/did/c/getting-started/).
 
 ## Integrity and Expiration
 

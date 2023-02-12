@@ -61,7 +61,7 @@ The seed phrase is only as secure as your storage of it! If you want to retain a
 
 :::
 
-## Funding Your Account
+## Funding your Account
 
 If you wish to interact with any of Elastos' blockchains, you'll need to fund your account with some ELA.
 

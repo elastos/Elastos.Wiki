@@ -3,7 +3,7 @@ title: Elastos Carrier
 ---
 
 :::caution Under construction
-Carrier 2.0 is in the works and will be coming in late 2022 - stay tuned!
+Carrier 2.0 is in the works and will be coming in 2023 - stay tuned!
 :::
 
 Carrier is Elastos’ peer-to-peer (P2P) network that’s completely encrypted and decentralized, creating special digital certificates called Carrier IDs used to transmit and coordinate network traffic between virtual machines and dApps. This product provides secure and robust off-chain communication of data across all users within the Elastos ecosystem, making all transmissions more trustworthy and reliable.

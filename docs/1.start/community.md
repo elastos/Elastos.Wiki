@@ -19,6 +19,7 @@ Elastos is primarily community centered, so the best way to contact somebody wit
 ### Chats
 
 - [Discord](https://discord.gg/elastos)
+- [Telegram](https://t.me/elastosgroup)
 
 ### Social media and forums
 

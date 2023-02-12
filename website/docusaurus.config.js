@@ -126,7 +126,7 @@ module.exports = {
         },
         {
           to: "/integrator/primer",
-          label: "Exchanges",
+          label: "Integration",
           position: "right",
         },
         {

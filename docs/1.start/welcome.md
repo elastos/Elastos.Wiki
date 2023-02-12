@@ -11,7 +11,7 @@ This section introduces you to basic information about the Elastos infrastructur
 <FeatureList>
   <Column title="Introduction to Elastos">
     <Feature url="/start/introduction" title="What is Elastos?" subtitle="Learn the Basics about Elastos" image="elastos-logo.png" />
-    <Feature url="/start/dids" title="Decentralized Identifiers" subtitle="DIDs role in Web3" image="user.png" />
+    <Feature url="/start/dids" title="Decentralized Identifiers" subtitle="DIDs role in Web3" image="fingerprint.png" />
     <Feature url="/start/essentials" title="Create an Account" subtitle="Start your Elastos journey" image="user.png" />
   </Column>
   <Column title="The Ecosystem">
@@ -21,8 +21,8 @@ This section introduces you to basic information about the Elastos infrastructur
     <Feature url="/start/building" title="Tools" subtitle="Explore the components that make up the Elastos SmartWeb" image="experiment.png" />
   </Column>
   <Column title="More Resources">
-    <Feature url="/start/governance" title="Governance" subtitle="Participate in community decision making" image="validation.png" />
-    <Feature url="/start/funding" title="Funding" subtitle="Learn how to receive support to build on Elastos" image="blocks.png" />
+    <Feature url="/start/governance" title="Governance" subtitle="Participate in community decision making" image="govern.png" />
+    <Feature url="/start/funding" title="Funding" subtitle="Learn how to receive support to build on Elastos" image="fund.png" />
   </Column>
 </FeatureList>
 

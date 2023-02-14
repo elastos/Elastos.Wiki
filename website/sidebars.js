@@ -605,7 +605,7 @@ module.exports = {
     },
     {
       type: "doc",
-      id: "nodes/register",
+      id: "nodes/hive/introduction",
       label: "Introduction",
     },
     {

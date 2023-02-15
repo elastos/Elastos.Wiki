@@ -1,14 +1,14 @@
 ---
-title: Elastos Identity Chain (EID)
+title: Elastos Identity (EID) Chain
 ---
 
-The **Elastos Identity Chain (EID)** is a crucial component of the Elastos ecosystem, providing a decentralized solution for digital identity and assets. EID supports the issuance of [DIDs](/learn/dids/intro) for key stakeholders and applications on Web3 - it provides DIDs for free, where each identity comes with a public private key pair and unique ELA address.
+The **Elastos Identity (EID)** chain is a crucial component of the Elastos ecosystem, providing a decentralized solution for digital identity and assets. EID supports the issuance of [DIDs](/learn/dids/intro) for key stakeholders and applications on Web3, where each identity comes with a public private key pair and unique ELA address.
 
 ### Decentralized Identifiers (DIDs)
 
 A DID is a unique identifier that allows users to claim and manage their online identity in a secure and decentralized way. The EID chain implements the [W3C DID standard](https://www.w3.org/TR/did-core/), ensuring interoperability with other blockchain networks.
 
-By storing DIDs on the blockchain, the EID chain provides users with full control over their digital identity and assets, ensuring their privacy and security.
+By storing DIDs on the blockchain, the EID chain provides users with full control over their digital identity and assets.
 
 ### Smart Contracts
 
@@ -24,11 +24,11 @@ Visit the [identity](/learn/dids/intro/#elastos-did-framework) section for a dee
 
 ### Implementation
 
-The EID Chain is a specialized version of the ESC Chain. Although it shares the same underlying mechanics, the EID Chain has its own built-in native layer written in Golang that complies with [W3C specifications](https://www.w3.org/TR/did-core/), such as the ability to invalidate a DID if compromised.
+The EID chain is a specialized version of the [ESC](/learn/sidechains/esc) chain. Although it shares the same underlying mechanics, the EID chain has its own built-in native layer written in Golang that complies with [W3C specifications](https://www.w3.org/TR/did-core/), such as the ability to invalidate a DID if compromised.
 
-This W3C layer is executed by each EID node individually, and is referred to as the native smart contract for the EID Chain. Upper-level Solidity smart contracts can also access this native layer.
+This W3C layer is executed by each EID node individually, and is referred to as the native smart contract for the EID chain. Upper-level Solidity smart contracts can also access this native layer.
 
-For third-party Solidity dApps running on the EID Chain, there is a single Solidity smart contract with less than 10 APIs that provide DID-related services, such as adding a DID.
+For third-party Solidity dApps running on the EID chain, there is a single Solidity smart contract with less than 10 APIs that provide DID-related services, such as adding a DID.
 
 The DID data is stored on the EID blockchain, and because past blockchain data is immutable, each node maintains a local database (levelDB) to speed up EID queries. In other words, even if a DID is invalidated, the data trace remains on the blockchain, but a newer block would indicate that the DID has been depleted. The level
 

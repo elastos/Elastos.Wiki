@@ -1,5 +1,5 @@
 ---
-title: Fetch DID
+title: Query a DID
 ---
 
 :::info Under Construction

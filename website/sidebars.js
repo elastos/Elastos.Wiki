@@ -384,7 +384,7 @@ module.exports = {
     },
     {
       type: "category",
-      collapsed: true,
+      collapsed: false,
       label: "Interact with DIDs",
       items: [
         {
@@ -394,13 +394,13 @@ module.exports = {
         },
         {
           type: "doc",
-          id: "develop/dids/fetch",
-          label: "Fetch",
+          id: "develop/dids/query",
+          label: "Query",
         },
         {
           type: "doc",
-          id: "develop/dids/read",
-          label: "Read",
+          id: "develop/dids/resolve",
+          label: "Resolve",
         },
         {
           type: "doc",
@@ -749,14 +749,83 @@ module.exports = {
     },
     {
       type: "category",
-      collapsed: true,
-      label: "Connectivity SDK",
+      collapsed: false,
+      label: "💫 Connectivity SDK",
       items: [
         {
           type: "doc",
           id: "sdk/general/connectivity/introduction",
           label: "Introduction",
-        }
+        },
+        {
+          type: "category",
+          collapsed: true,
+          label: "Guides",
+          items: [
+            {
+              type: "doc",
+              id: "sdk/general/connectivity/guides/setup",
+              label: "Setup",
+            },
+            {
+              type: "doc",
+              id: "sdk/general/connectivity/guides/did",
+              label: "Decentralized Identity",
+            },
+            {
+              type: "doc",
+              id: "sdk/general/connectivity/guides/ux",
+              label: "User Experience",
+            },
+            {
+              type: "doc",
+              id: "sdk/general/connectivity/guides/ethereum",
+              label: "Ethereum",
+            },
+            {
+              type: "doc",
+              id: "sdk/general/connectivity/guides/ui",
+              label: "User Interface",
+            },
+            {
+              type: "doc",
+              id: "sdk/general/connectivity/guides/customization",
+              label: "Customization",
+            },
+            {
+              type: "doc",
+              id: "sdk/general/connectivity/guides/manage-connectors",
+              label: "Manage Connectors",
+            },
+          ]
+        },
+        {
+          type: "category",
+          collapsed: true,
+          label: "Connectors",
+          items: [
+            {
+              type: "doc",
+              id: "sdk/general/connectivity/connectors/standard",
+              label: "Standard",
+            },
+            {
+              type: "doc",
+              id: "sdk/general/connectivity/connectors/essentials",
+              label: "Essentials",
+            },
+            {
+              type: "doc",
+              id: "sdk/general/connectivity/connectors/identity",
+              label: "Identity",
+            },
+            {
+              type: "doc",
+              id: "sdk/general/connectivity/connectors/custom",
+              label: "Custom",
+            },
+          ]
+        },
       ],
     },
     {

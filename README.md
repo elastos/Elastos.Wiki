@@ -10,6 +10,8 @@
 
 # Elastos Wiki
 
+This resource serves as the ultimate authority for accurate information about the Elastos ecosystem. It offers the latest technical details and comprehensive instructions to assist you in acquiring knowledge, creating, and maintaining projects on Elastos.
+
 - Deployed, live documentation: https://docs.elastos.org
 
 ## Contributing

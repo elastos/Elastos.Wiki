@@ -2,7 +2,11 @@
 title: Elastos Mainchain CLI
 ---
 
-# Command Line Interface Instructions
+:::info Setup
+To use the CLI, you must first have a local version of the Elastos mainchain running. The instructions to do are available [here](/nodes/quick-setup)
+:::
+
+# Command Line Interface
 
 The ELA-CLI is an ELA node command line client for managing user wallets, sending transactions, and getting blockchain information.
 

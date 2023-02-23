@@ -511,38 +511,25 @@ module.exports = {
       type: "html",
       value: "<hr/>"
     },
-    {
-      type: "html",
-      value: "<span class='menu__link'><b><small> SmartWeb dApp </small></b></span>"
-    },
-    {
-      type: "doc",
-      id: "tutorials/dids/login",
-      label: "Login with DID",
-    },
-    {
-      type: "doc",
-      id: "tutorials/dids/issue",
-      label: "Issue DID Credential",
-    },
-    {
-      type: "doc",
-      id: "tutorials/hive/store-data",
-      label: "Save Data to Hive",
-    },
-    {
-      type: "html",
-      value: "<hr/>"
-    },
-    {
-      type: "html",
-      value: "<span class='menu__link'><b><small> From Zero to Hero </small></b></span>"
-    },
-    {
-      type: "doc",
-      id: "tutorials/twitter",
-      label: "Build a Twitter dApp",
-    },
+    // {
+    //   type: "html",
+    //   value: "<span class='menu__link'><b><small> SmartWeb dApp </small></b></span>"
+    // },
+    // {
+    //   type: "doc",
+    //   id: "tutorials/dids/login",
+    //   label: "Login with DID",
+    // },
+    // {
+    //   type: "doc",
+    //   id: "tutorials/dids/issue",
+    //   label: "Issue DID Credential",
+    // },
+    // {
+    //   type: "doc",
+    //   id: "tutorials/hive/store-data",
+    //   label: "Save Data to Hive",
+    // },
   ],
   nodesSidebar: [
     {

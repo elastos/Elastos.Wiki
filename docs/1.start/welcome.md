@@ -16,7 +16,7 @@ This section introduces you to basic information about the Elastos infrastructur
   </Column>
   <Column title="The Ecosystem">
     <Feature url="/start/utility" title="Token Utility" subtitle="Learn about the ELA token" image="ela.png" />
-    <Feature url="/start/wallets" title="Wallets" subtitle="Manage your assets" image="transaction.png" />
+    <Feature url="/start/wallets" title="Wallets" subtitle="Manage your assets" image="wallet.png" />
     <Feature url="/start/staking-guide" title="Staking" subtitle="Help secure the network" image="validation.png" />
     <Feature url="/start/building" title="Tools" subtitle="Explore the components that make up the Elastos SmartWeb" image="experiment.png" />
   </Column>
@@ -35,14 +35,25 @@ If you have any questions, or simply would want to chat with us, please do so th
 
 <div class="container">
   <div class="row">
-     <div class="col col--2">
+   <div class="col col--2">
       <div class="avatar">
         <img
           class="avatar__photo"
           src={require("@site/static/docs/assets/home/discord.png").default} />
         <div class="avatar__intro">
           <div class="avatar__name">Discord</div>
-          <small class="avatar__subtitle"><a href="https://discord.gg/elastos">Elastos</a></small>
+          <small class="avatar__subtitle"><a href="https://discord.gg/elastos">Elastos Official</a></small>
+        </div>
+      </div>
+    </div>
+     <div class="col col--2">
+      <div class="avatar">
+        <img
+          class="avatar__photo"
+          src={require("@site/static/docs/assets/home/telegram.png").default} />
+        <div class="avatar__intro">
+          <div class="avatar__name">Telegram</div>
+          <small class="avatar__subtitle"><a href="https://t.me/elastosgroup/1">Elastos Community</a></small>
         </div>
       </div>
     </div>
@@ -53,7 +64,7 @@ If you have any questions, or simply would want to chat with us, please do so th
           src={require("@site/static/docs/assets/home/twitter.png").default} />
         <div class="avatar__intro">
           <div class="avatar__name">Twitter</div>
-          <small class="avatar__subtitle"><a href="https://twitter.com/@elastosinfo">@elastosinfo</a></small>
+          <small class="avatar__subtitle"><a href="https://twitter.com/@elastosinfo">elastosinfo</a></small>
         </div>
       </div>
     </div>

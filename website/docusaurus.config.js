@@ -138,7 +138,7 @@ module.exports = {
     image: "img/elastos_logo_black.svg",
     footer: {
       links: [],
-      copyright: "Copyright © 2022 Elastos",
+      copyright: "Copyright © 2023 Elastos",
       logo: {
         src: "img/elastos_logo_black.svg",
       },

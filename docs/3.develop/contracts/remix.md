@@ -28,7 +28,7 @@ Here, the Remix team also provides some explanation about a smart contract typic
 
 Remix is a Ethereum-focused IDE: an online platform to develop smart contracts. To start building a smart contract, click on **New File** and name it `HelloWorld.sol`:
 
-<img src={useBaseUrl("img/remix/new-file.png")} />
+<img src={useBaseUrl("docs/assets/develop/smart-contracts/remix/new-file.png")} />
 
 ### The smart contract
 
@@ -72,11 +72,11 @@ The `update` function is another public function that is similar to the construc
 
 ## Compile Smart Contract
 
-- Go to Solidity Compiler <img src={useBaseUrl("img/helloworld/Screenshot_2020-02-14_at_1.00.03_PM.png")} />
+- Go to Solidity Compiler <img src={useBaseUrl("docs/assets/develop/smart-contracts/remix/Screenshot_2020-02-14_at_1.00.03_PM.png")} />
 - Select Compiler Version to 0.5.10
 - Now, `Compile HelloWorld.sol`
 - After Successful Compilation, it will show
-  <img src={useBaseUrl("img/helloworld/Screenshot_2020-02-14_at_1.08.22_PM.png")} />
+  <img src={useBaseUrl("docs/assets/develop/smart-contracts/remix/Screenshot_2020-02-14_at_1.08.22_PM.png")} />
 - Now, We have to deploy our smart contract on Elastos Network. For that, we have to connect to the web3 world, this can be done by using any of the services like Metamask, Brave, Portis etc. We will be using Metamask. Please follow this [tutorial to set up a Metamask Account](/docs/develop/metamask/hello).
 - Open Metamask and select Custom RPC from the networks dropdown
 
@@ -87,7 +87,7 @@ The `update` function is another public function that is similar to the construc
           alignItems: "center"
         }}
       >
-        <img src={useBaseUrl("img/helloworld/metamask-custom-rpc.png")} alt="RemixIDE_Step1"/>
+        <img src={useBaseUrl("docs/assets/develop/smart-contracts/remix/metamask-custom-rpc.png")} alt="RemixIDE_Step1"/>
 </div>
 
 - Put in a Network name - “WAX Testnet”
@@ -102,7 +102,7 @@ The `update` function is another public function that is similar to the construc
           alignItems: "center"
         }}
       >
-        <img src={useBaseUrl("img/helloworld/metamask_mumbai_setup.png")} alt="RemixIDE_Step1"/>
+        <img src={useBaseUrl("docs/assets/develop/smart-contracts/remix/metamask_mumbai_setup.png")} alt="RemixIDE_Step1"/>
 </div>
 - Go ahead and click **save**
 - Copy your address from Metamask
@@ -113,7 +113,7 @@ The `update` function is another public function that is similar to the construc
           alignItems: "center"
         }}
       >
-        <img src={useBaseUrl("img/helloworld/Screenshot_2020-01-09_at_1.24.49_PM.png")} alt="RemixIDE_Step1"/>
+        <img src={useBaseUrl("docs/assets/develop/smart-contracts/remix/Screenshot_2020-01-09_at_1.24.49_PM.png")} alt="RemixIDE_Step1"/>
 </div>
 
 - Head over to [Faucet](https://esc-faucet.elastos.io/) and request test ether - you will need this pay for gas on ESC.
@@ -127,7 +127,7 @@ The `update` function is another public function that is similar to the construc
           alignItems: "center"
         }}
       >
-        <img src={useBaseUrl("img/remix/injected-provider.png")} alt="RemixIDE_Step1"/>
+        <img src={useBaseUrl("docs/assets/develop/smart-contracts/remix/injected-provider.png")} alt="RemixIDE_Step1"/>
 </div>
 
 - Accept the Connection Request.
@@ -139,7 +139,7 @@ The `update` function is another public function that is similar to the construc
           alignItems: "center"
         }}
       >
-        <img src={useBaseUrl("img/helloworld/Screenshot_2020-02-14_at_1.59.10_PM.png")} alt="RemixIDE_Step1"/>
+        <img src={useBaseUrl("docs/assets/develop/smart-contracts/remix/Screenshot_2020-02-14_at_1.59.10_PM.png")} alt="RemixIDE_Step1"/>
 </div>
 
 - Once Metamask is connected to Remix, the ‘Deploy’ transaction would generate another metamask popup that requires transaction confirmation.
@@ -151,7 +151,7 @@ The `update` function is another public function that is similar to the construc
           alignItems: "center"
         }}
       >
-        <img src={useBaseUrl("img/helloworld/Screenshot_2020-02-14_at_1.45.23_PM.png")} alt="RemixIDE_Step1"/>
+        <img src={useBaseUrl("docs/assets/develop/smart-contracts/remix/Screenshot_2020-02-14_at_1.45.23_PM.png")} alt="RemixIDE_Step1"/>
 </div>
 
 **Congratulations!** You have successfully deployed the **HelloWorld** Smart Contract. Now you can interact with the Smart Contract. Check the deployment status here: https://mumbai.Elastosscan.com/.
@@ -163,7 +163,7 @@ The `update` function is another public function that is similar to the construc
           alignItems: "center"
         }}
       >
-        <img src={useBaseUrl("img/helloworld/Screenshot_2020-02-14_at_2.00.19_PM.png")} alt="RemixIDE_Step1"/>
+        <img src={useBaseUrl("docs/assets/develop/smart-contracts/remix/Screenshot_2020-02-14_at_2.00.19_PM.png")} alt="RemixIDE_Step1"/>
 </div>
 
 # **Verifying your Contracts on Elastos Block Explorer**
@@ -182,7 +182,7 @@ Flatten using command
 
 Navigate to your contract's Blockscout page and then click verify and publish
 
-<img src={useBaseUrl("img/verification/verify-publish.png")} />
+<img src={useBaseUrl("docs/assets/develop/smart-contracts/remix/verify-publish.png")} />
 
 - Select `Solidity (Single File)` in compiler type
 - Select appropriate compiler version

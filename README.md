@@ -2,7 +2,7 @@
 <br />
 
 <p align="center">
-<img src="website/static/img/elastos_logo_black.png" width="240">
+<img src="website/static/img/elastos_logo_white_on_black.svg" width="240">
 </p>
 
 <br />
@@ -12,7 +12,7 @@
 
 This resource serves as the ultimate authority for accurate information about the Elastos ecosystem. It offers the latest technical details and comprehensive instructions to assist you in acquiring knowledge, creating, and maintaining projects on Elastos.
 
-- Deployed, live documentation: https://docs.elastos.org
+- Deployed, live documentation: https://wiki.elastos.net
 
 ## Contributing
 
@@ -27,7 +27,7 @@ For simple content changes you have 2 options
 
 This is the fastest way to submit content changes directly from the page where you notice a mistake.
 
-1. Open any page in the docs on https://docs.elastos.org
+1. Open any page in the docs on https://wiki.elastos.net
 2. Click the `[ Edit ]` button at the top right hand side of _every_ content page
 3. Make your edits to the document that opens in GitHub by clicking the ✎ (pencil) icon
 4. Submit a PR with your changes and comments for context

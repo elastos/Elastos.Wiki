@@ -2,7 +2,7 @@
 <br />
 
 <p align="center">
-<img src="website/static/img/elastos_logo_white_on_black.svg" width="240">
+<img src="website/static/img/elastos_banner_black_on_white.png" width="240">
 </p>
 
 <br />

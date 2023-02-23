@@ -2,7 +2,7 @@
 <br />
 
 <p align="center">
-<img src="website/static/docs/assets/elastos_logo_black.png" width="240">
+<img src="website/static/img/elastos_logo_black.png" width="240">
 </p>
 
 <br />
@@ -77,39 +77,25 @@ This is the standard fork-branch-commit workflow for submitting pull requests to
 Your project file structure should look something like this with a few key files and folders highlighted
 
 ```
-├── CODE_OF_CONDUCT.md
-├── CONTRIBUTING.md
-├── LICENSE-APACHE.txt
-├── LICENSE-MIT.txt
+├── LICENSE.txt
 ├── README.md             <-- the document you are reading right now
 ├── docs                  <-- all the content for the site is in this folder as markdown files
-│   ├── api
-│   ├── assets            <-- place documentation images here
-│   ├── code-patterns
-│   ├── community
-│   ├── concepts
-│   ├── contribution
-│   ├── development
-│   ├── hackathon
-│   ├── interaction
-│   ├── local-setup
-│   ├── overview
-│   ├── quick-start
-│   ├── roles
-│   ├── style-guide.md
-│   ├── technical
-│   ├── tutorials
-│   └── validator
+│   ├── start             <-- introductory content
+│   ├── learn             <-- concepts and general education information
+│   ├── develop           <-- instructions, code snippets, and resources for developers
+│   ├── tutorials         <-- examples, guides and tutorial content
+│   ├── nodes             <-- information relating to the operation of all types of compute nodes
+│   ├── api               <-- reference information for apis of all kinds
+│   ├── sdk               <-- software development kits usage instructions
 └── website
     ├── build
-    ├── core
-    ├── i18n
+    ├── src                      <-- theme and footer code
+    ├── components               <-- reusable components
+    ├── static                   <-- assets (mostly images)
     ├── package.json
-    ├── pages
-    ├── sidebars.json     <-- rarely used for changing left-hand-side page navigation
-    ├── siteConfig.js     <-- rarely used for general site configuration (including header links)
-    ├── static
-    └── test-links.sh     <-- always used to test links before submitting changes
+    ├── sidebars.js              <-- used for changing left-hand-side page navigation
+    ├── docusaurus.config.js     <-- used for general site configuration (including header links)
+    └── test-links.sh            <-- always used to test links before submitting changes
 ```
 
 ## Found a broken link?

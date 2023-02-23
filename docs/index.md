@@ -63,7 +63,7 @@ Welcome! You've landed on the Elastos Wiki.
     <Feature url="/tutorials/nfts/simple-nft-minting-example" title="Non-Fungible Tokens" subtitle="Enter the NFT space" image="ticket.png" />
   </Column>
   <Column title="Developer Tools" size="4">
-    <Feature url="/api/mainchain/cli" title="Public Endpoints" subtitle="Interact with Elastos blockchains" image="transaction.png" />
+    <Feature url="/api/providers" title="Public Endpoints" subtitle="Interact with Elastos blockchains" image="transaction.png" />
     <Feature url="/sdk/general/connectivity/introduction" title="Connectivity SDK" subtitle="Interact with Elastos using Typescript" image="elastos-api-ts.png" />
     <Feature url="/api/mainchain/cli" title="Mainchain APIs" subtitle="Use the Mainchain CLI or RPC API" image="elastos-cli.png" />
     <Feature url="/api/sidechains/esc/cli" title="Smart Chain APIs" subtitle="Use the ESC CLI or RPC API" image="elastos-rpc.png" />

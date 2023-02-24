@@ -90,7 +90,7 @@ Here are more sites from our ecosystem that can help you to learn more about Ela
           </div>
           <div class="card__body">
             <h3>Explore</h3>
-              See the official Elastos Foundation website.
+              See the official Elastos website.
           </div>
         </div>
       </a>

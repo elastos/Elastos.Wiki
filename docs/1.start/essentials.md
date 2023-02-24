@@ -2,21 +2,29 @@
 title: Create an Elastos Account
 ---
 
-If you want to be able to receive ELA tokens on any of the Elastos blockchains, you first will need to create a wallet.
+If you want to be interact with any of the [Elastos blockchains](/learn/mainchain/intro), you first will need to create a wallet.
 
 [Elastos Essentials](https://elastos.info/essentials-the-super-wallet/) is a non-custodial mobile-based wallet for the Elastos ecosystem. It provides users will a wide array of features and services - everything needed to engage in the world of Elastos and beyond, including:
 
 - Managing your digital assets
 - Management of contacts, DIDs, storage, voting, and smart contract operations
-- Seamlessly generate multiple DIDs to immerse yourself in the Web3 world
-- Explore various dApps across the ecosystem under one roof
-- Trading, bridging, and staking from one convenient place
+- Seamlessly generate multiple DIDs
+- Explore various dApps across the ecosystem
+- Trading, bridging, and staking
+
+## Essential Links
+
+- [Apple App Store](https://apps.apple.com/us/app/elastos-essentials/id1568931743)
+- [Google Play](https://play.google.com/store/apps/details?id=org.elastos.essentials.app)
+- [Website](https://www.trinity-tech.io/essentials)
+- [Documentation](https://essentials-docs.trinity-tech.io/)
+- [Code](https://github.com/elastos/Elastos.Essentials.App)
 
 Creating and setting up your Elastos Essentials wallet is extremely quick and easy. Follow the simple steps below to get started:
 
 ## Creating an Account
 
-1. [Download](https://elastos.info/essentials-the-super-wallet/) the app, open it and follow the introductory prompts.
+1. [Download](/start/essentials/#essential-links) the app, open it and follow the introductory prompts.
 
 <div align="center">
 <img src="/docs/assets/start/essentials-1.png" alt="image" width="440"/>
@@ -56,16 +64,18 @@ Next, verify your seed words to ensure you've recorded it correctly.
 </div>
 
 :::warning Important
-
 The seed phrase is only as secure as your storage of it! If you want to retain access to your account, you MUST write down your seed words in order, and store them securely. If you lose your seed words, you lose your account forever.
-
 :::
 
 ## Funding your Account
 
 If you wish to interact with any of Elastos' blockchains, you'll need to fund your account with some ELA.
 
-There are several ways to obtain ELA, including from popular [exchanges](https://www.coingecko.com/en/coins/elastos#markets) such as Coinbase, Kucoin, Gate, and Huobi. Please note that there are three different versions of ELA (mainchain ELA, Elastos Smart Chain (ESC) ELA, and ELA on the Ethereum network); users should verify which version their chosen exchange supports before proceeeding.
+There are several ways to obtain ELA, including from popular [exchanges](https://www.coingecko.com/en/coins/elastos#markets).
+
+:::caution
+There are several different versions of the ELA token that reside on separate blockchains. Users should verify which version their chosen [exchange supports](/start/wallets/#centralized-exchanges) before proceeeding. Please refer to the [token type directory](/start/types) for further clarification
+:::
 
 To deposit assets, simply choose your desired network, chose a wallet and asset, then copy your address using the 'Receive' option.
 
@@ -74,4 +84,4 @@ To deposit assets, simply choose your desired network, chose a wallet and asset,
 <br/>
 </div>
 
-It also possible to bridge assets from the Ethereum, Binance Smart Chain or Heco to the Elastos Smart Chain via [Glide Finance](https://glidefinance.io/bridge). Users will receive a small amount of ELA so that they can transact on the chain.
+It also possible to bridge assets from other supported chains to the Elastos Smart Chain via [Glide Finance](https://glidefinance.io/bridge). Users will receive a small amount of ELA from a faucet so that they can transact on the chain.

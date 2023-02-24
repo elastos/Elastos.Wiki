@@ -8,20 +8,20 @@ This section contains reference information for all of the API, RPC and CLI tool
 
 Requires node to be running locally
 
-| Name                           | Service                            |
-| ------------------------------ | ---------------------------------- |
-| [ELA-CLI](/api/mainchain/cli)  | Elastos Mainchain                  |
-| [ESC-CLI](/api/sidechains/cli) | Elastos Smart Contract Chain (ESC) |
-| [EID-CLI](/api/mainchain/cli)  | Elastos Identity Chain (EID)       |
+| Name                               | Service                            |
+| ---------------------------------- | ---------------------------------- |
+| [ELA-CLI](/api/mainchain/cli)      | Elastos Mainchain                  |
+| [ESC-CLI](/api/sidechains/esc/cli) | Elastos Smart Contract Chain (ESC) |
+| [EID-CLI](/api/sidechains/esc/cli) | Elastos Identity Chain (EID)       |
 
 ## JSON RPC Services
 
-| Name                                   | Service                            |
-| -------------------------------------- | ---------------------------------- |
-| [ELA JSON RPC](/api/mainchain/rpc)     | Elastos Mainchain                  |
-| [ESC JSON RPC](/api/sidechains/rpc)    | Elastos Smart Contract Chain (ESC) |
-| [EID JSON RPC](/api/mainchain/rpc)     | Elastos Identity Chain (EID)       |
-| [Arbiter JSON RPC](/api/mainchain/rpc) | Elastos Arbitor                    |
+| Name                                                                               | Service                            |
+| ---------------------------------------------------------------------------------- | ---------------------------------- |
+| [ELA JSON RPC](/api/mainchain/rpc)                                                 | Elastos Mainchain                  |
+| [ESC JSON RPC](https://github.com/elastos/Elastos.ELA.SideChain.ESC/wiki/JSON-RPC) | Elastos Smart Contract Chain (ESC) |
+| [EID JSON RPC](/api/sidechains/eid/rpc)                                            | Elastos Identity Chain (EID)       |
+| [Arbiter JSON RPC](/api/arbiter/rpc)                                               | Elastos Arbitor                    |
 
 ## HTTP APIs
 

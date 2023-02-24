@@ -2,11 +2,11 @@
 title: What is Elastos?
 ---
 
-Elastos is the first open source Internet Operating System with a decentralized peer-to-peer economic infrastructure powered by blockchain. It can be used to authenticate digital rights, transfer contracts, turn digital information into assets and will serve as a new smarter and safer World Wide Web. It was founded in 2017 by Rong Chen and has built the necessary architecture to help power the future of Web3.
+Elastos is a decentralized peer-to-peer economic infrastructure powered by blockchain. It can be used to authenticate digital rights, transfer contracts, turn digital information into assets and will serve as a new smarter and safer web. It was founded in 2017 by Rong Chen and has built the necessary architecture to help power the future of Web3.
 
-As a community we aim to create the most comprehensive and open Web3 ecosystem for decentralized applications and users. The Elastos design philosophy is modular in nature and includes components (blockchain, identity, storage, and communication) that when combined enable developers to build truly unstoppable peer-to-peer applications.
+The Elastos design philosophy is modular in nature and includes components (blockchain, identity, storage, and communication) that when combined enable developers to build truly unstoppable applications.
 
-Our platform strives to enhance the scalability and flexbility that other networks often lack, optimized for the performance of dApps and other applications deployed on our multichain architecture that leverages Bitcoin’s hashpower and DPoS (Delegated Proof of Stake) consensus to secure the network.
+Our platform strives to enhance the scalability and flexbility that other networks often lack, optimized for the performance of dApps deployed on our multichain architecture.
 
 <iframe
   width="560"
@@ -17,11 +17,9 @@ Our platform strives to enhance the scalability and flexbility that other networ
   allowfullscreen>
 </iframe>
 
-<hr class="subsection" />
-
 ## Why Elastos?
 
-We created Elastos to build accessible and open-source services on a global scale, allowing developers to create Web3 applications where users can truly own their own personal data and information. The foundation of our project is to enhance the user experience in Web3 in order to transcend the next wave of the internet.
+We created Elastos to build accessible and open-source services on a global scale, allowing developers to create Web3 applications where users can truly own their own personal data and information.
 
 <iframe
   width="560"
@@ -36,26 +34,26 @@ We created Elastos to build accessible and open-source services on a global scal
 
 To understand how we're making a difference in Web3, it's critical to learn about the key features that set Elastos apart from the rest.
 
-#### Open-Source
+- **Open-Source**
 
-We're a platform run by the community where anyone can help build and contribute to the underlying code, maintaining the core belief of an inclusive Web3 environment.
+We're a platform run by the community where anyone can help build and contribute to the underlying code, ensuring an inclusive Web3 environment.
 
-#### Bitcoin Hashrate
+- **Bitcoin Hashrate**
 
-The Elastos Mainchain is completely decentralized by Bitcoin and the Bitcoin Cash hashrate. Given that we have an open-source blockchain that's supported by a global network of mining pools, miners don't need to deploy additional resources.
+The Elastos Mainchain is partially secured by the Bitcoin hashrate through a process known as merge-mining. Miners can participate in the block production process without deploying any additional resources.
 
-#### Elastos Smart Contract Chain (ESC)
+- **Elastos Smart Contract Chain (ESC)**
 
-Smart contracts written in the Solidity language can be developed and deployed on our sidechain. The ESC is an EVM (Ethereum Virtual Machine) compatible network that utilized a DPoS (Delegated Proof of Stake) consensus mechanism that's more efficient and environmentally friendly.
+Smart contracts written in the Solidity language can be developed and deployed on our sidechains. ESC is an EVM (Ethereum Virtual Machine) compatible network that utilizes an efficient and environmentally BPoS (Bonded Proof of Stake) consensus mechanism
 
-#### Elastos Identity Chain (ESC)
+- **Elastos Identity Chain (EID)**
 
-The **Elastos Identity Chain (EID)** provides a decentralized solution for digital identity and assets. EID supports the issuance of [DIDs](/learn/dids/intro) for key stakeholders and applications on Web3.
+EID provides a decentralized solution for the provision of digital identities. It supports the issuance of W3C compliant [decentralized identifiers (DIDs)](/learn/dids/intro) for users and applications alike.
 
-#### Data Ownership
+- **Data Ownership**
 
-By leveraging and interacting with our platform, users can create their very own DIDs that allow them to store all of their personal data that exists on Web3. This means they have complete control of their information and can choose who they want to (and don't want to) share it with.
+By leveraging DIDs, users can create their very own storage vaults that enable them to curate which applications can access their data. This means they have complete control of their information and can choose who they want to (and don't want to) share it with.
 
-#### Scalability
+- **Scalability**
 
-Our supernode network can be extended and provide consensus to various different sidechains, ultimately meaning that our entire network can horizontally scale with ease.
+Our supernode network can be adapted to provide security and consensus to numerous sidechains, enabling the network to scale horizontally with ease.

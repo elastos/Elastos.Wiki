@@ -2,7 +2,7 @@
 title: The Cyber Republic
 ---
 
-Within the Elastos ecosystem, the **[Cyber Republic (CR)](https://www.cyberrepublic.org)** represents the community that helps drive governance decisions. CR is made up of ELA token holders, Elastos Foundation members, ecosystem partners, and other teams and individuals who are contributing to the network’s development and future.
+Within the Elastos ecosystem, the **[Cyber Republic (CR)](https://www.cyberrepublic.org)** represents the community that helps drive governance decisions. CR is made up of project leaders, community members, and other teams and individuals who are contributing to the network’s development and future.
 
 The **[Cyber Republic Consensus (CRC)](https://www.cyberrepublic.org/whitepaper)** is the third pillar of the Elastos consensus engine along with PoW and DPoS. This governance system helps create a community-based voting system to influence the project’s tech and ecosystem development, resolve disputes, management community assets, develop Elastos dApps, and more.
 

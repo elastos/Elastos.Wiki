@@ -39,7 +39,7 @@ module.exports = {
         {
           type: "doc",
           id: "start/essentials",
-          label: "Create an Account",
+          label: "🔑 Create an Account",
         },
       ],
     },
@@ -389,23 +389,13 @@ module.exports = {
       items: [
         {
           type: "doc",
-          id: "develop/dids/create",
-          label: "Create",
+          id: "develop/dids/essentials",
+          label: "📱 via Essentials",
         },
         {
           type: "doc",
-          id: "develop/dids/query",
-          label: "Query",
-        },
-        {
-          type: "doc",
-          id: "develop/dids/resolve",
-          label: "Resolve",
-        },
-        {
-          type: "doc",
-          id: "develop/dids/issue",
-          label: "Issue Credential",
+          id: "develop/dids/metamask",
+          label: "🖥️ via Metamask",
         },
       ],
     },

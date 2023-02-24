@@ -10,7 +10,7 @@ Keep in mind that no admin or moderator will ever DM you for any reason whatsoev
 
 ## General
 
-- [Elastos GitHub](https://github.com/elastos) - Elastos Foundation maintained repository that houses all the Elastos core components.
+- [Elastos GitHub](https://github.com/elastos) - Code repository that houses all the Elastos core components.
 
 ## Socials
 

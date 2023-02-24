@@ -142,13 +142,13 @@ module.exports = {
           items: [
             {
               type: "doc",
-              id: "learn/mainchain/bpos",
-              label: "Bonded Proof of Stake",
+              id: "learn/mainchain/auxpow",
+              label: "Auxiliary Proof of Work",
             },
             {
               type: "doc",
-              id: "learn/mainchain/auxpow",
-              label: "Auxiliary Proof of Work",
+              id: "learn/mainchain/bpos",
+              label: "Bonded Proof of Stake",
             },
           ],
         },
@@ -817,19 +817,93 @@ module.exports = {
     },
     {
       type: "category",
-      collapsed: true,
+      collapsed: false,
       label: "Identity SDKs",
       items: [
         {
           type: "category",
-          collapsed: true,
-          label: "Javascript",
+          collapsed: false,
+          label: "✨ Javascript",
           items: [
             {
               type: "doc",
-              id: "sdk/did/js/getting-started",
-              label: "Getting Started",
-            }
+              id: "sdk/did/js/introduction",
+              label: "Introduction",
+            },
+            {
+              type: "doc",
+              id: "sdk/did/js/install",
+              label: "Installation",
+            },
+            {
+              type: "category",
+              collapsed: false,
+              label: "📘 Guide",
+              items: [
+                {
+                  type: "doc",
+                  id: "sdk/did/js/guide/backend",
+                  label: "DIDBackend",
+                },
+                {
+                  type: "category",
+                  collapsed: true,
+                  label: "DIDStore",
+                  items: [
+                    {
+                      type: "doc",
+                      id: "sdk/did/js/guide/store/create",
+                      label: "Create",
+                    },
+                    {
+                      type: "doc",
+                      id: "sdk/did/js/guide/store/access",
+                      label: "Access",
+                    },
+                    {
+                      type: "doc",
+                      id: "sdk/did/js/guide/store/import-export",
+                      label: "Import/Export",
+                    },
+                    {
+                      type: "doc",
+                      id: "sdk/did/js/guide/store/sync",
+                      label: "Synchronize",
+                    },
+                  ]
+                },
+                {
+                  type: "doc",
+                  id: "sdk/did/js/guide/root-identity",
+                  label: "RootIdentity",
+                },
+                {
+                  type: "doc",
+                  id: "sdk/did/js/guide/did",
+                  label: "DID",
+                },
+                {
+                  type: "doc",
+                  id: "sdk/did/js/guide/json",
+                  label: "JSON Web Token",
+                },
+                {
+                  type: "doc",
+                  id: "sdk/did/js/guide/credential",
+                  label: "Credential and Presentation",
+                },
+                {
+                  type: "doc",
+                  id: "sdk/did/js/guide/metadata",
+                  label: "Metadata",
+                },
+                {
+                  type: "doc",
+                  id: "sdk/did/js/guide/samples",
+                  label: "Sample Code",
+                }
+              ]
+            },
           ]
         },
         {
@@ -839,8 +913,8 @@ module.exports = {
           items: [
             {
               type: "doc",
-              id: "sdk/did/java/getting-started",
-              label: "Getting Started",
+              id: "sdk/did/java/introduction",
+              label: "Introduction",
             }
           ]
         },
@@ -851,8 +925,8 @@ module.exports = {
           items: [
             {
               type: "doc",
-              id: "sdk/did/swift/getting-started",
-              label: "Getting Started",
+              id: "sdk/did/swift/introduction",
+              label: "Introduction",
             }
           ]
         },
@@ -863,8 +937,8 @@ module.exports = {
           items: [
             {
               type: "doc",
-              id: "sdk/did/c/getting-started",
-              label: "Getting Started",
+              id: "sdk/did/c/introduction",
+              label: "Introduction",
             }
           ]
         }
@@ -882,8 +956,8 @@ module.exports = {
           items: [
             {
               type: "doc",
-              id: "sdk/hive/js/getting-started",
-              label: "Getting Started",
+              id: "sdk/hive/js/introduction",
+              label: "Introduction",
             }
           ]
         },
@@ -894,8 +968,8 @@ module.exports = {
           items: [
             {
               type: "doc",
-              id: "sdk/hive/java/getting-started",
-              label: "Getting Started",
+              id: "sdk/hive/java/introduction",
+              label: "Introduction",
             }
           ]
         },
@@ -906,8 +980,8 @@ module.exports = {
           items: [
             {
               type: "doc",
-              id: "sdk/hive/swift/getting-started",
-              label: "Getting Started",
+              id: "sdk/hive/swift/introduction",
+              label: "Introduction",
             }
           ]
         },

@@ -12,7 +12,7 @@ The mainchain leverages a combination of three consensus mechanisms to ensure ro
 
 ### Auxiliary Proof of Work
 
-[Auxiliary Proof of Work (AuXPoW)](/learn/mainchain/merge-mining) is a mechanisn wherein Bitcoin miners compete to produce blocks for the Elastos mainchain in return for ELA. The security benefits of Bitcoin are integrated into solutions through merged-mining. The mainchain uses a PoW consensus mechanism based on SHA256, with blocks produced approximately every 2 minutes and 8 MB in size, compared to Bitcoin's 10-minute blocks and 1 MB size limit.
+[Auxiliary Proof of Work (AuXPoW)](/learn/mainchain/auxpow) is a mechanisn wherein Bitcoin miners compete to produce blocks for the Elastos mainchain in return for ELA. The security benefits of Bitcoin are integrated into solutions through merged-mining. The mainchain uses a PoW consensus mechanism based on SHA256, with blocks produced approximately every 2 minutes and 8 MB in size, compared to Bitcoin's 10-minute blocks and 1 MB size limit.
 
 :::info
 Note: The mainchain's role is limited to serving as a root of trust, so transaction throughput is not a primary concern. Scalability is achieved through the use of sidechains.

@@ -72,7 +72,7 @@ The main idea behind DIDs is for various actors to generate credentials to and r
 
 In a decentralized world, applications never write DID data (credentials) directly somewhere. Instead, they **generate credentials** and **ask users to import credentials to their identity profile**. Users can choose to make such credentials visible from all (by publishing them on the blockchain) or to keep them private (stored only on their device).
 
-The first step before asking a user to import a credential is to create the credential itself. More details on creating credentials are provided in the [DID SDK documentation](/sdk/did/js/getting-started/). For our Connectivity SDK guide, we utilize the simplest possible way to do so.
+The first step before asking a user to import a credential is to create the credential itself. More details on creating credentials are provided in the [DID SDK documentation](/sdk/did/js/introduction/). For our Connectivity SDK guide, we utilize the simplest possible way to do so.
 
 ```ts
 // For this guide, always re-create a new identity for the signer of the created credential.

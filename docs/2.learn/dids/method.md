@@ -201,7 +201,9 @@ The rules for authorization and delegation are:
 
 #### Verifiable Credential (Optional)
 
-The DID is designed with the intent that, in principle, the DID documents should not bring any personal information/Personally-Identifiable Information (PII), or any other information that can be connected to the critical information of the entity. But from the perspective of real world needs, some DID entities need to have an open identity, such as well-known Credential Issuers, so the Elastos DID documents can embed public verifiable credentials to support the need to bind DID with entity information publicly. Please see [Elastos Verifiable Claims Specification](/VerifiableClaims/Elastos-Verifiable-Claims-Specification_cn.md) for the specific definition of verifiable credentials.
+The DID is designed with the intent that, in principle, the DID documents should not bring any personal information/Personally-Identifiable Information (PII), or any other information that can be connected to the critical information of the entity. But from the perspective of real world needs, some DID entities need to have an open identity, such as well-known Credential Issuers, so the Elastos DID documents can embed public verifiable credentials to support the need to bind DID with entity information publicly.
+
+Please see [Elastos Verifiable Claims Specification](/learn/dids/claims/#goals-of-this-specification) for the specific definition of verifiable credentials.
 
 The rules for verifiable credentials are:
 

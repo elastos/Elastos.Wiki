@@ -44,8 +44,3 @@ $ ~/node/node.sh status
 Now the initial **setup is complete**.
 
 For a more detailed setup and usage, please refer to [the longer edition](/nodes/advanced).
-
-What's next:
-
-- [See the status](/nodes/advanced/)
-- [Use the client to connect](besides-setup/running-the-client.md)

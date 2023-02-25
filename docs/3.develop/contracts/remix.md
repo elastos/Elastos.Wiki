@@ -77,7 +77,7 @@ The `update` function is another public function that is similar to the construc
 - Now, `Compile HelloWorld.sol`
 - After Successful Compilation, it will show
   <img src={useBaseUrl("docs/assets/develop/smart-contracts/remix/Screenshot_2020-02-14_at_1.08.22_PM.png")} />
-- Now, We have to deploy our smart contract on Elastos Network. For that, we have to connect to the web3 world, this can be done by using any of the services like Metamask, Brave, Portis etc. We will be using Metamask. Please follow this [tutorial to set up a Metamask Account](/docs/develop/metamask/hello).
+- Now, We have to deploy our smart contract on Elastos Network. For that, we have to connect to the web3 world, this can be done by using any of the services like Metamask, Brave, Portis etc. We will be using Metamask. Please follow this [tutorial](https://support.metamask.io/hc/en-us/articles/360015489531-Getting-started-with-MetaMask) to set up a Metamask Account.
 - Open Metamask and select Custom RPC from the networks dropdown
 
 <div

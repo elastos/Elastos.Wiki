@@ -131,7 +131,7 @@ The Elastos [DID method specification](learn/dids/method) is identified by the "
 
 The method identifier is always the user’s public key (also known as an address).
 
-A [JSON-RPC interface](/api/sidechains/eid/rpc) is utilized to provide parsing methods of DID and [verifiable credentials](/learn/dids/credentials). Elastos defines the interface specification for parsing or querying DID and credential on EID side chain. Multiple programming languages are supported, including [Javscript](/sdk/did/js/getting-started/), [Java](/sdk/did/java/getting-started/), [Swift C](/sdk/did/swift/getting-started/), and [C/C+](/sdk/did/c/getting-started/).
+A [JSON-RPC interface](/api/sidechains/eid/rpc) is utilized to provide parsing methods of DID and [verifiable credentials](/learn/dids/claims/#verifiable-credentials). Elastos defines the interface specification for parsing or querying DID and credential on EID side chain. Multiple programming languages are supported, including [Javscript](/sdk/did/js/introduction/), [Java](/sdk/did/java/introduction/), [Swift C](/sdk/did/swift/introduction/), and [C/C+](/sdk/did/c/introduction/).
 
 ## Integrity and Expiration
 

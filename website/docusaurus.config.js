@@ -1,7 +1,7 @@
 module.exports = {
   title: "Elastos Wiki",
-  tagline: "Elastos Ecosystem Wiki",
-  url: "https://elastos-wiki.netlify.app",
+  tagline: "The official source of truth for the Elastos ecosystem",
+  url: "https://elastos-wiki.netlify.app/",
   baseUrl: "/",
   organizationName: "elastos",
   projectName: "wiki",
@@ -37,7 +37,7 @@ module.exports = {
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
           breadcrumbs: true,
-          editUrl: "https://github.com/racollette/Elastos.Docs/edit/master/website",
+          editUrl: "https://github.com/elastos/Elastos.Wiki/edit/master/website",
           path: "../docs",
           sidebarPath: "./sidebars.js",
           routeBasePath: "/",
@@ -146,11 +146,11 @@ module.exports = {
   },
   i18n: {
     defaultLocale: "en",
-    locales: ["en", "zh-CN"],
-    localeConfigs: {
-      "zh-CN": {
-        label: "简体中文",
-      },
-    },
+    locales: ["en"],
+    // localeConfigs: {
+    //   "zh-CN": {
+    //     label: "简体中文",
+    //   },
+    // },
   },
 };

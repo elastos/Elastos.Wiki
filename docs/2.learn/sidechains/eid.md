@@ -36,7 +36,7 @@ The DID data is stored on the EID blockchain, and because past blockchain data i
 
 | Resource                                                                                                  | Description                                |
 | --------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
-| [Demo](/develop/dids/create)                                                                              | DID creation tutorial                      |
+| [Demo](/develop/dids/essentials)                                                                          | DID creation tutorial                      |
 | [Public Endpoints](/api/providers)                                                                        | Interact with the EID chain                |
 | [Explorer](https://eid.elastos.io/)                                                                       | EID block explorer                         |
 | [DID Addresses](/api/providers/#miscellaneous)                                                            | Public contract addresses for EID DIDs     |

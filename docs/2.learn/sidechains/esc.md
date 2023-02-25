@@ -10,9 +10,9 @@ Looking to get started right away? Check out the [API reference](/api/providers)
 
 ## Relevant Links
 
-| Resource                                                                | Description                               |
-| ----------------------------------------------------------------------- | ----------------------------------------- |
-| [Public Endpoints](/api/providers)                                      | Interact with the ESC chain               |
-| [Explorer](https://esc.elastos.io/)                                     | ESC block explorer                        |
-| [APIs](/api/sidechains/esc/rpc)                                         | CLI and JSON-RPC interfaces for ESC       |
-| [ESC Source Code](https://github.com/elastos/Elastos.ELA.SideChain.ESC) | Chain implementation based on Go Ethereum |
+| Resource                                                                   | Description                               |
+| -------------------------------------------------------------------------- | ----------------------------------------- |
+| [Public Endpoints](/api/providers)                                         | Interact with the ESC chain               |
+| [Explorer](https://esc.elastos.io/)                                        | ESC block explorer                        |
+| [APIs](https://github.com/elastos/Elastos.ELA.SideChain.ESC/wiki/JSON-RPC) | CLI and JSON-RPC interfaces for ESC       |
+| [ESC Source Code](https://github.com/elastos/Elastos.ELA.SideChain.ESC)    | Chain implementation based on Go Ethereum |

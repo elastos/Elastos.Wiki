@@ -63,20 +63,20 @@ import {FeatureList, Column, Feature} from "@site/components/featurelist"
   </Column>
   <Column title="Developer Documentation" size="4">
     <Feature url="/develop/quick-start" title="Quick Start" subtitle="Creating your first dApp" image="hello.png" />
-    <Feature url="/develop/dids/fetch" title="Interact with DIDs" subtitle="Use DIDs for your dApps" image="did-document.png" />
+    <Feature url="/develop/dids/essentials" title="Interact with DIDs" subtitle="Use DIDs for your dApps" image="did-document.png" />
     <Feature url="/develop/contracts/whatisacontract" title="Build a Contract" subtitle="Learn how to write and deploy contracts to the Elastos Smart Chain" image="smartcontract.png" />
     <Feature url="/develop/integrate/frontend" title="Connect a Web Frontend" subtitle="Learn how to build a web dApp" image="frontend.png" />
     <Feature url="/develop/hive/connect" title="Store User Data" subtitle="Learn how to access Hive data vaults" image="hive-key.png" />
     <Feature url="/tutorials/fts/simple-fts" title="Fungible Tokens" subtitle="Learn how to use and make FT" image="token.png" />
-    <Feature url="/tutorials/nfts/simple-nft-minting-example" title="Non-Fungible Tokens" subtitle="Enter the NFT space" image="ticket.png" />
+    <Feature url="/tutorials/nfts/create-nft" title="Non-Fungible Tokens" subtitle="Enter the NFT space" image="ticket.png" />
   </Column>
   <Column title="Developer Tools" size="4">
     <Feature url="/api/providers" title="Public Endpoints" subtitle="Interact with Elastos blockchains" image="transaction.png" />
     <Feature url="/sdk/general/connectivity/introduction" title="Connectivity SDK" subtitle="Interact with Elastos using Typescript" image="elastos-api-ts.png" />
     <Feature url="/api/mainchain/cli" title="Mainchain APIs" subtitle="Use the Mainchain CLI or RPC API" image="elastos-cli.png" />
     <Feature url="/api/sidechains/esc/cli" title="Smart Chain APIs" subtitle="Use the ESC CLI or RPC API" image="elastos-rpc.png" />
-    <Feature url="/sdk/did/js/getting-started" title="Identity SDKs" subtitle="Work with DIDs using JS, C/C++, Java, or Swift" image="did-sdk.png" />
-    <Feature url="/sdk/hive/js/getting-started" title="Hive SDKs" subtitle="Interact with Hive using JS, Java, or Swift" image="hive-sdk.png" />
+    <Feature url="/sdk/did/js/introduction" title="Identity SDKs" subtitle="Work with DIDs using JS, C/C++, Java, or Swift" image="did-sdk.png" />
+    <Feature url="/sdk/hive/js/introduction" title="Hive SDKs" subtitle="Interact with Hive using JS, Java, or Swift" image="hive-sdk.png" />
     <Feature url="/sdk/carrier/js/getting-started" title="Carrier SDKs" subtitle="Interact with Carrier" image="carrier-sdk.png" />
   </Column>
 

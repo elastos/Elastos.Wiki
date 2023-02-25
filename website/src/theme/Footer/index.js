@@ -238,9 +238,6 @@ function Footer() {
                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-550">
                     <a href="https://elastos.info/elastos-development/">Overview</a>
                   </li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2801">
-                    <a href="https://elastos.info/academy/">Technology</a>
-                  </li>
                   <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-116">
                     <a
                       target="_blank"
@@ -289,9 +286,6 @@ function Footer() {
                   </li>
                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-441">
                     <a href="https://www.elastos.org/en/#platforms">Components</a>
-                  </li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-441">
-                    <a href="https://www.elastos.org/en/roadmap/">Roadmap</a>
                   </li>
                 </ul>
               </div>

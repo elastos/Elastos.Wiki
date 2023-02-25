@@ -107,7 +107,7 @@ The possible reasons may include:
 
 - [x] **The version is out of date.**
 
-Check versions and issue an [update](../step-by-step-setup/updating-programs.md) if required.
+Check versions and issue an [update](/nodes/advanced/#updating-an-individual-node) if required.
 
 ```bash
 $ node/node.sh status

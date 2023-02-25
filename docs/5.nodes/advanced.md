@@ -18,7 +18,7 @@ node.sh supports:
 
 - **Operating System**: Ubuntu Linux x86_64 18.04 or higher
 - **Elastos Network**: Mainnet
-- [**Chains**](overview/programs-supported-by-node.sh.md): Elastos mainchain, sidechains, oracles, and the arbitrator
+- [**Chains**](/nodes/overview): Elastos mainchain, sidechains, oracles, and the arbitrator
 
 To begin, create a folder in your $HOME to hold executable files, config files, and data files.
 

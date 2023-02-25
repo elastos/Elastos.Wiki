@@ -1,14 +1,22 @@
 ---
 id: welcome
-title: Hello, Elastos!
+hide_title: true
 hide_table_of_contents: true
 ---
 
 import {FeatureList, Column, Feature} from "@site/components/featurelist"
 
-Welcome! You've landed on the Elastos Wiki.
+<br/>
+<br/>
 
 <div class="container">
+  <div class="row">
+  <h1 style={{fontSize: "5em"}}>The <span style={{color: "#7f2bee"}}>Elastos</span> Wiki</h1>
+  <div style={{fontSize: "1.2em", marginBottom: "1.5em"}}>The official source of truth for the Elastos ecosystem, providing comprehensive documentation, community resources, and instructional guides for those interesting in learn about or building on the Elastos tech stack.</div>
+</div>
+</div>
+
+<div>
   <div class="row">
     <div class="col col--6">
       <a href="/start/introduction">
@@ -41,7 +49,7 @@ Welcome! You've landed on the Elastos Wiki.
 
 <hr class="subsection" />
 
-<h1 class="text-center big-title" > Browse the Wiki by Topic </h1>
+<h1 class="text-center" > Browse the Wiki by Topic </h1>
 
 <FeatureList>
   <Column title="Understanding Elastos" size="4">
@@ -80,8 +88,8 @@ Welcome! You've landed on the Elastos Wiki.
 
 Here are more sites from our ecosystem that can help you to learn more about Elastos.
 
-<div class="container">
-  <div class="row">
+<div>
+  <div class="row cards">
    <div class="col col--6">
       <a href="https://www.elastos.org/">
         <div class="card">
@@ -138,7 +146,7 @@ Here are more sites from our ecosystem that can help you to learn more about Ela
   </div>
 </div>
 
-<hr class="subsection" />
+<hr />
 
 ## Contact us
 
@@ -148,6 +156,17 @@ If you have any questions, or simply would want to chat with us, please do throu
 
 <div class="container">
   <div class="row">
+    <div class="col col--2">
+      <div class="avatar">
+        <img
+          class="avatar__photo"
+          src={require("@site/static/docs/assets/home/twitter.png").default} />
+        <div class="avatar__intro">
+          <div class="avatar__name">Twitter</div>
+          <small class="avatar__subtitle"><a href="https://twitter.com/@elastosinfo">elastosinfo</a></small>
+        </div>
+      </div>
+    </div>
    <div class="col col--2">
       <div class="avatar">
         <img
@@ -159,7 +178,7 @@ If you have any questions, or simply would want to chat with us, please do throu
         </div>
       </div>
     </div>
-     <div class="col col--2">
+     <div class="col col--3">
       <div class="avatar">
         <img
           class="avatar__photo"
@@ -167,17 +186,6 @@ If you have any questions, or simply would want to chat with us, please do throu
         <div class="avatar__intro">
           <div class="avatar__name">Telegram</div>
           <small class="avatar__subtitle"><a href="https://t.me/elastosgroup/1">Elastos Community</a></small>
-        </div>
-      </div>
-    </div>
-    <div class="col col--2">
-      <div class="avatar">
-        <img
-          class="avatar__photo"
-          src={require("@site/static/docs/assets/home/twitter.png").default} />
-        <div class="avatar__intro">
-          <div class="avatar__name">Twitter</div>
-          <small class="avatar__subtitle"><a href="https://twitter.com/@elastosinfo">elastosinfo</a></small>
         </div>
       </div>
     </div>

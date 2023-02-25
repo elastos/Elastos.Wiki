@@ -73,7 +73,7 @@ article a[href^="http"]::after {
 hr {
     height: 1px;
     border-radius: 0;
-    margin: 3.5em 0;
+    margin: 2em 0;
 }
 
 li hr {
@@ -121,9 +121,9 @@ strong {
 
 /* Cards */
 .card {
-    margin: 2em 0em;
+    margin: 0.5em 0em;
     border: 0;
-    border-radius: 0;
+    border-radius: 1em;
 }
 
 a .card {

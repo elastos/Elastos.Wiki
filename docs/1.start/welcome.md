@@ -35,7 +35,18 @@ If you have any questions, or simply would want to chat with us, please do so th
 
 <div class="container">
   <div class="row">
-   <div class="col col--2">
+    <div class="col col--3">
+      <div class="avatar">
+        <img
+          class="avatar__photo"
+          src={require("@site/static/docs/assets/home/twitter.png").default} />
+        <div class="avatar__intro">
+          <div class="avatar__name">Twitter</div>
+          <small class="avatar__subtitle"><a href="https://twitter.com/@elastosinfo">elastosinfo</a></small>
+        </div>
+      </div>
+    </div>
+   <div class="col col--3">
       <div class="avatar">
         <img
           class="avatar__photo"
@@ -46,7 +57,7 @@ If you have any questions, or simply would want to chat with us, please do so th
         </div>
       </div>
     </div>
-     <div class="col col--2">
+     <div class="col col--3">
       <div class="avatar">
         <img
           class="avatar__photo"
@@ -54,17 +65,6 @@ If you have any questions, or simply would want to chat with us, please do so th
         <div class="avatar__intro">
           <div class="avatar__name">Telegram</div>
           <small class="avatar__subtitle"><a href="https://t.me/elastosgroup/1">Elastos Community</a></small>
-        </div>
-      </div>
-    </div>
-    <div class="col col--2">
-      <div class="avatar">
-        <img
-          class="avatar__photo"
-          src={require("@site/static/docs/assets/home/twitter.png").default} />
-        <div class="avatar__intro">
-          <div class="avatar__name">Twitter</div>
-          <small class="avatar__subtitle"><a href="https://twitter.com/@elastosinfo">elastosinfo</a></small>
         </div>
       </div>
     </div>

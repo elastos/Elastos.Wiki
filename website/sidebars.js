@@ -493,9 +493,21 @@ module.exports = {
       label: "Fungible Tokens",
     },
     {
-      type: "doc",
-      id: "tutorials/nfts/simple-nft-minting-example",
-      label: "Non-Fungible Tokens (NFT)",
+      type: "category",
+      collapsed: false,
+      label: "Non-Fungible Tokens",
+      items: [
+        {
+          type: "doc",
+          id: "tutorials/nfts/create-nft",
+          label: "Create an NFT Contract",
+        },
+        {
+          type: "doc",
+          id: "tutorials/nfts/mint-nft",
+          label: "Mint an NFT",
+        },
+      ],
     },
     {
       type: "html",

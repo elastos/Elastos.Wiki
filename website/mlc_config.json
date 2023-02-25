@@ -8,6 +8,18 @@
     },
     {
       "pattern": "^https://gateway.pinata.cloud"
+    },
+    {
+      "pattern": "^https://coinbase.com"
+    },
+    {
+      "pattern": "^https://coin98.com"
+    },
+    {
+      "pattern": "^https://support.metamask.io"
+    },
+    {
+      "pattern": "^https://huobi.com"
     }
   ],
   "timeout": "20s",

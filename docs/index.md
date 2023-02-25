@@ -11,8 +11,8 @@ import {FeatureList, Column, Feature} from "@site/components/featurelist"
 
 <div class="container">
   <div class="row">
-  <h1 style={{fontSize: "5em"}}>The <span style={{color: "#7f2bee"}}>Elastos</span> Wiki</h1>
-  <div style={{fontSize: "1.2em", marginBottom: "1.5em"}}>The official source of truth for the Elastos ecosystem, providing comprehensive documentation, community resources, and instructional guides for those interesting in learn about or building on the Elastos tech stack.</div>
+  <h1 style={{fontSize: "4em"}}>The <span style={{color: "#7f2bee"}}>Elastos</span> Wiki</h1>
+  <div style={{fontSize: "1.15em", marginBottom: "1.5em"}}>The official source of truth for the Elastos ecosystem, providing comprehensive documentation, community resources, and instructional guides for those interested in learning about or building on Elastos.</div>
 </div>
 </div>
 

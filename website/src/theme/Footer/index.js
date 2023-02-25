@@ -80,7 +80,7 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="https://blockchain.elastos.org/"
+                  href="https://blockchain.elastos.io/"
                   className="hover:text-white"
                 >
                   ELA Explorer
@@ -285,7 +285,7 @@ function Footer() {
                     <a href="https://www.elastos.org/en/#basic">Mission</a>
                   </li>
                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-441">
-                    <a href="https://www.elastos.org/en/#platforms">Components</a>
+                    <a href="https://elastos.info/elastos-development/">Solutions</a>
                   </li>
                 </ul>
               </div>

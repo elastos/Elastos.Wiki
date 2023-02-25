@@ -2,7 +2,7 @@
 title: How to Mint an NFT
 ---
 
-This tutorial describes how to mint an NFT using the ethers library and the smart contract from the [previous section](../create-nft).
+This tutorial describes how to mint an NFT using the ethers library and the smart contract from the [previous section](/tutorials/nfts/create-nft).
 
 Minting an NFT is the act of publishing a unique instance of an ERC721 token on the blockchain. Now that we have successfully deployed a smart contract to the Elastos Smart Chain (ESC) testnet, let's mint an NFT!
 
@@ -10,7 +10,7 @@ Minting an NFT is the act of publishing a unique instance of an ERC721 token on 
 
 ### Step 1: Create an Alchemy Provider using ethers
 
-Open the repository from the [previous tutorial](../create-nft) in your favorite code editor (e.g. [VSCode](https://code.visualstudio.com/)), and create a new file in the scripts folder called `mint-nft.js`.
+Open the repository from the [previous tutorial](/tutorials/nfts/create-nft) in your favorite code editor (e.g. [VSCode](https://code.visualstudio.com/)), and create a new file in the scripts folder called `mint-nft.js`.
 
 We will be using the same ethers library to connect to the ESC testnet public RPC URL. Add the following code to the file:
 
@@ -61,7 +61,7 @@ Once you've created an account:
 
 - Navigate to the Pinata Upload button on the top right
 - Upload an image to pinata - this will be the image asset for your NFT. Feel free to name the asset whatever you wish
-- After you upload, at the top of the page, there should be a green popup that allows you to view the hash of your upload —> Copy that hashcode. You can view your upload at: https://gateway.pinata.cloud/ipfs/{hash-code}
+- After you upload, at the top of the page, there should be a green popup that allows you to view the hash of your upload —> Copy that hashcode. You can view your upload at: https://gateway.pinata.cloud/ipfs/your-hash-code
   For the more visual learners, the steps above are summarized here: Now, we're going to want to upload one more document to Pinata. But before we do that, we need to create it!
 
 ![image](/docs/assets/tutorials/nfts/pinata-upload-png.gif)
@@ -111,18 +111,18 @@ const contractAddress = "0xA4766Ceb9E84a71D282A4CED9fB8Fe93C49b2Ff7";
 const myNftContract = new ethers.Contract(contractAddress, abi, signer);
 ```
 
-In the snippet above, you can see that our contract's deployed address is `0xA4766Ceb9E84a71D282A4CED9fB8Fe93C49b2Ff7`. If you don't remember your contract address or can't find it on the [Elastos block explorer](https://esc-testnet.elastos.io/), simply re-deploy the contract from the [previous tutorial](../create-nft)) again and note down the new address.
+In the snippet above, you can see that our contract's deployed address is `0xA4766Ceb9E84a71D282A4CED9fB8Fe93C49b2Ff7`. If you don't remember your contract address or can't find it on the [Elastos block explorer](https://esc-testnet.elastos.io/), simply re-deploy the contract from the [previous tutorial](/tutorials/nfts/create-nft)) again and note down the new address.
 
 ### Step 5: Call mintNFT Function of the Contract
 
-Remember the metadata.json you uploaded to Pinata? Get its hashcode from Pinata and pass the following into a call to mintNFT https://gateway.pinata.cloud/ipfs/{metadata-hash-code}
+Remember the metadata.json you uploaded to Pinata? Get its hashcode from Pinata and pass the following into a call to `mintNFT` https://gateway.pinata.cloud/ipfs/your-metadata-hash-code
 
 Here's how to get the hashcode:
 
 ![image](/docs/assets/tutorials/nfts/pinata-hash-code.gif)
 
 :::caution Hashcode
-Double check that the hashcode you copied links to your metadata.json by loading https://gateway.pinata.cloud/ipfs/{metadata-hash-code} into a separate window. The page should look similar to the screenshot below:
+Double check that the hashcode you copied links to your metadata.json by loading https://gateway.pinata.cloud/ipfs/your-metadata-hash-code into a separate window. The page should look similar to the screenshot below:
 
 ![image](/docs/assets/tutorials/nfts/metadata-hash-code.png)
 :::

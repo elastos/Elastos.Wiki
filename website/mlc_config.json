@@ -5,15 +5,6 @@
     },
     {
       "pattern": "^http://127.0.0.1"
-    },
-    {
-      "pattern": "^https://etherscan.io"
-    },
-    {
-      "pattern": "^https://support.ledger.com"
-    },
-    {
-      "pattern": "^https://help.github.com"
     }
   ],
   "timeout": "20s",

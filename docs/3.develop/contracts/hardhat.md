@@ -54,9 +54,9 @@ Choose the JavaScript project and go through these steps to compile, test and de
 
 The `contracts` folder contains `Lock.sol`, which is a sample contract which consistis of a simple digital lock, where users could only withdraw funds after a given period of time.
 
-```solidity
+```js title="Lock.sol"
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.9;
+pragma solidity ^0.8.0;
 
 // Import this file to use console.log
 import "hardhat/console.sol";
@@ -103,16 +103,16 @@ require("@nomiclabs/hardhat-ethers");
 require("@nomiclabs/hardhat-etherscan");
 
 module.exports = {
-  defaultNetwork: "elastos",
+  defaultNetwork: "esc_testnet",
   networks: {
     hardhat: {},
-    elastos: {
+    esc_testnet: {
       url: "https://esc-testnet.elastos.io/api",
       accounts: [process.env.PRIVATE_KEY],
     },
   },
   solidity: {
-    version: "0.6.12",
+    version: "0.8.0",
     settings: {
       optimizer: {
         enabled: true,
@@ -157,25 +157,25 @@ And this is an expected output:
 
 <!-- ![img](/img/hardhat/test.png) -->
 
-### Deploying on elastos Network
+### Deploying on the Elastos testnet
 
 Run this command in root of the project directory:
 
 ```bash
-npx hardhat run scripts/deploy.js --network elastos
+npx hardhat run scripts/deploy.js --network esc_testnet
 ```
 
-The contract will be deployed on the ESC, and you can check the deployment status here: https://testnet-esc.elastos.io/
+The contract will be deployed on ESC, and you can check the deployment status [here](https://esc-testnet.elastos.io/).
 
 **Congratulations! You have successfully deployed Greeter Smart Contract. Now you can interact with the Smart Contract.**
 
-:::tip Quickly Verify contracts on elastosscan
+:::tip Quickly Verify contracts on the ESC testnet [block explorer](https://esc-testnet.elastos.io/).
 
 Run the following commands to quickly verify your contract on elastosscan. This makes it easy for anyone to see the source code of your deployed contract. For contracts that have a constructor with a complex argument list, see [here](https://hardhat.org/plugins/nomiclabs-hardhat-etherscan.html).
 
 ```bash
 npm install --save-dev @nomiclabs/hardhat-etherscan
-npx hardhat verify --network elastos 0x4b75233D4FacbAa94264930aC26f9983e50C11AF
+npx hardhat verify --network esc_testnet 0x4b75233D4FacbAa94264930aC26f9983e50C11AF
 ```
 
 :::

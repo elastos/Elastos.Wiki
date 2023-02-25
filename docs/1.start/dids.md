@@ -20,5 +20,5 @@ Elastos is keen on revolutionizing the digital identity space through our open-s
 DID runs on the [Elastos Identity Chain (EID)](/learn/sidechains/eid), allowing any device or person to create their own digital identity on the web. It’s fully compatible with a variety of applications and products within the Elastos ecosystem.
 
 :::tip
-Proceed to the [next section](../essentials) to set up your very own DID!
+Proceed to the [next section](/start/essentials) to set up your very own DID!
 :::

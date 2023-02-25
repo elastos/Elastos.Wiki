@@ -336,7 +336,7 @@ The `outputlock` parameter specifies the block height when the received asset ca
 --txlock
 The `txlock` parameter specifies the block height when the transaction can be packaged.
 
-The details of `outputlock` and `txlock` specification in the document [Locking_transaction_recognition](integrator/mainchain/#ela-locking-transaction-recognition).
+The details of `outputlock` and `txlock` specification in the document [Locking_transaction_recognition](/integrator/mainchain/#ela-locking-transaction-recognition).
 
 #### 2.1.1 Build standard signature transaction
 

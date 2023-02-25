@@ -27,7 +27,7 @@ To switch networks, simply modify the ActiveNet parameter in the config.json fil
 WalletPath:"keystore.dat",// WalletPath defines the wallet path used by DPoS arbiters and CR members.
 "Magic": 2017001, // Magic Number：Segregation for different subnet. No matter the port number, as long as the magic number not matching, nodes cannot talk to each others
 "DNSSeeds": [ // DNSSeeds. DNSSeeds defines a list of DNS seeds for the network that are used to discover peers.
-"node-mainnet-001.elastos.org:20338"
+"node-mainnet-001.elastos.io:20338"
 ],
 "DisableDNS": false, // DisableDNS. Disable the DNS seeding function.
 "CoinbaseMaturity": "", // CoinbaseMaturity is the number of blocks required before newly mined coins (coinbase transactions) can be spent.

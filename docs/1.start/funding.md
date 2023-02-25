@@ -2,9 +2,9 @@
 title: Grants & Funding
 ---
 
-The primary source of funding for projects seeking to contribute to Elastos is its community governance arm, known as the [Cyber Republic](../governance).
+The primary source of funding for projects seeking to contribute to Elastos is its community governance arm, known as the [Cyber Republic](/start/governance).
 
-The Cyber Republic treasury was funded at genesis and receives 30% of ELA's annual [inflation](../economics). After each annual CR election, 10% of the total treasury is transferred to an expense account and is able to be used as funding for the year-long term. CR is tasked with allocating funds to support the continuous improvement of the Elastos core protocols as well as growth of the ecosystem.
+The Cyber Republic treasury was funded at genesis and receives 30% of ELA's annual [inflation](/start/economics). After each annual CR election, 10% of the total treasury is transferred to an expense account and is able to be used as funding for the year-long term. CR is tasked with allocating funds to support the continuous improvement of the Elastos core protocols as well as growth of the ecosystem.
 
 These funds can be publicly view at the following addresses:
 
@@ -13,7 +13,7 @@ These funds can be publicly view at the following addresses:
 
 ## Submitting a Proposal
 
-Developers can request **[funding](https://www.cyberrepublic.org/funding)** from the Cyber Republic by submitting a **[suggestion](https://www.cyberrepublic.org/suggestion)** to CR forum according to the [proposal criterion](../governance/#proposals). If the suggestion garners enough positive feedback, a Cyber Republic Council member can promote it to an official proposal after which the 12-person council will have a 7-day window to cast their votes.
+Developers can request **[funding](https://www.cyberrepublic.org/funding)** from the Cyber Republic by submitting a **[suggestion](https://www.cyberrepublic.org/suggestion)** to CR forum according to the [proposal criterion](/start/governance/#proposals). If the suggestion garners enough positive feedback, a Cyber Republic Council member can promote it to an official proposal after which the 12-person council will have a 7-day window to cast their votes.
 
 <div align="center">
 <img src="/docs/assets/start/proposal-process.png" alt="image" width="400" />

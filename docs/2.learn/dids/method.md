@@ -295,7 +295,7 @@ For example:
   }, {
     "id": "#vcr",
     "type": "CredentialRepositoryService",
-    "serviceEndpoint": "https://did.elastos.org/credential"
+    "serviceEndpoint": "https://did.elastos.io/credential"
   }, {
     "id": "#carrier",
     "type": "CarrierAddress",
@@ -644,7 +644,7 @@ This DID document contains a public key by default, and is the public key that c
     {
       id: "#vcr",
       type: "CredentialRepositoryService",
-      serviceEndpoint: "https://did.elastos.org/credential",
+      serviceEndpoint: "https://did.elastos.io/credential",
     },
     {
       id: "#carrier",

@@ -20,7 +20,7 @@ Here, the Remix team also provides some explanation about a smart contract typic
 - Create a file on Remix
 - Upload a pre-built smart contract into the IDE
 - Compile the smart contract
-- Connect the application to the Elastos Mumbai Testnet via Metamask
+- Connect the application to the Elastos Smart Chain (ESC) testnet via Metamask
 - Deploy the smart contract
 - Verify the smart contract
 
@@ -102,7 +102,7 @@ The `update` function is another public function that is similar to the construc
           alignItems: "center"
         }}
       >
-        <img src={useBaseUrl("docs/assets/develop/smart-contracts/remix/metamask_mumbai_setup.png")} alt="RemixIDE_Step1"/>
+        <img src={useBaseUrl("docs/assets/develop/smart-contracts/remix/metamask_setup.png")} alt="RemixIDE_Step1"/>
 </div>
 - Go ahead and click **save**
 - Copy your address from Metamask
@@ -154,7 +154,7 @@ The `update` function is another public function that is similar to the construc
         <img src={useBaseUrl("docs/assets/develop/smart-contracts/remix/Screenshot_2020-02-14_at_1.45.23_PM.png")} alt="RemixIDE_Step1"/>
 </div>
 
-**Congratulations!** You have successfully deployed the **HelloWorld** Smart Contract. Now you can interact with the Smart Contract. Check the deployment status here: https://mumbai.Elastosscan.com/.
+**Congratulations!** You have successfully deployed the **HelloWorld** Smart Contract. Now you can interact with the Smart Contract. Check the deployment status [here](https://esc-testnet.elastos.io/).
 
 <div
         style={{

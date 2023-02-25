@@ -29,8 +29,7 @@ Elastos is primarily community centered, so the best way to contact somebody wit
 
 ### Blogs
 
-- [Elastos News Blog](https://news.elastos.org/)
-- [Elastos Info Blog](https://elastos.info/blog-and-news/)
+- [Elastos Blog & News](https://elastos.info/blog-and-news/)
 
 ## Ecosystem
 

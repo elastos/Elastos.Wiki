@@ -91,7 +91,7 @@ The `update` function is another public function that is similar to the construc
 </div>
 
 - Put in a Network name - “WAX Testnet”
-- In URL field you can add the URL as "https://esc-testnet.elastos.io/api"
+- In URL field you can add the URL as "https://api-testnet.elastos.io/esc"
 - Enter the Chain ID: 21
 - (Optional Fields) Currency Symbol: "ELA" and Block Explorer URL: "https://esc-testnet.elastos.io/"
 

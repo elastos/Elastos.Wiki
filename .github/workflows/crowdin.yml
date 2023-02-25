@@ -2,8 +2,8 @@ name: Upload to Crowdin on PR merge
 
 # only trigger on pull request closed events
 on:
-#   pull_request:
-#     types: [ closed ]
+  pull_request:
+    types: [closed]
 
 jobs:
   merge_job:

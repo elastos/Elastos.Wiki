@@ -20,6 +20,9 @@
     },
     {
       "pattern": "^https://huobi.com"
+    },
+    {
+      "pattern": "^https://etherscan.io"
     }
   ],
   "timeout": "20s",

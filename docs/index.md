@@ -67,7 +67,7 @@ import {FeatureList, Column, Feature} from "@site/components/featurelist"
     <Feature url="/develop/contracts/whatisacontract" title="Build a Contract" subtitle="Learn how to write and deploy contracts to the Elastos Smart Chain" image="smartcontract.png" />
     <Feature url="/develop/integrate/frontend" title="Connect a Web Frontend" subtitle="Learn how to build a web dApp" image="frontend.png" />
     <Feature url="/develop/hive/connect" title="Store User Data" subtitle="Learn how to access Hive data vaults" image="hive-key.png" />
-    <Feature url="/tutorials/fts/simple-fts" title="Fungible Tokens" subtitle="Learn how to use and make FT" image="token.png" />
+    <Feature url="/tutorials/fts/simple-fts" title="Fungible Tokens" subtitle="Learn how to create tokens" image="token.png" />
     <Feature url="/tutorials/nfts/create-nft" title="Non-Fungible Tokens" subtitle="Enter the NFT space" image="ticket.png" />
   </Column>
   <Column title="Developer Tools" size="4">

@@ -532,6 +532,18 @@ module.exports = {
       ],
     },
     {
+      type: "category",
+      collapsed: false,
+      label: "User Interface",
+      items: [
+        {
+          type: "doc",
+          id: "tutorials/ui/frontend",
+          label: "Create a Web Frontend",
+        },
+      ],
+    },
+    {
       type: "html",
       value: "<hr/>"
     },

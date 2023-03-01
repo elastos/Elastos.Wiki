@@ -11,7 +11,6 @@ Welcome! Here you will find documentation on how to develop decentralized apps u
     <Feature url="/develop/quick-start" title="Quick Start" subtitle="Spin-up your first dApp" image="hello.png" />
     <Feature url="/tutorials/welcome" title="Tutorials & Examples" subtitle="Check-out a library of examples" image="tutorials.png" />
     <Feature url="/develop/contracts/whatisacontract" title="Build a Contract" subtitle="Learn how to write smart contracts" image="smartcontract.png" />
-    <Feature url="/develop/integrate/frontend" title="Build a Web Frontend" subtitle="Learn how to make a web dApp" image="frontend.png" />
   </Column>
   <Column title="Add Functionality" size="6">
     <Feature url="/develop/dids/create" title="Interact with DIDs" subtitle="Use DIDs for your dApps" image="user.png" />

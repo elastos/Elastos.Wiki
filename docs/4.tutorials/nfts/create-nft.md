@@ -109,11 +109,11 @@ npm install @openzeppelin/contracts
 
 Open the project in your favorite editor (e.g. [VSCode](https://code.visualstudio.com/)). We will use a language called Solidity to write our contract.
 
-Navigate to the contracts folder and create a new file called MyNFT.sol. Add the following code to the file.
+Navigate to the `contracts` folder and create a new file called `MyNFT.sol`. Add the following code to the file.
 
 ```js title="MyNFT.sol"
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.9;
 
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
@@ -141,7 +141,7 @@ contract MyNFT is ERC721URIStorage, Ownable {
 }
 ```
 
-Ensure that the version specified above (^0.8.0) is the same as the version specified in your `hardhat.config.js` file. Now let's break down the code line by line.
+Ensure that the version specified above (^0.8.9) is the same as the version specified in your `hardhat.config.js` file. Now let's break down the code line by line.
 
 In lines 5-7, our code inherits three OpenZeppelin smart contract classes:
 
@@ -149,20 +149,20 @@ In lines 5-7, our code inherits three OpenZeppelin smart contract classes:
 - `@openzeppelin/contracts/utils/Counters.sol` provides counters that can only be incremented or decremented by one. Our smart contract uses a counter to keep track of the total number of NFTs minted and set the unique ID to our new NFT. Each NFT minted using a smart contract must be assigned a unique ID, and here our unique ID is determined by the total number of NFTs in existence. For example, the first NFT we mint with our smart contract has an ID of "1," the second has an ID of "2," and so on.
 - `@openzeppelin/contracts/access/Ownable.sol` sets up access control on our smart contract, so only the owner of the smart contract (you) can mint NFTs.
 
-Note that including access control is entirely a preference. If you want anyone to be able to mint an NFT using your smart contract, remove the word Ownable on line 9 and onlyOwner on line 16.
+Note that including access control is entirely a preference. If you want anyone to be able to mint an NFT using your smart contract, remove the word `Ownable` on line 9 and `onlyOwner` on line 16.
 
 In lines 9-27, we define our custom NFT smart contract, which is surprisingly short – it only contains a counter, a constructor, and a single function! This is thanks to our inherited OpenZeppelin contracts, which implement most of the methods needed to create an NFT, such as ownerOf (which returns the owner of the NFT) and transferFrom (which transfers ownership of the NFT).
 
-On line 13, we pass two strings, "MyNFT" and "NFT," into the ERC721 constructor. The first variable is the smart contract's name, and the second is its symbol. You can name each of these variables whatever you want.
+On line 13, we pass two strings, "MyNFT" and "NFT," into the ERC721 constructor. The first variable is the smart contract's `name`, and the second is its `symbol`. You can name each of these variables whatever you want.
 
-Finally, starting on line 15, we have our mintNFT() function that allows us to mint an NFT! This function takes two variables:
+Finally, starting on line 15, we have our `mintNFT()` function that allows us to mint an NFT! This function takes two variables:
 
-- address recipient specifies the address that will receive your freshly minted NFT.
-- string memory tokenURI is a string that should resolve to a JSON document describing the NFT's metadata.
+- `address` recipient specifies the `address` that will receive your freshly minted NFT.
+- `string` memory tokenURI is a `string` that should resolve to a JSON document describing the NFT's metadata.
 
 An NFT's metadata is what brings it to life, allowing it to have additional properties such as a name, description, image, and other attributes. In part 2 of this tutorial, we will explain how to configure this metadata.
 
-- mintNFT() calls some methods from the inherited ERC721 library and ultimately returns a number that represents the ID of the freshly minted NFT.
+- `mintNFT()` calls some methods from the inherited ERC721 library and ultimately returns a number that represents the ID of the freshly minted NFT.
 
 ### Step 6: Connect Metamask & Elastos to your Project
 
@@ -186,9 +186,9 @@ Follow [these](https://support.metamask.io/hc/en-us/articles/360015289632-How-to
 
 Your .env should look like this:
 
-```js
-API_URL = "https://api-testnet.elastos.io/esc";
-PRIVATE_KEY = "your-metamask-private-key";
+```
+API_URL = https://api-testnet.elastos.io/esc
+PRIVATE_KEY = your-metamask-private-key
 ```
 
 ### Step 7: Update hardhat.config.js
@@ -203,7 +203,7 @@ require("@nomiclabs/hardhat-ethers");
 const { API_URL, PRIVATE_KEY } = process.env;
 
 module.exports = {
-  solidity: "0.8.0",
+  solidity: "0.8.9",
   defaultNetwork: "esc_testnet",
   networks: {
     hardhat: {},

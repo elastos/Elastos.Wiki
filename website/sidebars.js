@@ -347,6 +347,11 @@ module.exports = {
     },
     {
       type: "doc",
+      id: "develop/resources",
+      label: "Resources"
+    },
+    {
+      type: "doc",
       id: "tutorials/welcome",
       label: "Examples & Tutorials ↗"
     },
@@ -379,9 +384,14 @@ module.exports = {
     },
     {
       type: "doc",
-      id: "develop/integrate/frontend",
-      label: "Build the Web Frontend",
+      id: "develop/add-network",
+      label: "Add ESC Programatically"
     },
+    // {
+    //   type: "doc",
+    //   id: "develop/integrate/frontend",
+    //   label: "Build the Web Frontend",
+    // },
     {
       type: "category",
       collapsed: false,

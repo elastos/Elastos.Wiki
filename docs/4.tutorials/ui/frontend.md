@@ -47,7 +47,7 @@ Cool, now that we understand how making an NFT works, let's clone our starter fi
 First, go to the [nft-minter-tutorial Github repository](https://github.com/racollette/nft-minter-tutorial) to get the starter files for this project. Clone this repository into your local environment.
 
 :::tip Github: Clone Repository
-Don't know how to clone a repository? Check out this guide from Github.
+Don't know how to clone a repository? Check out this [guide](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) from Github.
 :::
 
 When you open this cloned nft-minter-tutorial repository, you'll notice that it contains two folders: minter-starter-files and nft-minter.

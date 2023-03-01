@@ -380,6 +380,11 @@ module.exports = {
           id: "develop/contracts/truffle",
           label: "Deploy using Truffle",
         },
+        {
+          type: "doc",
+          id: "develop/contracts/verify",
+          label: "Verify on Explorer",
+        },
       ],
     },
     {

@@ -120,21 +120,3 @@ In the context of EW-DOS, a digital cryptocurrency wallet such as MetaMask, whic
 :::tip
 To see a more exhaustive list of possible interactions and use cases for issuers, holders and verifiers, see w3’s list of Verifiable Credential [use cases](https://www.w3.org/TR/vc-data-model/#use-cases-and-requirements).
 :::
-
-## Elastos DID Framework
-
-The Elastos [DID method](/learn/dids/method) is a set of APIs that's compatible with [W3C DIDs specs](https://www.w3.org/TR/did-core/). Elastos DID runs on the Elastos Identity Chain (EID) and is based on the [Ethereum Virtual Machine (EVM)](https://ethereum.org/en/developers/docs/evm/). It issues DIDs to any device or individual that needs a trust-based system, which is exactly what the SmartWeb is designed for.
-
-The Elastos [DID method specification](/learn/dids/method) is identified by the "elastos" string, for example:
-
-`did:elastos:in2Zy5UqvdgGY41149cE5UTJEzgSdcf558`
-
-The method identifier is always the user’s public key (also known as an address).
-
-A [JSON-RPC interface](/api/sidechains/eid/rpc) is utilized to provide parsing methods of DID and [verifiable credentials](/learn/dids/claims/#verifiable-credentials). Elastos defines the interface specification for parsing or querying DID and credential on EID side chain. Multiple programming languages are supported, including [Javscript](/sdk/did/js/introduction/), [Java](/sdk/did/java/introduction/), [Swift C](/sdk/did/swift/introduction/), and [C/C+](/sdk/did/c/introduction/).
-
-## Integrity and Expiration
-
-For safety reasons, the Elastos DID Document and verifiable credential all have an effective period. The longest effective period of DID Document can be set to 5 years, or users can set it to a shorter effective period according to their own needs - a DID topic that exceeds the effective period will be recognized as invalid by the DID parser. The longest effective period of the verifiable credential is that of its holder, and if it exceeds the effective period, it's also an invalid credential. The effective period can be modified to prolong the time range if needed as well.
-
-Elastos DID is a decentralized personal identity system where its most important function is to ensure security under the premise of decentralization. Elastos DID Document, verifiable credential, and verifiable presentation all need to meet certain validity conditions.

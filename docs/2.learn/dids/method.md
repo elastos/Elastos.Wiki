@@ -2,6 +2,20 @@
 title: Elastos DID Method Specification
 ---
 
+The Elastos DID method is a set of APIs that's compatible with [W3C DIDs specs](https://www.w3.org/TR/did-core/). Elastos DID runs on the [Elastos Identity Chain (EID)](/learn/sidechains/eid) and is based on the [Ethereum Virtual Machine (EVM)](https://ethereum.org/en/developers/docs/evm/). It issues DIDs to any device or individual that needs a trust-based system, which is exactly what the SmartWeb is designed for.
+
+The Elastos DID method specification is identified by the "elastos" string, for example:
+
+`did:elastos:in2Zy5UqvdgGY41149cE5UTJEzgSdcf558`
+
+The method identifier is always the user’s public key (also known as an address).
+
+A [JSON-RPC interface](/api/sidechains/eid/rpc) is utilized to provide parsing methods of DID and [verifiable credentials](/learn/dids/claims/#verifiable-credentials). Elastos defines the interface specification for parsing or querying DID and credential on EID side chain. Multiple programming languages are supported, including [Javscript](/sdk/did/js/introduction/), [Java](/sdk/did/java/introduction/), [Swift C](/sdk/did/swift/introduction/), and [C/C+](/sdk/did/c/introduction/).
+
+:::tip
+Looking for detailed implementation guides? Elastos provides a suit of [Identity SDKs](/sdk/did/js/introduction) to get you started.
+:::
+
 ## Description of Contents
 
 This document is the Elastos DID Method Technical Specification. It is published and maintained by the Elastos Foundation. Its aim is to explain the general data model and format of Elastos DID, as well as related operations. In the future, Elastos Foundation will continue to upgrade this document so that it reflects the latest state of development of the Elastos DID technology.
@@ -91,7 +105,7 @@ The subject is a unique identifier of a DID document and is used to represent th
 
 For example:
 
-```json5
+```js
 {
   id: "did:elastos:icJ4z2DULrHEzYSvjKNJpKyhqFDxvYV7pN",
 }
@@ -115,7 +129,7 @@ Public key rules are as follows:
 
 For example:
 
-```json5
+```js
 {
   "id": "did:elastos:icJ4z2DULrHEzYSvjKNJpKyhqFDxvYV7pN",
   "publicKey": [{ // public key corresponding to the DID address
@@ -148,7 +162,7 @@ The identity verification rules are:
 
 For example:
 
-```json5
+```js
 {
   "id": "did:elastos:icJ4z2DULrHEzYSvjKNJpKyhqFDxvYV7pN",
   ...
@@ -180,7 +194,7 @@ The rules for authorization and delegation are:
 - The value of the `authorization` property should be one array of verification methods, which can be an array of public keys used for delegation.
 - Each verification method can be embedded or referenced. When referenced, it can either be one complete public key URI, or just a fragment, such as: `did:elastos:icJ4z2DULrHEzYSvjKNJpKyhqFDxvYV7pN#recovery-key` and `#recovery-key` are identical, and both reference the same public key. If an embedded public key is used, the rules for writing public keys are consistent with [Public Keys property](#public-keys).
 
-```json5
+```js
 {
   "id": "did:elastos:icJ4z2DULrHEzYSvjKNJpKyhqFDxvYV7pN",
   ...
@@ -213,7 +227,7 @@ The rules for verifiable credentials are:
 
 For example:
 
-```json5
+```js
 {
   "id": "did:elastos:icJ4z2DULrHEzYSvjKNJpKyhqFDxvYV7pN",
   ...
@@ -284,7 +298,7 @@ The rules for Service Endpoints are:
 
 For example:
 
-```json5
+```js
 {
   "id": "did:elastos:icJ4z2DULrHEzYSvjKNJpKyhqFDxvYV7pN",
   ...
@@ -327,7 +341,7 @@ The rules for proof are:
 
 For example:
 
-```json5
+```js
 {
   "id": "did:elastos:icJ4z2DULrHEzYSvjKNJpKyhqFDxvYV7pN",
   ...
@@ -351,7 +365,7 @@ The rules for expiration are:
 
 For example:
 
-```json5
+```js
 {
   "id": "did:elastos:icJ4z2DULrHEzYSvjKNJpKyhqFDxvYV7pN",
   ...
@@ -395,7 +409,7 @@ The rules for creating DID are:
 
 For example:
 
-```json5
+```js
 {
   header: {
     specification: "elastos/did/1.0",
@@ -412,7 +426,7 @@ For example:
 
 The payload is the result of the following DID document encoded by Base64 URL:
 
-```json5
+```js
 {
     "id": "did:elastos:icJ4z2DULrHEzYSvjKNJpKyhqFDxvYV7pN",
     "publicKey": [{
@@ -447,7 +461,7 @@ The rules for DID updates are as follows:
 
 For example:
 
-```json5
+```js
 {
   header: {
     specification: "elastos/did/1.0",
@@ -476,7 +490,7 @@ The rules for deactivating a DID are:
 
 For example:
 
-```json5
+```js
 {
   header: {
     specification: "elastos/did/1.0",
@@ -520,11 +534,17 @@ Based on the aforementioned security strategies, through the authorization and d
 
 Privacy and self-sovereignty are the basic principles of the DID design, and the Elastos DID privacy protection strategy abides by the stipulations of W3C. In principle, the DID documents should not contain any entity information, or any critical information that can be associated with a specific entity. The personal information credentials of an entity are generally managed and saved on the terminal device by the entity or individual, and that person or entity has the full power to control it. It can then be provided to the verifier in the form of verifiable claims; but some applications, scenarios or entities need to disclose entity information, so for the convenience of similar needs, Elastos DID has added an **optional** embedded verifiable credential attribute, and the entity of the DID subject’s holder can autonomously decide whether or not to use it. This embodies the self-sovereign spirit of the DID while also conforming to the requirements of [GDPR](https://eugdpr.org/).
 
+## Integrity and Expiration
+
+For safety reasons, the Elastos DID Document and verifiable credential all have an effective period. The longest effective period of DID Document can be set to 5 years, or users can set it to a shorter effective period according to their own needs - a DID topic that exceeds the effective period will be recognized as invalid by the DID parser. The longest effective period of the verifiable credential is that of its holder, and if it exceeds the effective period, it's also an invalid credential. The effective period can be modified to prolong the time range if needed as well.
+
+Elastos DID is a decentralized personal identity system where its most important function is to ensure security under the premise of decentralization. Elastos DID Document, verifiable credential, and verifiable presentation all need to meet certain validity conditions.
+
 ## Examples
 
 ### The simplest possible DID Document
 
-```json5
+```js
 {
   id: "did:elastos:icJ4z2DULrHEzYSvjKNJpKyhqFDxvYV7pN",
   publicKey: [
@@ -545,7 +565,7 @@ This DID document contains a public key by default, and is the public key that c
 
 ### A Complex/Redundant DID Document
 
-```json5
+```js
 {
   id: "did:elastos:icJ4z2DULrHEzYSvjKNJpKyhqFDxvYV7pN",
 

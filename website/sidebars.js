@@ -189,7 +189,7 @@ module.exports = {
     },
     {
       type: "category",
-      collapsed: true,
+      collapsed: false,
       label: "Identities",
       items: [
         {
@@ -200,7 +200,7 @@ module.exports = {
         {
           type: "doc",
           id: "learn/dids/method",
-          label: "Method",
+          label: "🪪 Method",
         },
         {
           type: "doc",

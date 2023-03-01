@@ -604,21 +604,7 @@ As we mentioned earlier, in this tutorial we will be using this [existing NFT sm
 
 If you examined our files closely, you'll have noticed that in our `src` directory, there's a `contract-abi.json` file. An ABI is necessary for specifying which function a contract will invoke as well ensuring that the function will return data in the format you're expecting.
 
-### Add the ESC testnet RPC URL
-
-We're also going to need an API endpoint to connect to the ESC testnet and load our smart contract.
-
-Add an RPC URL (such as `https://api-testnet.elastos.io/esc`) to your `.env` file. It should look like this:
-
-```
-REACT_APP_PINATA_KEY = <pinata-key>
-REACT_APP_PINATA_SECRET = <pinata-secret>
-REACT_APP_RPC_URL = https://api-testnet.elastos.io/esc
-```
-
-A list of public API endpoints for the various Elastos blockchains is available [here](/api/providers).
-
-### Set up your ethers endpoint and contract
+### Set up Ethers
 
 First, if you don't have it already, you'll need to install [Ethers](https://docs.ethers.org/v5/getting-started/) by navigating to the home directory: `nft-minter-tutorial` in the terminal:
 
@@ -631,10 +617,7 @@ Next let's go back to our `interact.js` file. At the top of the file, add the fo
 ```js title="interact.js"
 import { pinJSONToIPFS } from "./pinata.js";
 import { ethers } from "ethers";
-require("dotenv").config();
-const provider = new ethers.providers.JsonRpcProvider(
-  process.env.REACT_APP_RPC_URL
-);
+const provider = new ethers.providers.Web3Provider(window.ethereum);
 ```
 
 Next, let's add our contract ABI and contract address to our `interact.js` file.
@@ -642,10 +625,7 @@ Next, let's add our contract ABI and contract address to our `interact.js` file.
 ```js title="interact.js"
 import { pinJSONToIPFS } from "./pinata.js";
 import { ethers } from "ethers";
-require("dotenv").config();
-const provider = new ethers.providers.JsonRpcProvider(
-  process.env.REACT_APP_RPC_URL
-);
+const provider = new ethers.providers.Web3Provider(window.ethereum);
 
 const contractABI = require("../contract-abi.json");
 const contractAddress = "0x93E5Dcad2238273B3A258A358834F210FE5f0Fef";
@@ -786,7 +766,6 @@ Altogether, our `mintNFT` function should look like this:
 
 ```js title="Minter.js"
 export const mintNFT = async (url, name, description) => {
-  //error handling
   if (url.trim() == "" || name.trim() == "" || description.trim() == "") {
     return {
       success: false,
@@ -800,7 +779,6 @@ export const mintNFT = async (url, name, description) => {
   metadata.image = url;
   metadata.description = description;
 
-  //pinata pin request
   const pinataResponse = await pinJSONToIPFS(metadata);
   if (!pinataResponse.success) {
     return {
@@ -810,33 +788,25 @@ export const mintNFT = async (url, name, description) => {
   }
   const tokenURI = pinataResponse.pinataUrl;
 
-  //load smart contract
-  window.contract = await new ethers.Contract(
+  window.ethereum.enable();
+  const signer = await provider.getSigner();
+  const contract = await new ethers.Contract(
     contractAddress,
     contractABI,
     provider
   );
+  const contractWithSigner = contract.connect(signer);
 
-  //set up your Ethereum transaction
-  const transactionParameters = {
-    to: contractAddress, // Required except during contract publications.
-    from: window.ethereum.selectedAddress, // must match user's active address.
-    data: window.contract.methods
-      .mintNFT(window.ethereum.selectedAddress, tokenURI)
-      .encodeABI(), //make call to NFT smart contract
-  };
-
-  //sign transaction via Metamask
   try {
-    const txHash = await window.ethereum.request({
-      method: "eth_sendTransaction",
-      params: [transactionParameters],
-    });
+    const { hash } = await contractWithSigner.mintNFT(
+      window.ethereum.selectedAddress,
+      tokenURI
+    );
     return {
       success: true,
       status:
-        "✅ Check out your transaction on Etherscan: https://esc-testnet.elastos.io/tx/" +
-        txHash,
+        "✅ Check out your transaction on the explorer: https://esc-testnet.elastos.io/tx/" +
+        hash,
     };
   } catch (error) {
     return {

@@ -31,7 +31,7 @@ You can download and create a Metamask account for free [here](https://metamask.
 
 - **Network name:** ESC Testnet
 - **New RPC URL:** `https://api-testnet.elastos.io/esc`
-- **Chain ID:** 23
+- **Chain ID:** 21
 - **Currency symbol:** tELA
 - **Block explorer URL:** `https://esc-testnet.elastos.io/`
 
@@ -166,9 +166,9 @@ An NFT's metadata is what brings it to life, allowing it to have additional prop
 
 ### Step 6: Connect Metamask & Elastos to your Project
 
-Now that we've created a Metamask wallet, an Alchemy account, and a smart contract, it’s time to connect the three.
+Now that we've created a Metamask wallet and a smart contract, it’s time to connect them.
 
-Every transaction sent from your virtual wallet requires a signature using your unique private key. To provide our program with this permission, we can safely store our private key (and Alchemy API key) in an environment file.
+Every transaction sent from your virtual wallet requires a signature using your unique private key. To provide our program with this permission, we can safely store our private key in an environment file.
 
 Install the dotenv package in your project directory by running:
 

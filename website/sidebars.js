@@ -503,9 +503,16 @@ module.exports = {
       value: "<span class='menu__link'><b><small> Smart Contracts </small></b></span>"
     },
     {
-      type: "doc",
-      id: "tutorials/fts/simple-fts",
+      type: "category",
+      collapsed: false,
       label: "Fungible Tokens",
+      items: [
+        {
+          type: "doc",
+          id: "tutorials/fts/create-erc20",
+          label: "Create an ERC20 Token",
+        },
+      ],
     },
     {
       type: "category",
@@ -1031,7 +1038,7 @@ module.exports = {
     },
     {
       type: "html",
-      value: "<span class='menu__link'><b><small> Exchange </small></b></span>"
+      value: "<span class='menu__link'><b><small> Exchanges </small></b></span>"
     },
 
     {
@@ -1055,7 +1062,7 @@ module.exports = {
     },
     {
       type: "html",
-      value: "<span class='menu__link'><b><small> Mining Pool </small></b></span>"
+      value: "<span class='menu__link'><b><small> Mining Pools </small></b></span>"
     },
     {
       type: "doc",

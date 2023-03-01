@@ -6,7 +6,7 @@ Smart contracts are simple programs that live on an Elastos network. As any mode
 
 They are written in human-readable languages, then compiled and deployed to an account where everyone can interact with them.
 
-Do not worry if you don't know how smart-contract blockchains work. As a developer, it is sufficient to understand that NEAR smart-contracts:
+Do not worry if you don't know how smart-contract blockchains work. As a developer, it is sufficient to understand that smart-contracts:
 
 1. Have **limited** computational resources.
 2. Interact with other contracts in an **asynchronous** way.

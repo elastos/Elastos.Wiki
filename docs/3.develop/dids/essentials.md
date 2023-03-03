@@ -2,9 +2,9 @@
 title: Using the Essentials DID Toolkit
 ---
 
-A decentralized identifier (DID) adapter is required to publish transactions to the DID chain.
+A [decentralized identifier (DID)](/learn/dids/method) adapter is required to publish transactions to the [Elastos Identity (EID)](/learn/sidechains/eid) chain.
 
-The easiest way to work with DIDs on the [EID chain](/learn/sidechains/eid) is to use the [Elastos Essentials connector](/sdk/general/connectivity/guides/setup), which provides a DID adapter over [WalletConnect](https://walletconnect.com/).
+The easiest way to work with DIDs on the EID chain is to use the [Elastos Essentials connector](/sdk/general/connectivity/guides/setup), which provides a DID adapter over [WalletConnect](https://walletconnect.com/).
 
 This abstracts most of the logic for developers and lets the wallet handle all transaction signing.
 

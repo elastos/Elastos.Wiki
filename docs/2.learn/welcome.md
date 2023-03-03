@@ -9,7 +9,7 @@ Welcome! Here we will explain you what Elastos is, its components, and how it wo
 <FeatureList>
   <Column title="Elastos Basics" size="6">
     <Feature url="/learn/architecture" title="Platform Overview" subtitle="Learn how the protocol is structured" image="elastos-logo.png" />
-    <Feature url="/learn/mainchain/consensus" title="Elastic Consensus" subtitle="Learn how the protocol is secured" image="validation.png" />
+    <Feature url="/learn/mainchain/intro" title="Elastic Consensus" subtitle="Learn how the protocol is secured" image="validation.png" />
     <Feature url="/learn/sidechains/intro" title="Sidechains" subtitle="Adaptable scaling solutions" image="blocks.png" />
   </Column>
   <Column title="SmartWeb Building Blocks" size="6">

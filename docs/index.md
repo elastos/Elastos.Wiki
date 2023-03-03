@@ -64,11 +64,11 @@ import {FeatureList, Column, Feature} from "@site/components/featurelist"
   <Column title="Developer Documentation" size="4">
     <Feature url="/develop/quick-start" title="Quick Start" subtitle="Creating your first dApp" image="hello.png" />
     <Feature url="/develop/dids/essentials" title="Interact with DIDs" subtitle="Use DIDs for your dApps" image="did-document.png" />
-    <Feature url="/develop/contracts/whatisacontract" title="Build a Contract" subtitle="Learn how to write and deploy contracts to the Elastos Smart Chain" image="smartcontract.png" />
-    <Feature url="/develop/integrate/frontend" title="Connect a Web Frontend" subtitle="Learn how to build a web dApp" image="frontend.png" />
+    <Feature url="/develop/contracts/whatisacontract" title="Build a Contract" subtitle="Learn how to deploy contracts" image="smartcontract.png" />
     <Feature url="/develop/hive/connect" title="Store User Data" subtitle="Learn how to access Hive data vaults" image="hive-key.png" />
-    <Feature url="/tutorials/fts/simple-fts" title="Fungible Tokens" subtitle="Learn how to create tokens" image="token.png" />
+    <Feature url="/tutorials/fts/create-erc20" title="Fungible Tokens" subtitle="Learn how to create tokens" image="token.png" />
     <Feature url="/tutorials/nfts/create-nft" title="Non-Fungible Tokens" subtitle="Enter the NFT space" image="ticket.png" />
+    <Feature url="/tutorials/ui/frontend" title="Connect a Web Frontend" subtitle="Learn how to build a web dApp" image="frontend.png" />
   </Column>
   <Column title="Developer Tools" size="4">
     <Feature url="/api/providers" title="Public Endpoints" subtitle="Interact with Elastos blockchains" image="transaction.png" />

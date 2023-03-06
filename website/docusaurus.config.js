@@ -72,7 +72,7 @@ module.exports = {
     },
     colorMode: {
       defaultMode: "dark",
-      respectPrefersColorScheme: true,
+      respectPrefersColorScheme: false,
     },
     algolia: {
       indexName: "elastos",

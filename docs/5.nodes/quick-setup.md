@@ -8,7 +8,7 @@ This quick setup guide is intended for regular validator nodes. If you're a CR c
 
 ### 1. Preparation
 
-Configure your server according to the [requirements](overview/requirements).
+Configure your server according to the [requirements](/nodes/requirements/#minimum-hardware-configuration).
 
 ### 2. Download the Automatic Script
 

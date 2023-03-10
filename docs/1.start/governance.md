@@ -46,7 +46,7 @@ After being recommended by CR Council Members, all proposals are structured as t
 
 ## CRC Election
 
-The CRC election is held once a year. The voting period is one month, and the inaugural period is 12 months - both can also overlap. C
+The CRC election is held once a year. The voting period is one month, and the inaugural period is 12 months - both can also overlap.
 
 ### CRC Election Process
 

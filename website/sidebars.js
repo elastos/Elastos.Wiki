@@ -588,6 +588,11 @@ module.exports = {
     },
     {
       type: "doc",
+      id: "nodes/bpos-upgrade",
+      label: "❇️ BPoS Upgrade",
+    },
+    {
+      type: "doc",
       id: "nodes/quick-setup",
       label: "Quick Setup",
     },
@@ -603,6 +608,11 @@ module.exports = {
         },
         {
           type: "doc",
+          id: "nodes/security",
+          label: "Security Tips",
+        },
+        {
+          type: "doc",
           id: "nodes/config",
           label: "Configuration File",
         },
@@ -615,8 +625,8 @@ module.exports = {
     },
     {
       type: "doc",
-      id: "nodes/register",
-      label: "Register a Validator",
+      id: "nodes/faq",
+      label: "FAQ",
     },
     {
       type: "html",

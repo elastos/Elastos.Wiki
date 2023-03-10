@@ -43,6 +43,8 @@ The disk usage will always increase because the blockchains are growing. You sho
 
 There are many options to choose from when selecting a hosting provider. Several instance options along with hardware specs and rough pricing estimates are tabulated below. These lists are intended only as a means of comparison and are not inteded to be an exhaustive index of all possible server solutions.
 
+<!-- markdown-link-check-disable -->
+
 #### Mainchain Only (Normal Validators)
 
 | Provider      | Type  | Model                                                                                                                                                                                                                                     | CPUs | RAM (GB) | SSD Storage (GB) | Price (Month) USD |
@@ -68,6 +70,8 @@ There are many options to choose from when selecting a hosting provider. Several
 | Contabo  | VPS       | [Cloud VPS L](https://contabo.com/en/vps/vps-l-ssd/?image=ubuntu.267&qty=1&contract=1&storage-type=vps-m-400-gb-ssd)                                                                                                                      | 8    | 30       | 800              | ~$20              |
 
 _\* Additional storage needs to be configured when ordering_
+
+<!-- markdown-link-check-enable -->
 
 ## Server Software Requirements
 

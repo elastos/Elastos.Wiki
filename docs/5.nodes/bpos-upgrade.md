@@ -1,5 +1,5 @@
 ---
-title: Upgrading Existing DPoS nodes to BPoS
+title: BPoS Upgrade Instructions
 ---
 
 [Bonded Proof of Stake (BPoS)](/learn/mainchain/bpos) is a new stake model designed to make the Elastos network more decentralized and improve the security and stability of the network.
@@ -18,6 +18,6 @@ BPoS nodes can share the `nodepublickey` of the legacy DPoS nodes. Existing DPoS
 However, existing operators will want to make sure they upgrade to the latest version, and may want to review the [hardware requirements](/nodes/requirements/#minimum-hardware-configuration) if they wish to minimize server expenses.
 :::
 
-:::tip Reminder!
+:::tip Reminder
 Only Council members are required to run all services, regular BPoS operators only need the mainchain (labeled as `ELA` by the `node.sh` program)!
 :::

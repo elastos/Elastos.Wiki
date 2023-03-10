@@ -1,4 +1,4 @@
-// Hotjar Tracking Code for wiki.elastos.net
+// Hotjar Tracking Code for elastos.dev
 (function (h, o, t, j, a, r) {
     h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
     h._hjSettings = { hjid: 2540352, hjsv: 6 };

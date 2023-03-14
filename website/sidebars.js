@@ -431,11 +431,11 @@ module.exports = {
         },
       ],
     },
-    {
-      type: "doc",
-      id: "develop/analytics",
-      label: "Data Analytics"
-    },
+    // {
+    //   type: "doc",
+    //   id: "develop/analytics",
+    //   label: "Data Analytics"
+    // },
     {
       type: "doc",
       id: "develop/crosschain",

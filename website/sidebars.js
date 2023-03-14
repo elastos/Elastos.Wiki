@@ -1004,6 +1004,16 @@ module.exports = {
               type: "doc",
               id: "sdk/hive/js/introduction",
               label: "Introduction",
+            },
+            {
+              type: "doc",
+              id: "sdk/hive/js/install",
+              label: "Build & Install",
+            },
+            {
+              type: "link",
+              href: "https://apidocs.trinity-tech.io/hive-javascript-sdk/index.html",
+              label: "API Reference",
             }
           ]
         },
@@ -1016,6 +1026,48 @@ module.exports = {
               type: "doc",
               id: "sdk/hive/java/introduction",
               label: "Introduction",
+            },
+            {
+              type: "doc",
+              id: "sdk/hive/java/install",
+              label: "Build & Install",
+            },
+            {
+              type: "category",
+              collapsed: true,
+              label: "Guides",
+              items: [
+                {
+                  type: "doc",
+                  id: "sdk/hive/java/guides/vault-subscription",
+                  label: "Vault Subscription",
+                },
+                {
+                  type: "doc",
+                  id: "sdk/hive/java/guides/backup-subscription",
+                  label: "Backup Subscription",
+                },
+                {
+                  type: "doc",
+                  id: "sdk/hive/java/guides/files-service",
+                  label: "Files Service",
+                },
+                {
+                  type: "doc",
+                  id: "sdk/hive/java/guides/database-service",
+                  label: "Database Service",
+                },
+                {
+                  type: "doc",
+                  id: "sdk/hive/java/guides/scripting-service",
+                  label: "Scripting Service",
+                }
+              ]
+            },
+            {
+              type: "link",
+              href: "https://apidocs.trinity-tech.io/hive-java-sdk/",
+              label: "API Reference",
             }
           ]
         },
@@ -1028,6 +1080,48 @@ module.exports = {
               type: "doc",
               id: "sdk/hive/swift/introduction",
               label: "Introduction",
+            },
+            {
+              type: "doc",
+              id: "sdk/hive/swift/install",
+              label: "Build & Install",
+            },
+            {
+              type: "category",
+              collapsed: true,
+              label: "Guides",
+              items: [
+                {
+                  type: "doc",
+                  id: "sdk/hive/swift/guides/vault-subscription",
+                  label: "Vault Subscription",
+                },
+                {
+                  type: "doc",
+                  id: "sdk/hive/swift/guides/backup-subscription",
+                  label: "Backup Subscription",
+                },
+                {
+                  type: "doc",
+                  id: "sdk/hive/swift/guides/files-service",
+                  label: "Files Service",
+                },
+                {
+                  type: "doc",
+                  id: "sdk/hive/swift/guides/database-service",
+                  label: "Database Service",
+                },
+                {
+                  type: "doc",
+                  id: "sdk/hive/swift/guides/scripting-service",
+                  label: "Scripting Service",
+                }
+              ]
+            },
+            {
+              type: "link",
+              href: "https://apidocs.trinity-tech.io/hive-swift-sdk/",
+              label: "API Reference",
             }
           ]
         },

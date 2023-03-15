@@ -31,7 +31,7 @@ One ELA token can be exchanged for all equity tokens, and the exchanged ELA toke
 Stakers must follow these rules to participate:
 
 - Stakers specify a BPoS validator, token amount, and pledge time.
-- Tokens can only be staked to one validator.
+- Each equity token can only be staked to one validator, but tokens can be divided across as many validators as the user chooses.
 - The pledge time must be at least 7200 block heights (approx. 10 days) to minimize short-term token fluctuation and improve network stability.
 - The longer the pledge time, the more staking rights and higher yield rate.
 - The pledge time can be extended but not shortened. Staking rights and yield rates are recalculated in real-time when the pledge time is extended.
@@ -52,7 +52,7 @@ Staking rights are calculated as follows:
 
 The rules for becoming a validator are as follows:
 
-- The node owner pledges 2000 ELA to register as a validator. The pledge time must be at least 216,000 block heights (approx. 300 days) and can be extended. When the pledge expires, the node will automatically become inactive. The maximum pledge time for staking with a validator cannot exceed the expected expiration time of the node.
+- The node owner pledges 2000 ELA to register as a validator. The pledge time must be at least 72,000 block heights (approx. 100 days) and can be extended. When the pledge expires, the node will automatically become inactive. The maximum pledge time for staking with a validator cannot exceed the expected expiration time of the node.
 - After registration, the node is inactive and cannot participate in block consensus, but can start accepting stakers to stake on it. When the total staking rights of all stakers on a single validator reach over 80,000, the node becomes activated and can participate in block consensus.
 - Twelve CRC nodes are active by default and stakers cannot stake on them. In the BPoS consensus model, every 36 block heights is an arbitration cycle. At the beginning of each arbitration cycle, 36 nodes are randomly selected from all active validators to serve as arbitrators.
 - This ensures that all active nodes have equal opportunities to participate in consensus. As the total staking rights on a validator increases, the yield of staking on the node decreases, which encourages stakers to stake as widely as possible.
@@ -84,18 +84,18 @@ Confiscated tokens are burned and cannot be used in circulation. When a node's d
 
 Stakers should consider the following factors when selecting a validator:
 
-- **Mining reward**
+1. **Mining reward**
 
 The higher the total staking rights, the lower the staking return. Stakers should select validators with relatively low staking rights.
 
-- **Operation quality of the node**
-
-Mining reward is not the only deciding factor. If a validator engages in malicious behavior, its stakers will not earn any rewards and may even be penalized. Therefore, the signature and block generation rate of the node is another important factor to consider. This helps to ensure that there are more high-quality nodes in the community.
-
-- **Critical value of the validator's total staking rights**
+2. **Critical value of the validator's total staking rights**
 
 If a validator's staking rights fall below 80,000, it becomes inactive. Therefore, it is unwise to select a validator whose total staking rights are close to this critical value.
 
-- **Distribution of pledge time of staked tokens**
+3. **Distribution of pledge time of staked tokens**
 
 Stakers should select validator with the same or longer pledge time for most of the staked tokens on the node.
+
+4. **Operation quality of the node**
+
+Mining reward is not the only deciding factor. If a validator engages in malicious behavior, its stakers will not earn any rewards and may even be penalized. Therefore, the signature and block generation rate of the node is another important factor to consider. This helps to ensure that there are more high-quality nodes in the community.

@@ -2,6 +2,6 @@
 title: Registering a Sidechain
 ---
 
-Registration of the sidechain proposal refers to registering new information through a proposal transaction, then completing the construction of a new sidechain without restarting the mainchain and the cross-chain arbiter node. When adding a new sidechain, the user needs to initiate a proposal to register it in the mainchain, which includes basic sidechain information.
+To add a new sidechain, the user must submit a [suggestion](https://www.cyberrepublic.org/suggestion) to the [Cyber Republic](/start/governance) DAO containing basic sidechain information. It will then undergo a two-week proposal voting and referendum period. In addition, they must also submit a transaction to mainchain registering the sidechain details and successfully build it without resetting the mainchain or the cross-chain arbiter node.
 
-This proposal needs to go through a one-week CR member review and referendum period. After the vote is passed, the cross-chain arbiter will automatically monitor and register the sidechain proposal and start the related thread of its transaction. Then, it's only necessary to initiate the sidechain and register additional information with the arbiter through RPC to complete its construction.
+If the vote passes, the cross-chain arbiter will automatically monitor and register the sidechain proposal, initiating its related transaction thread. Lastly, the sidechain registers somes additional information with the arbiter via RPC to complete its construction.

@@ -168,14 +168,3 @@ npx hardhat run scripts/deploy.js --network esc_testnet
 The contract will be deployed on ESC, and you can check the deployment status [here](https://esc-testnet.elastos.io/).
 
 **Congratulations! You have successfully deployed Greeter Smart Contract. Now you can interact with the Smart Contract.**
-
-:::tip Quickly Verify contracts on the ESC testnet [block explorer](https://esc-testnet.elastos.io/).
-
-Run the following commands to quickly verify your contract on elastosscan. This makes it easy for anyone to see the source code of your deployed contract. For contracts that have a constructor with a complex argument list, see [here](https://hardhat.org/plugins/nomiclabs-hardhat-etherscan.html).
-
-```bash
-npm install --save-dev @nomiclabs/hardhat-etherscan
-npx hardhat verify --network esc_testnet 0x4b75233D4FacbAa94264930aC26f9983e50C11AF
-```
-
-:::

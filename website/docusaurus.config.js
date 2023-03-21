@@ -129,10 +129,10 @@ module.exports = {
           label: "Integration",
           position: "right",
         },
-        {
-          type: "localeDropdown",
-          position: "right",
-        }
+        // {
+        //   type: "localeDropdown",
+        //   position: "right",
+        // }
       ],
     },
     image: "img/elastos_logo_black.svg",

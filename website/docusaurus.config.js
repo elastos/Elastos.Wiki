@@ -76,8 +76,8 @@ module.exports = {
     },
     algolia: {
       indexName: "elastos",
-      appId: "00",
-      apiKey: "00",
+      appId: "HJJCP1W3FI",
+      apiKey: "341c0c074b75527e1a599c1b857fb750",
       contextualSearch: true,
       algoliaOptions: {},
     },
@@ -144,13 +144,13 @@ module.exports = {
       },
     },
   },
-  i18n: {
-    defaultLocale: "en",
-    locales: ["en"],
-    // localeConfigs: {
-    //   "zh-CN": {
-    //     label: "简体中文",
-    //   },
-    // },
-  },
+  // i18n: {
+  //   defaultLocale: "en",
+  //   locales: ["en"],
+  // localeConfigs: {
+  //   "zh-CN": {
+  //     label: "简体中文",
+  //   },
+  // },
+  // },
 };

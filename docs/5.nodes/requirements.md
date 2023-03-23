@@ -50,8 +50,8 @@ There are many options to choose from when selecting a hosting provider. Several
 | Provider      | Type  | Model                                                                                                                | CPUs | RAM (GB) | SSD Storage (GB) | Price (Month) USD |
 | ------------- | ----- | -------------------------------------------------------------------------------------------------------------------- | ---- | -------- | ---------------- | ----------------- |
 | AWS           | Cloud | [t3.large](https://aws.amazon.com/ec2/instance-types/t3/)                                                            | 2    | 8        | 100\*            | ~$100             |
-| Alibaba       | Cloud | [ecs.g7a.large](https://www.alibabacloud.com/product)                                                                | 2    | 8        | 100              | ~$60              |
 | Tencent       | Cloud | [S6.MEDIUM8](https://www.tencentcloud.com/pricing)                                                                   | 2    | 8        | 100              | ~$80              |
+| Alibaba       | Cloud | [ecs.g7a.large](https://www.alibabacloud.com/product)                                                                | 2    | 8        | 100              | ~$60              |
 | Digital Ocean | Cloud | [Basic Droplet](https://www.digitalocean.com/pricing/droplets)                                                       | 2    | 8        | 160              | ~$48              |
 | Hetzner       | VPS   | [CPX31](https://www.hetzner.com/cloud)                                                                               | 2    | 8        | 80               | ~$13              |
 | Netcup        | VPS   | [VPS 1000 G10](https://www.netcup.eu/bestellen/produkt.php?produkt=2996)                                             | 6    | 8        | 160              | ~$11              |

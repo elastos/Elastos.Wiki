@@ -76,7 +76,7 @@ It is recommended operators explore other providers in addition to the ones list
 _\* Additional storage needs to be configured when ordering_
 
 :::tip
-If you're unclear on the differences between Cloud hosting and VPS (Virtual Private Server) hosting, [this article](https://www.cloudways.com/blog/cloud-vs-vps-hosting/) has you covered. Both are viable options, but they come with some tradeoffs for operators that worth being aware of.
+If you're unclear on the differences between Cloud hosting and VPS (Virtual Private Server) hosting, [this article](https://www.cloudways.com/blog/cloud-vs-vps-hosting/) has you covered. Both are viable options, but they come with some tradeoffs for operators that are worth being aware of.
 :::
 
 <!-- markdown-link-check-enable -->

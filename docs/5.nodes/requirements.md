@@ -24,13 +24,13 @@ This guide is mostly intended for the user who:
 If you are a **normal validator**, only the ELA (mainchain) service needs to be installed:
 
 - **CPU**: **2 cores** or more
-- **RAM**: **4 GB** or more
+- **RAM**: **8 GB** or more
 - **Storage**: **100 GB** or more (total size as of March 2023 is ~50 GB)
 
 If you are a **CR Council member**, all services (ELA, ESC, EID, oracles, and arbiter) must be installed:
 
 - **CPU**: **4 cores** or more
-- **RAM**: **16 GB** or more
+- **RAM**: **32 GB** or more
 - **Storage**: **400 GB** or more (total size as of March 2023 is ~200 GB)
 
 A solid-state drive (SSD) is generally preferred but not a must. A hard drive (HDD) should be OK, especially to just run the mainchain.
@@ -47,29 +47,37 @@ There are many options to choose from when selecting a hosting provider. Several
 
 #### Mainchain Only (Normal Validators)
 
-| Provider      | Type  | Model                                                                                                                                                                                                                                     | CPUs | RAM (GB) | SSD Storage (GB) | Price (Month) USD |
-| ------------- | ----- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- | -------- | ---------------- | ----------------- |
-| AWS           | Cloud | [t3.medium](https://aws.amazon.com/ec2/instance-types/t3/)                                                                                                                                                                                | 2    | 4        | 100\*            | ~$50              |
-| Alibaba       | Cloud | [ecs.g7a.large](https://www.alibabacloud.com/product/ecs?spm=a3c0i.7938564.8215766810.6.7781441eAKGfKr)                                                                                                                                   | 2    | 8        | 100              | ~$60              |
-| Tencent       | Cloud | [S6.MEDIUM4](https://www.tencentcloud.com/pricing/cvm?devPayMode=hourly&regionId=33&zoneId=330001&instanceType=S6.MEDIUM2&imageType=linux&systemDiskType=CLOUD_BSSD&systemDiskSize=50&bandwidthType=TRAFFIC_POSTPAID_BY_HOUR&bandwidth=5) | 2    | 4        | 100              | ~$60              |
-| Digital Ocean | Cloud | [Basic Droplet](https://www.digitalocean.com/pricing/droplets)                                                                                                                                                                            | 2    | 4        | 80               | ~$25              |
-| Hetzner       | VPS   | [CPX21](https://www.hetzner.com/cloud)                                                                                                                                                                                                    | 3    | 4        | 80               | ~$10              |
-| Netcup        | VPS   | [VPS 500 G10](https://www.netcup.eu/bestellen/produkt.php?produkt=2992)                                                                                                                                                                   | 4    | 4        | 80               | ~$7               |
-| Contabo       | VPS   | [Cloud VPS S](https://contabo.com/en/vps/vps-s-ssd/?image=ubuntu.267&qty=1&contract=1&storage-type=vps-s-200-gb-ssd)                                                                                                                      | 4    | 8        | 200              | ~$6               |
+| Provider      | Type  | Model                                                                                                                | CPUs | RAM (GB) | SSD Storage (GB) | Price (Month) USD |
+| ------------- | ----- | -------------------------------------------------------------------------------------------------------------------- | ---- | -------- | ---------------- | ----------------- |
+| AWS           | Cloud | [t3.large](https://aws.amazon.com/ec2/instance-types/t3/)                                                            | 2    | 8        | 100\*            | ~$100             |
+| Alibaba       | Cloud | [ecs.g7a.large](https://www.alibabacloud.com/product)                                                                | 2    | 8        | 100              | ~$60              |
+| Tencent       | Cloud | [S6.MEDIUM8](https://www.tencentcloud.com/pricing)                                                                   | 2    | 8        | 100              | ~$80              |
+| Digital Ocean | Cloud | [Basic Droplet](https://www.digitalocean.com/pricing/droplets)                                                       | 2    | 8        | 160              | ~$48              |
+| Hetzner       | VPS   | [CPX31](https://www.hetzner.com/cloud)                                                                               | 2    | 8        | 80               | ~$13              |
+| Netcup        | VPS   | [VPS 1000 G10](https://www.netcup.eu/bestellen/produkt.php?produkt=2996)                                             | 6    | 8        | 160              | ~$11              |
+| Contabo       | VPS   | [Cloud VPS S](https://contabo.com/en/vps/vps-s-ssd/?image=ubuntu.267&qty=1&contract=1&storage-type=vps-s-200-gb-ssd) | 4    | 8        | 200              | ~$6               |
+
+:::caution Some providers are more economical than others!
+It is recommended operators explore other providers in addition to the ones listed to ensure that the network does not become overly reliant on a single hosting solution.
+:::
 
 #### All Services (Only CR Council Members)
 
-| Provider | Type      | Model                                                                                                                                                                                                                                     | CPUs | RAM (GB) | SSD Storage (GB) | Price (Month) USD |
-| -------- | --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- | -------- | ---------------- | ----------------- |
-| AWS      | Cloud     | [t3.xlarge](https://aws.amazon.com/ec2/instance-types/t3/)                                                                                                                                                                                | 4    | 16       | 400\*            | ~$175             |
-| Tencent  | Cloud     | [S6.LARGE16](https://www.tencentcloud.com/pricing/cvm?devPayMode=hourly&regionId=33&zoneId=330001&instanceType=S6.MEDIUM2&imageType=linux&systemDiskType=CLOUD_BSSD&systemDiskSize=50&bandwidthType=TRAFFIC_POSTPAID_BY_HOUR&bandwidth=5) | 4    | 16       | 400\*            | ~$180             |
-| Alibaba  | Cloud     | [ecs.g7a.xlarge](https://www.alibabacloud.com/product/ecs?spm=a3c0i.7938564.8215766810.6.7781441eAKGfKr)                                                                                                                                  | 4    | 16       | 400\*            | ~$150             |
-| OVH      | Dedicated | [Rise-1](https://www.ovhcloud.com/en/bare-metal/rise/rise-1/)                                                                                                                                                                             | 6    | 32       | 1000\*           | ~$85              |
-| Hetzner  | VPS       | [CPX41](https://www.hetzner.com/cloud)                                                                                                                                                                                                    | 8    | 16       | 500\*            | ~$60              |
-| Netcup   | VPS       | [VPS 4000 G10](https://www.netcup.eu/vserver/vps.php)                                                                                                                                                                                     | 12   | 24       | 960              | ~$30              |
-| Contabo  | VPS       | [Cloud VPS L](https://contabo.com/en/vps/vps-l-ssd/?image=ubuntu.267&qty=1&contract=1&storage-type=vps-m-400-gb-ssd)                                                                                                                      | 8    | 30       | 800              | ~$20              |
+| Provider | Type      | Model                                                                                                                | CPUs | RAM (GB) | SSD Storage (GB) | Price (Month) USD |
+| -------- | --------- | -------------------------------------------------------------------------------------------------------------------- | ---- | -------- | ---------------- | ----------------- |
+| AWS      | Cloud     | [t3.2xlarge](https://aws.amazon.com/ec2/instance-types/t3/)                                                          | 8    | 32       | 400\*            | ~$280             |
+| Tencent  | Cloud     | [S6.2XLARGE32](https://www.tencentcloud.com/pricing)                                                                 | 8    | 32       | 400\*            | ~$275             |
+| Alibaba  | Cloud     | [ecs.g7a.2xlarge](https://www.alibabacloud.com/product)                                                              | 8    | 32       | 400\*            | ~$250             |
+| OVH      | Dedicated | [Rise-1](https://www.ovhcloud.com/en/bare-metal/rise/rise-1/)                                                        | 6    | 32       | 1000\*           | ~$85              |
+| Hetzner  | VPS       | [CX51](https://www.hetzner.com/cloud)                                                                                | 8    | 32       | 440\*            | ~$60              |
+| Netcup   | VPS       | [VPS 6000 G10](https://www.netcup.eu/vserver/vps.php)                                                                | 14   | 36       | 960              | ~$40              |
+| Contabo  | VPS       | [Cloud VPS L](https://contabo.com/en/vps/vps-l-ssd/?image=ubuntu.267&qty=1&contract=1&storage-type=vps-m-400-gb-ssd) | 8    | 30       | 800              | ~$25              |
 
 _\* Additional storage needs to be configured when ordering_
+
+:::tip
+If you're unclear on the differences between Cloud hosting and VPS (Virtual Private Server) hosting, [this article](https://www.cloudways.com/blog/cloud-vs-vps-hosting/) has you covered. Both are viable options, but they come with some tradeoffs for operators that worth being aware of.
+:::
 
 <!-- markdown-link-check-enable -->
 

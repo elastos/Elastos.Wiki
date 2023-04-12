@@ -21,7 +21,7 @@ This guide is mostly intended for the user who:
 
 ## Minimum Hardware Configuration
 
-If you are a **normal validator**, only the ELA (mainchain) service needs to be installed:
+If you are a **community validator**, only the ELA (mainchain) service needs to be installed:
 
 - **CPU**: **2 cores** or more
 - **RAM**: **8 GB** or more
@@ -45,7 +45,7 @@ There are many options to choose from when selecting a hosting provider. Several
 
 <!-- markdown-link-check-disable -->
 
-#### Mainchain Only (Normal Validators)
+#### Mainchain Only (Community Validators)
 
 | Provider      | Type  | Model                                                                                                                | CPUs | RAM (GB) | SSD Storage (GB) | Price (Month) USD |
 | ------------- | ----- | -------------------------------------------------------------------------------------------------------------------- | ---- | -------- | ---------------- | ----------------- |

@@ -7,8 +7,8 @@ title: Supernode FAQ
 jq is required to parse JSON config files. Install it by running the following commands:
 
 ```bash
-$ sudo apt-get update -y
-$ sudo apt-get install -y jq
+sudo apt-get update -y
+sudo apt-get install -y jq
 ```
 
 ### Do I need to install all chains or programs?
@@ -21,20 +21,20 @@ If you just wish to run a normal BPoS supernode, only ELA is required.
 
 ```bash
 # Show ELA wallet address and public key
-$ cd ~/node/ela
-$ cat ~/.config/elastos/ela.txt | ./ela-cli wallet account
+cd ~/node/ela
+cat ~/.config/elastos/ela.txt | ./ela-cli wallet account
 ```
 
 or you can check with:
 
 ```bash
-$ ~/node/node.sh ela status
+~/node/node.sh ela status
 ```
 
 ### How to check the current height of an ELA node?
 
 ```bash
-$ ~/node/node.sh ela status | grep Height
+~/node/node.sh ela status | grep Height
 ```
 
 ELA daemon will verify the database when booting, this may take several minutes. The height will be shown as N/A before the verification is completed.
@@ -42,8 +42,8 @@ ELA daemon will verify the database when booting, this may take several minutes.
 To check the progress of the verification, you can run:
 
 ```bash
-$ cd ~/node/ela/elastos/logs/node
-$ tail -f *.log | grep 'BLOCKCHAIN INITIALIZE'
+cd ~/node/ela/elastos/logs/node
+tail -f *.log | grep 'BLOCKCHAIN INITIALIZE'
 [ ========== BLOCKCHAIN INITIALIZE STARTED ========== ]
 [ ========== BLOCKCHAIN INITIALIZE FINISHED ========== ]
 # CTRL+C to stop
@@ -56,8 +56,8 @@ The ELA BPoS supernode did not have normal consensus work within 1440 blocks, an
 **Activate Node**
 
 ```bash
-$ ~/node/ela/ela-cli wallet buildtx activate --nodepublickey nodepublickey
-$ ~/node/ela/ela-cli --rpcuser user123 --rpcpassword pass123 wallet sendtx -f ready_to_send.txn
+~/node/ela/ela-cli wallet buildtx activate --nodepublickey nodepublickey
+/node/ela/ela-cli --rpcuser user123 --rpcpassword pass123 wallet sendtx -f ready_to_send.txn
 ```
 
 ### How to check node normal consensus? How to verify all daemons are working properly?
@@ -98,7 +98,7 @@ The possible reasons may include:
 Check versions and issue an [update](/nodes/advanced/#updating-an-individual-node) if required.
 
 ```bash
-$ node/node.sh status
+ node/node.sh status
 ```
 
 - [x] **The disk space is not sufficient.**
@@ -106,7 +106,7 @@ $ node/node.sh status
 Check the disk usage and increase it if required.
 
 ```bash
-$ df -h
+ df -h
 ```
 
 - [x] **The database is corrupted**.
@@ -126,9 +126,9 @@ This error may occur because of abnormal shutting down of the server or daemon p
 Take ELA as an example, you need to stop the daemon, purge the database related folder, and restart it.
 
 ```bash
-$ ~/node/node.sh ela stop
-$ rm -rf ~/node/ela/elastos/data
-$ ~/node/node.sh ela start
+ ~/node/node.sh ela stop
+ rm -rf ~/node/ela/elastos/data
+ ~/node/node.sh ela start
 ```
 
 ### What to do if a chain daemon is not started?
@@ -136,8 +136,8 @@ $ ~/node/node.sh ela start
 Check the free memory and disk space:
 
 ```bash
-$ free -h
-$ df -h
+ free -h
+ df -h
 ```
 
 ### Can't find what you're looking for?

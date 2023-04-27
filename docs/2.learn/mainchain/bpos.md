@@ -86,7 +86,7 @@ Stakers should consider the following factors when selecting a validator:
 
 1. **Mining reward**
 
-The higher the total staking rights, the lower the staking return. Stakers should select validators with relatively low staking rights.
+Mining rewards are only paid out on nodes with at least 80,000 staking rights, however the higher the total staking rights, the lower the staking return. Stakers should select validators with relatively low staking rights.
 
 2. **Critical value of the validator's total staking rights**
 

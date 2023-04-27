@@ -9,7 +9,7 @@ Hive Node also supports installation in normal installation mode.
 At present, Hive Node automatically installs all Hive Node sub-services through scripted operation:
 
 ```bash
-$ ./run.sh direct
+./run.sh direct
 ```
 
 This command will do the following:

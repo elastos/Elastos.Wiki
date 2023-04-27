@@ -20,18 +20,18 @@ node.sh supports:
 - **Elastos Network**: Mainnet
 - [**Chains**](/nodes/overview): Elastos mainchain, sidechains, oracles, and the arbitrator
 
-To begin, create a folder in your $HOME to hold executable files, config files, and data files.
+To begin, create a folder in your HOME to hold executable files, config files, and data files.
 
 ```bash
-$ mkdir ~/node
-$ cd ~/node
+mkdir ~/node
+cd ~/node
 ```
 
 Download the current version of the script and make it executable.
 
 ```bash
-$ curl -O https://raw.githubusercontent.com/elastos/Elastos.Node/master/build/skeleton/node.sh
-$ chmod a+x node.sh
+curl -O https://raw.githubusercontent.com/elastos/Elastos.Node/master/build/skeleton/node.sh
+chmod a+x node.sh
 ```
 
 ## Run node.sh
@@ -39,7 +39,7 @@ $ chmod a+x node.sh
 Run the script without any arguments to display the usage.
 
 ```bash
-$ ~/node/node.sh
+~/node/node.sh
 ```
 
 If the output is similar to the following, then the installation is good.
@@ -103,7 +103,7 @@ The binary releases are listed for reference. Normally you don't need to manuall
 The `init` command without specifying the chain program name will process the following programs (chains) in one go.
 
 ```bash
-$ ~/node/node.sh init
+~/node/node.sh init
 ```
 
 As an alternative, you can also run the init command one by one.
@@ -113,7 +113,7 @@ As an alternative, you can also run the init command one by one.
 Starting a single program.
 
 ```bash
-$ ~/node/node.sh ela start
+~/node/node.sh ela start
 Starting ela...
 ela         v0.8.3          Running
 ...
@@ -124,7 +124,7 @@ Please note that it takes some time to validate the database.
 Checking program status.
 
 ```bash
-$ ~/node/node.sh ela status
+~/node/node.sh ela status
 ela         v0.8.3          Running
 Disk:       360M
 PID:        120480
@@ -160,14 +160,14 @@ Please note that not all chains/programs have the same set of status items. For 
 By running the **start** command without chain/program name. All installed chains/programs will be started in a predefined order.
 
 ```bash
-$ ~/node/node.sh start
+~/node/node.sh start
 [ ... many messages follow ... ]
 ```
 
 If you wish to check processes status, the resources usage and other metrics.
 
 ```
-$ ~/node/node.sh status
+~/node/node.sh status
 [ ... many messages follow ... ]
 ```
 
@@ -176,7 +176,7 @@ $ ~/node/node.sh status
 Now you can check all chain **versions** under Available Chains.
 
 ```bash
-$ ~/node/node.sh status
+~/node/node.sh status
 ```
 
 ```bash
@@ -270,7 +270,7 @@ Disk:       5.2M
 Enter the command to open the user-level crontab editor. You may be asked to select an editing program.&#x20;
 
 ```bash
-$ crontab -e
+crontab -e
 ```
 
 Append the following entry to the existing crontab, save and exit.
@@ -289,7 +289,7 @@ You may prefer to add multiple start commands if you have not install all the co
 Checking the current crontab by running:
 
 ```bash
-$ crontab -l
+crontab -l
 ```
 
 ## Stopping nodes
@@ -297,7 +297,7 @@ $ crontab -l
 Stopping a single chain or programs:
 
 ```bash
-$ ~/node/node.sh esc stop
+~/node/node.sh esc stop
 esc         84b1c5e         Stopped
 ```
 
@@ -306,7 +306,7 @@ Some chains, especially a busy ESC node, may take a pretty long time to fully ex
 Stopping all programs or chains have been installed.
 
 ```bash
-$ ~/node/node.sh stop
+~/node/node.sh stop
 [ ... many messages follow ... ]
 ```
 
@@ -317,14 +317,14 @@ Different chains and programs share similar output formats after being stopped. 
 Installing **tree** utility to list contents of directories in a tree-like format.
 
 ```bash
-$ sudo apt-get install -y tree
+sudo apt-get install -y tree
 [ ... many outputs ... ]
 ```
 
 If all things work well, you should have the following directory.
 
 ```bash
-$ tree -L 2 ~/node
+tree -L 2 ~/node
 ~/node                              # root
 ├── arbiter                         # arbiter folder
 │   ├── arbiter                     # arbiter program
@@ -379,7 +379,7 @@ Please some directories marked with asterisks are running data and logs files, w
 If you had already installed the script several weeks ago, it is better to update to get the latest fixes or features.
 
 ```bash
-$ ~/node/node.sh script_update
+~/node/node.sh script_update
 ```
 
 It will fetch the latest script from the repository, overwrite the old file, and make it executable.
@@ -393,7 +393,7 @@ OK: $HOME/node/node.sh updated
 Run the new node.sh to see if there are any updates on command-line options.
 
 ```bash
-$ ~/node/node.sh
+~/node/node.sh
 ```
 
 ## Updating an individual node
@@ -401,7 +401,7 @@ $ ~/node/node.sh
 We can **update a single program** (chain). For example, to update Elastos ELA, please run the following command.
 
 ```bash
-$ ~/node/node.sh ela update
+~/node/node.sh ela update
 ```
 
 Step 1: The script will contact the [download server](https://download.elastos.io/elastos-ela/) to find the **latest version**.
@@ -457,7 +457,7 @@ Please check the **version** to make sure of a successful program update.
 The **compress_log** will gzip the old log files to save disk space. It will not touch the latest log files, because they are opened by the corresponding daemon programs.
 
 ```
-$ ./node/node.sh esc compress_log
+./node/node.sh esc compress_log
 Compressing log files in /home/ubuntu/node/esc/data/geth/logs/dpos...
 Compressing log files in /home/ubuntu/node/esc/data/logs-spv...
 Compressing log files in /home/ubuntu/node/esc/logs...

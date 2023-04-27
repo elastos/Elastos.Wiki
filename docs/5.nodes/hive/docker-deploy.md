@@ -12,9 +12,9 @@ In principle, Hive Node can be deployed in any Linux system, but currently, the 
    Assumed the Docker and Python3 already shipped on your system. Otherwise, you need to install them manually. Generally, there is python3.6 already built inside Ubuntu 22.04. To Docker, you can run the following commands to install it:
 
 ```bash
-$ curl -fsSL https://get.docker.com -o get-docker.sh
-$ sudo sh get-docker.sh
-$ sudo usermod -aG docker your-userid
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
+sudo usermod -aG docker your-userid
 ```
 
 :::info Notice
@@ -25,8 +25,8 @@ You will need to sign out from the target server and log in again to make Docker
    Download the latest version of packages and untar it onto your server. At the time of this writing, you can run the commands as below:
 
 ```bash
-$ curl -fsL https://github.com/elastos/Elastos.NET.Hive.Node/archive/release-v2.0.1.tar.gz -o release.tar.gz
-$ tar -xzvf release.tar.gz
+curl -fsL https://github.com/elastos/Elastos.NET.Hive.Node/archive/release-v2.0.1.tar.gz -o release.tar.gz
+tar -xzvf release.tar.gz
 ```
 
 3. Start the Installation
@@ -34,13 +34,13 @@ $ tar -xzvf release.tar.gz
 Enter into the source code folder and directly run the command to install the Hive node service:
 
 ```bash
-$ /bin/bash -c "$(curl -fsSL https://www.trinity-tech.io/hivenode/scripts/run.sh)" -s docker
+/bin/bash -c "$(curl -fsSL https://www.trinity-tech.io/hivenode/scripts/run.sh)" -s docker
 ```
 
 After the above steps have been finished, use the following command to check whether the Hive Node functions or not. If successful, it will display two container instances. One is hive-node, and the other is MongoDB.
 
 ```bash
-$ docker ps
+docker ps
 ```
 
 4. Run the test-cases
@@ -56,7 +56,7 @@ Run the next command to launch test-cases to verify the deployed node at the sam
 At present, Hive Node automatically installs all Hive Node sub-services through scripted operation, and this script comes from the source code root directory of Hive Node.
 
 ```bash
-$ ./run.sh docker
+./run.sh docker
 ```
 
 This command will do the following:

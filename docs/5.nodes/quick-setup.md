@@ -10,6 +10,22 @@ This quick setup guide is intended for regular validator nodes. If you're a CR c
 
 Configure your server according to the [requirements](/nodes/requirements/#minimum-hardware-configuration).
 
+:::caution
+If you opt to use the minimum hardware requirements (i.e. 8GB RAM), it may be helpful to add some swap space to your machine to handle any activity spikes that could cause your memory to hit capacity and result in a node crash. 'Swap space' allocates some of your normal HDD/SDD to be used as RAM as a safety buffer.
+
+The following script is an example of how you could add 8 GB of swap space to your machine.
+
+```bash
+sudo fallocate -l 8G /swapfile
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+sudo swapon /swapfile
+sudo cp /etc/fstab /etc/fstab.bak
+echo '/swapfile swap swap defaults 0 0' | sudo tee -a /etc/fstab
+```
+
+:::
+
 ### 2. Download the Automatic Script
 
 The following shell command will **download** the current version of the **script** and make it **executable**.

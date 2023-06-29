@@ -4,7 +4,7 @@ title: The Cyber Republic
 
 Within the Elastos ecosystem, the **[Cyber Republic (CR)](https://www.cyberrepublic.org)** represents the community that helps drive governance decisions. CR is made up of project leaders, community members, and other teams and individuals who are contributing to the network’s development and future.
 
-The **[Cyber Republic Consensus (CRC)](https://www.cyberrepublic.org/whitepaper)** is the third pillar of the Elastos consensus engine along with PoW and DPoS. This governance system helps create a community-based voting system to influence the project’s tech and ecosystem development, resolve disputes, management community assets, develop Elastos dApps, and more.
+The **[Cyber Republic Consensus (CRC)](https://www.cyberrepublic.org/whitepaper)** is the third pillar of the Elastos consensus engine along with PoW and BPoS. This governance system helps create a community-based voting system to influence the project’s tech and ecosystem development, resolve disputes, management community assets, develop Elastos dApps, and more.
 
 In April 2022, The **Cyber Republic DAO** was incorporated as a legal entity in the state of Delaware, becoming a fully established LLC and thereby allowing it to conduct business activities in support of Elastos.
 
@@ -52,8 +52,8 @@ The CRC election is held once a year. The voting period is one month, and the in
 
 1. During the voting period, users who want to become CR are registered as candidates for CR members - the deposit is 5000 ELA.
 2. During the voting period, the community can vote for CR candidates; at the end, the top 12 CR candidates will be elected.
-3. After the election period begins, CR members need to claim DPoS nodes to participate in DPoS block generation within two weeks. At the end of the claim period, unclaimed DPoS nodes will become inactive and will not be able to obtain DPoS profits and participate in proposal voting until they claim DPoS nodes.
-4. During the inaugural period, everyone in the community can impeach CR members; those impeached can’t participate in the proposal and DPoS voting.
+3. After the election period begins, CR members need to claim BPoS nodes to participate in BPoS block generation within two weeks. At the end of the claim period, unclaimed BPoS nodes will become inactive and will not be able to obtain BPoS profits and participate in proposal voting until they claim BPoS nodes.
+4. During the inaugural period, everyone in the community can impeach CR members; those impeached can’t participate in the proposal and BPoS voting.
 5. When the number of impeached CR members reaches 5, the next round of selection will be started immediately.
 
 ### Secretary General Election

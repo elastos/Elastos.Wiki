@@ -46,10 +46,10 @@ module.exports = {
           changefreq: "weekly",
           priority: 0.5,
         },
-        // googleAnalytics: {
-        //   trackingID: "UA-100373569-7",
-        //   anonymizeIP: true,
-        // },
+        googleAnalytics: {
+          trackingID: "G-HEBXYP6S4F",
+          anonymizeIP: true,
+        },
         blog: {},
         theme: {
           customCss: "/src/css/customTheme.css",

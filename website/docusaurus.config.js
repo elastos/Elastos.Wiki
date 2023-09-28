@@ -47,7 +47,7 @@ module.exports = {
           priority: 0.5,
         },
         googleAnalytics: {
-          trackingID: "G-HEBXYP6S4F",
+          trackingID: "G-V4XCP358LP",
           anonymizeIP: true,
         },
         blog: {},

@@ -588,6 +588,11 @@ module.exports = {
     },
     {
       type: "doc",
+      id: "nodes/registration-guide",
+      label: "Registration Guide",
+    },
+    {
+      type: "doc",
       id: "nodes/bpos-upgrade",
       label: "❇️ BPoS Upgrade",
     },

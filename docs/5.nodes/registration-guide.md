@@ -4,7 +4,7 @@ title: BPoS Node Registration Guide
 
 ![image](/docs/assets/nodes/Featured-image-Nodes-registration.gif)
 
-Elastos is transitioning from DPoS (Designated Proof of Stake) to BPoS (Bonded Proof of Stake) as part of its Elastic Consensus mechanism. Longtime Elastos contributor and former Council member Yipeng Su has proposed this change to enhance the security and stability of the Elastos main chain and side chains. BPoS comprises stakers and validators. This guide explains how to register a node and become a validator in BPoS. For information on deploying a node before registration, please refer to [this Guide](link_to_deployment_guide).
+Elastos is transitioning from DPoS (Designated Proof of Stake) to BPoS (Bonded Proof of Stake) as part of its Elastic Consensus mechanism. Longtime Elastos contributor and former Council member Yipeng Su has proposed this change to enhance the security and stability of the Elastos main chain and side chains. BPoS comprises stakers and validators. This guide explains how to register a node and become a validator in BPoS. For information on deploying a node before registration, please refer to [this Guide](/nodes/requirements).
 
 ## Table of Contents
 

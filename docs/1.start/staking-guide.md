@@ -29,13 +29,13 @@ Elastos recently upgraded to a new Elastic Consensus mechanism which features a 
 
 ### Download Essentials Wallet
 
-To participate in BPoS, download the flagship Elastos wallet, Essentials. All BPoS activities are managed through Essentials. Download the latest version for [Apple](link_to_apple) or [Android](link_to_android).
+To participate in BPoS, download the flagship Elastos wallet, Essentials. All BPoS activities are managed through Essentials. Download the latest version for [Apple](https://apps.apple.com/us/app/elastos-essentials/id1568931743) or [Android](https://play.google.com/store/apps/details?id=org.elastos.essentials.app).
 
 ### Get ELA on the Mainchain
 
-To participate in BPoS, users need main chain ELA for staking. You can purchase ELA on exchanges like Coinbase, Kucoin, Huobi, and Gate.io. Alternatively, use the Elastos DEX Glide Finance to buy ELA on the Elastos Smart Contract Chain (ESC). For other options, check the [Coingecko Markets page](link_to_coingecko) for ELA.
+To participate in BPoS, users need main chain ELA for staking. You can purchase ELA on exchanges like Coinbase, Kucoin, Huobi, and Gate.io. Alternatively, use the Elastos DEX Glide Finance to buy ELA on the Elastos Smart Contract Chain (ESC). For other options, check the [Coingecko Markets page](https://www.coingecko.com/en/coins/elastos#markets) for ELA.
 
-Once you have purchased ELA, transfer it to your Essentials wallet to start staking and voting. Note that ELA on Coinbase is ERC-20; follow [this guide](link_to_erc20_guide) to convert it to mainchain ELA for BPoS.
+Once you have purchased ELA, transfer it to your Essentials wallet to start staking and voting. Note that ELA on Coinbase is ERC-20; follow [this guide](https://elastos.info/blog/coinbase-adds-support-for-ela-on-ethereum-erc-20/) to convert it to mainchain ELA for BPoS.
 
 ## Steps to Stake and Vote
 

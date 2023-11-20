@@ -27,15 +27,15 @@ Elastos is transitioning from DPoS (Designated Proof of Stake) to BPoS (Bonded P
 
 ### Download Essentials Wallet
 
-To register a node, start by downloading the flagship Elastos wallet, Essentials. Download the latest version for [Apple](link_to_apple) or [Android](link_to_android).
+To register a node, start by downloading the flagship Elastos wallet, Essentials. Download the latest version for [Apple](https://apps.apple.com/us/app/elastos-essentials/id1568931743) or [Android](https://play.google.com/store/apps/details?id=org.elastos.essentials.app).
 
 ### Get ELA on the Mainchain
 
-You can purchase ELA on various exchanges such as Coinbase, Kucoin, Huobi, and Gate.io. Alternatively, use the Elastos DEX Glide Finance to purchase ELA on the Elastos Smart Contract (ESC) Chain. For other options, check the [Coingecko Markets page](link_to_coingecko) for Elastos.
+You can purchase ELA on various exchanges such as Coinbase, Kucoin, Huobi, and Gate.io. Alternatively, use the Elastos DEX Glide Finance to purchase ELA on the Elastos Smart Contract (ESC) Chain. For other options, check the [Coingecko Markets page](https://www.coingecko.com/en/coins/elastos#markets) for Elastos.
 
 To begin the node registration process, transfer the purchased ELA tokens to the Essentials wallet. Once you have the main chain ELA in your wallet, you can proceed with registration.
 
-Note: ELA listed on Coinbase is the ERC-20 version, and you need to follow [this guide](link_to_erc20_guide) to convert it to mainchain ELA for BPoS.
+Note: ELA listed on Coinbase is the ERC-20 version, and you need to follow [this guide](https://elastos.info/blog/coinbase-adds-support-for-ela-on-ethereum-erc-20/) to convert it to mainchain ELA for BPoS.
 
 ## Steps to Register and Update a Node for BPoS
 
